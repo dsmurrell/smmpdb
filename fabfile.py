@@ -5,7 +5,7 @@ env.user = 'dsm38'
 
 def prepare():
     local('python manage.py test repo')
-    local('git add -p')
+    local('git add .')
     local('git commit')
 
 def deploy():
