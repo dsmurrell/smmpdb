@@ -7,6 +7,7 @@ def prepare():
     local('python manage.py test repo')
     local('git add .')
     local('git commit')
+    local('git push')
 
 def deploy():
     with cd('~/smmpdb'):
