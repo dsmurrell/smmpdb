@@ -19,3 +19,8 @@ def deploy():
 def both():
     prepare()
     deploy()
+    
+def bothwarn():
+    with settings(warn_only=True):
+        prepare()
+        deploy()
