@@ -1,5 +1,7 @@
 # Django settings for smmpdb project.
 
+from settings_local import *
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -47,10 +49,6 @@ USE_L10N = True
 # If you set this to False, Django will not use timezone-aware datetimes.
 USE_TZ = True
 
-# Absolute filesystem path to the directory that will hold user-uploaded files.
-# Example: "/var/www/example.com/media/"
-MEDIA_ROOT = '/Users/daniel/Dropbox/projects/smmpdb/media/'
-
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://example.com/media/", "http://media.example.com/"
@@ -66,6 +64,7 @@ STATIC_ROOT = ''
 # Example: "http://example.com/static/", "http://static.example.com/"
 STATIC_URL = '/static/'
 
+<<<<<<< Updated upstream
 # Additional locations of static files
 STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
@@ -74,6 +73,8 @@ STATICFILES_DIRS = (
     #'/Users/daniel/Dropbox/projects/smmpdb/repo/static',
 )
 
+=======
+>>>>>>> Stashed changes
 # List of finder classes that know how to find static files in
 # various locations.
 STATICFILES_FINDERS = (
