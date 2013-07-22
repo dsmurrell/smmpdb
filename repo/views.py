@@ -42,6 +42,13 @@ def list(request):
         context_instance=RequestContext(request)
     )
 
+def smlogp(request):
+    # Render smlogp page 
+    return render_to_response(
+        'smlogp.html',
+        context_instance=RequestContext(request)
+    )
+
 def test(request):
     capture = Capture()
     # make all print statements go to the text field in the capture object

@@ -2,9 +2,9 @@
 from django.conf.urls.defaults import patterns, url
 
 urlpatterns = patterns('repo.views',
-                       
                        url(r'^list/$', 'list', name='list'),
                        url(r'^test/$', 'test', name='test'),
+                       url(r'^smlogp/$', 'smlogp', name='smlogp'),
 )
 
 urlpatterns += patterns('django.views.generic.simple',
