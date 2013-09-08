@@ -60,8 +60,10 @@ def smlogp(request):
         form = MoleculeFileForm(request.POST, request.FILES)
         if form.is_valid():
             input = form.cleaned_data['input']
-            #proc = subprocess.Popen(["Rscript predictSMILES.R " + input], stdout=subprocess.PIPE, shell=True)
-            proc = subprocess.Popen(["pwd"], stdout=subprocess.PIPE, shell=True)
+            os.chdir('/home/dsm38/smmpdb')
+            proc = subprocess.Popen(["Rscript predictSMILES.R " + input], stdout=subprocess.PIPE, shell=True)
+            
+            #proc = subprocess.Popen(["pwd"], stdout=subprocess.PIPE, shell=True)
             (out, err) = proc.communicate()
             print "output: ", out 
             #print "LogP Prediction:", out.split('\n')[-2].split(" ")[-1]
