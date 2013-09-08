@@ -203,8 +203,8 @@ def importFromSourceData(source_data):
         is_open = row[8]
         is_predicted = row[9]
         
-        source, created = Source.objects.get_or_create(name=source_name)
-        source.source_data = source_data
+        source, created = Source.objects.get_or_create(name=source_name, source_data = source_data)
+        #source.source_data = source_data
         source.save()
         measurement_type, created = MeasurementType.objects.get_or_create(type=measurement_type_type)
         reference, created = Reference.objects.get_or_create(name=reference_name)

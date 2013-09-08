@@ -1,6 +1,25 @@
 {% load staticfiles %}
 
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
   Placeholder page for smLogP prediction service. Running on chemistry webserver http://www-smmpdb.ch.cam.ac.uk/smlogp/
+</html>-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Upload Pane</title>   
+    </head>
+    <body>
+        
+        <!-- Upload form. Note enctype attribute! -->
+        <form action="{% url smlogp %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <p><input type="submit" value="Upload" /></p>
+        </form>
+        
+        <textarea rows="40" cols="175" readonly>{{ output }}</textarea>
+    </body>
 </html>

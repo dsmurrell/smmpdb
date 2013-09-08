@@ -2,3 +2,4 @@
 .*swp
 wsgi_smmpdb.wsgi
 taillog
+smmpdb/settings_local.py

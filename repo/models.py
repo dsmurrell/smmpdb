@@ -18,6 +18,11 @@ class SourceData(models.Model):
         db_table = u'source_data'  
     def __unicode__(self):
         return u'%s' % (os.path.basename(self.meta_file.name))
+    
+class MoleculeFile(models.Model):
+    molecule_file = models.FileField(upload_to='molecule_file/%Y/%m/%d')
+    class Meta:
+        db_table = u'molecule_file'
 
 class Source(models.Model):
     name = models.CharField(max_length=300, blank=True)
