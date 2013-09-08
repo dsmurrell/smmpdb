@@ -62,7 +62,8 @@ def smlogp(request):
             input = form.cleaned_data['input']
             proc = subprocess.Popen(["Rscript predictSMILES.R " + input], stdout=subprocess.PIPE, shell=True)
             (out, err) = proc.communicate()
-            print "LogP Prediction:", out.split('\n')[-2].split(" ")[-1]
+            print "output: ", out 
+            #print "LogP Prediction:", out.split('\n')[-2].split(" ")[-1]
             
             #os.system("pwd")
             #molecule_file = MoleculeFile(molecule_file = request.FILES['molecule_file'])
