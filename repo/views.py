@@ -61,7 +61,7 @@ def smlogp(request):
         if form.is_valid():
             input = form.cleaned_data['input']
             #os.chdir('/home/dsm38/smmpdb')
-            os.path.getcwd()
+            print os.getcwd()
             proc = subprocess.Popen(["Rscript predictSMILES.R " + input], stdout=subprocess.PIPE, shell=True)
             
             #proc = subprocess.Popen(["pwd"], stdout=subprocess.PIPE, shell=True)
