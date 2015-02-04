@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/migrations/0002_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/migrations/0003_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/migrations/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smmpdb/settings.py" afterPath="$PROJECT_DIR$/smmpdb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/smlogp.html" afterPath="$PROJECT_DIR$/repo/templates/smlogp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/tests.py" afterPath="$PROJECT_DIR$/repo/tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smmpdb.iws" />
@@ -36,16 +31,34 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="30" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935">
+            <state line="39" column="30" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="2085">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smlogp.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="smlogp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="725" selection-end="725" vertical-scroll-proportion="0.55837566" vertical-offset="0" max-vertical-offset="591">
+            <state line="10" column="30" selection-start="257" selection-end="257" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="540">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smmpdb/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="36" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repo/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.13444301" vertical-offset="0" max-vertical-offset="781">
               <folding />
             </state>
           </provider>
@@ -54,7 +67,7 @@
       <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+            <state line="4" column="11" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -63,7 +76,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="33" selection-start="3391" selection-end="3391" vertical-scroll-proportion="-7.5384617" vertical-offset="1379" max-vertical-offset="2190">
+            <state line="105" column="33" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0" vertical-offset="1379" max-vertical-offset="2190">
               <folding />
             </state>
           </provider>
@@ -85,13 +98,14 @@
         <option value="$PROJECT_DIR$/repo/templates/smlogp.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/smmpdb/settings.py" />
+        <option value="$PROJECT_DIR$/repo/tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1676" />
-    <option name="height" value="1028" />
+    <option name="width" value="1436" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -119,6 +133,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,7 +182,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,6 +191,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Django server.smmpdb">
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -239,23 +254,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1676" height="1028" extended-state="6" />
+    <frame x="0" y="22" width="1436" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -281,6 +296,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/repo/views.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="30" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2085">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="33" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0" vertical-offset="1379" max-vertical-offset="2190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="30" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935">
           <folding />
         </state>
@@ -295,14 +338,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="33" selection-start="3391" selection-end="3391" vertical-scroll-proportion="-7.5384617" vertical-offset="1379" max-vertical-offset="2190">
+        <state line="105" column="33" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0" vertical-offset="1379" max-vertical-offset="2190">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="725" selection-end="725" vertical-scroll-proportion="0.55837566" vertical-offset="0" max-vertical-offset="591">
+        <state line="10" column="30" selection-start="257" selection-end="257" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smmpdb/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="36" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.13444301" vertical-offset="0" max-vertical-offset="781">
           <folding />
         </state>
       </provider>
