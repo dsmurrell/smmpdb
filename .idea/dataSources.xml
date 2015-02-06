@@ -6,6 +6,7 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/smmpdb</jdbc-url>
       <user-name>daniel</user-name>
+      <user-password>dfcedfcbdfc4dfc3dfcfdfc6</user-password>
       <libraries />
     </data-source>
   </component>
