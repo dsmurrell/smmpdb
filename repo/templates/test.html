@@ -7,7 +7,7 @@
     <body>
         
         <!-- Upload form. Note enctype attribute! -->
-        <form action="{% url test %}" method="post" enctype="multipart/form-data">
+        <form action="{% url 'test' %}" method="post" enctype="multipart/form-data">
             {% csrf_token %}
             {{ form.as_p }}
             <p><input type="submit" name="print_input" value="print_input" />
