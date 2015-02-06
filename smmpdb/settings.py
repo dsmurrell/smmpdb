@@ -16,7 +16,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'smmpdb',
         'USER': 'daniel',
-        'PASSWORD': '',
+        'PASSWORD': 'daniel',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
