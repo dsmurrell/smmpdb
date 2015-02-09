@@ -1,9 +1,9 @@
-import os, sys, csv
+import sys, csv
 from repo.models import *
 from django.conf import settings
 
-from indigo import *
-from IndigoTools import MyIndigo
+from indigo.indigo import *
+from myindigo import MyIndigo
 indigo = Indigo()
 
 class Capture(object):

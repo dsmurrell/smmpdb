@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/forms.py" afterPath="$PROJECT_DIR$/repo/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/list.html" afterPath="$PROJECT_DIR$/repo/templates/list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/smlogp.html" afterPath="$PROJECT_DIR$/repo/templates/smlogp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/views.py" afterPath="$PROJECT_DIR$/repo/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smmpdb.iws" />
@@ -26,93 +30,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="47" selection-start="2379" selection-end="2420" vertical-scroll-proportion="-4.5" vertical-offset="660" max-vertical-offset="1305">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smlogp.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="48" selection-start="824" selection-end="824" vertical-scroll-proportion="0.784689" vertical-offset="137" max-vertical-offset="705">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smmpdb/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="33" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="64" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.023255814" vertical-offset="0" max-vertical-offset="1740">
               <folding>
-                <element signature="e#24#66#0" expanded="true" />
+                <element signature="e#24#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/templates/list.html">
+      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="35" selection-start="224" selection-end="224" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="345">
+            <state line="12" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="-6.923077" vertical-offset="0" max-vertical-offset="3435">
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="17" selection-start="422" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/templates/test.html">
+      <file leaf-file-name="smlogp.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="72" selection-start="905" selection-end="905" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file:///Library/Python/2.7/site-packages/django/views/generic/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="8" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="3225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="30" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="2220">
+            <state line="24" column="40" selection-start="688" selection-end="688" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="600">
               <folding />
             </state>
           </provider>
@@ -139,14 +91,19 @@
         <option value="$PROJECT_DIR$/repo/urls.py" />
         <option value="$PROJECT_DIR$/repo/templates/test.html" />
         <option value="$PROJECT_DIR$/repo/templates/list.html" />
+        <option value="$PROJECT_DIR$/repo/forms.py" />
+        <option value="$PROJECT_DIR$/unused/unused.py" />
+        <option value="$PROJECT_DIR$/myindigo/MyIndigo.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/repo/templates/smlogp.html" />
+        <option value="$PROJECT_DIR$/repo/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1436" />
-    <option name="height" value="878" />
+    <option name="width" value="1916" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -155,7 +112,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -190,6 +147,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unused" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,21 +434,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1436" height="878" extended-state="6" />
+    <frame x="0" y="22" width="1916" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3906057" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31951466" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18736953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -506,7 +477,9 @@
     <entry file="file://$PROJECT_DIR$/repo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="30" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="2085">
-          <folding />
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -548,7 +521,9 @@
     <entry file="file://$PROJECT_DIR$/repo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="30" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="2085">
-          <folding />
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -590,7 +565,9 @@
     <entry file="file://$PROJECT_DIR$/repo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="30" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2085">
-          <folding />
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -615,20 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="30" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
@@ -643,61 +606,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Library/Python/2.7/site-packages/django/views/generic/base.py">
+    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="8" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="3225">
+        <state line="59" column="47" selection-start="2379" selection-end="2420" vertical-scroll-proportion="0.37815127" vertical-offset="660" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="224" selection-end="224" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="72" selection-start="905" selection-end="905" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="30" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="2220">
+        <state line="18" column="33" selection-start="661" selection-end="661" vertical-scroll-proportion="0.41860464" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="64" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="16" column="64" selection-start="578" selection-end="578" vertical-scroll-proportion="0.37209302" vertical-offset="0" max-vertical-offset="645">
           <folding>
             <element signature="e#24#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/repo/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="47" selection-start="2379" selection-end="2420" vertical-scroll-proportion="-4.5" vertical-offset="660" max-vertical-offset="1305">
+        <state line="11" column="57" selection-start="326" selection-end="326" vertical-scroll-proportion="0.2657005" vertical-offset="0" max-vertical-offset="621">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="303" selection-end="303" vertical-scroll-proportion="0.2415459" vertical-offset="0" max-vertical-offset="621">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="44" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.13178295" vertical-offset="335" max-vertical-offset="3225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="67" selection-end="67" vertical-scroll-proportion="0.093023255" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="30" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.475969" vertical-offset="1223" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/unused.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="27" selection-start="352" selection-end="352" vertical-scroll-proportion="0.27906978" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="422" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libraries/python/General/General.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libraries/python/HelperFunctions/ConfigParserHelpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tmp/indigo-python-1.1.12-mac/indigo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="23" selection-start="1918" selection-end="1918" vertical-scroll-proportion="-3.8620155" vertical-offset="3466" max-vertical-offset="30435">
+          <folding>
+            <element signature="e#488#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myindigo/MyIndigo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="228" selection-end="228" vertical-scroll-proportion="0.26655897" vertical-offset="0" max-vertical-offset="5895">
+          <folding>
+            <element signature="e#25#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libraries/python/HelperFunctions/URLFetchingHelpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="0.1627907" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../libraries/python/IndigoTools/MyIndigo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="108" selection-end="108" vertical-scroll-proportion="0.12116317" vertical-offset="0" max-vertical-offset="5895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myindigo/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indigo/indigo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="30" selection-start="718" selection-end="718" vertical-scroll-proportion="0.41860464" vertical-offset="0" max-vertical-offset="30375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="-6.923077" vertical-offset="0" max-vertical-offset="3435">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="48" selection-start="824" selection-end="824" vertical-scroll-proportion="0.784689" vertical-offset="137" max-vertical-offset="705">
+        <state line="24" column="40" selection-start="688" selection-end="688" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="600">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.023255814" vertical-offset="0" max-vertical-offset="1740">
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -14,28 +14,21 @@
     </head>
     <body>
       
-      <!--Hello, this service is under development and will soon support upload of individual SMILES strings as well as SMILES or SDF files.-->
-      Let's see if the uploading still works.
+        <!--Hello, this service is under development and will soon support upload of individual SMILES strings as well as SMILES or SDF files.-->
+        Let's see if the uploading still works.
 
-      {% block heading %}
+        {% block heading %}
         Predict LogP
-      {% endblock %}
+        {% endblock %}
 
-      {% block content %}
-        Upload either SMILES or SDF file here
-      {% endblock %}
+        {% block content %}
+            <form action="{% url 'smlogp' %}" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <p><input type="submit" value="Upload" /></p>
+            </form>
 
-
-        
-        <!-- Upload form. Note enctype attribute! -->
-	<!--
-        <form action="{% url 'smlogp' %}" method="post" enctype="multipart/form-data">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <p><input type="submit" value="Upload" /></p>
-        </form>
-        
-        <textarea rows="40" cols="175" readonly>{{ output }}</textarea>
-    -->
+            <textarea rows="400" cols="175" readonly>{{ output }}</textarea>
+        {% endblock %}
     </body>
 </html>

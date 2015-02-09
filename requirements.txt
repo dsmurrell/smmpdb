@@ -3,3 +3,4 @@ South==1.0
 argparse==1.2.1
 wsgiref==0.1.2
 psycopg2==2.5.2
+pyRserve==0.8.1

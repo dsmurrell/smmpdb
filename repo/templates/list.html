@@ -5,8 +5,7 @@
         <title>Upload Pane</title>   
     </head>
     <body>
-        
-        <!-- Upload form. Note enctype attribute! -->
+
         <form action="{% url 'list' %}" method="post" enctype="multipart/form-data">
             {% csrf_token %}
             {{ form.as_p }}
