@@ -5,6 +5,7 @@ env.user = 'dsm38'
 
 def prepare():
     local('python manage.py test repo')
+    local('echo "another line" >> fillfile')
     local('git add .')
     local('git commit')
     local('git push')
