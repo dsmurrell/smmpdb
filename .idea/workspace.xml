@@ -37,7 +37,7 @@
       <file leaf-file-name="smlogp.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="15" selection-start="802" selection-end="802" vertical-scroll-proportion="-11.875" vertical-offset="75" max-vertical-offset="540">
+            <state line="24" column="15" selection-start="802" selection-end="802" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -52,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="16" column="64" selection-start="578" selection-end="578" vertical-scroll-proportion="0.54298645" vertical-offset="0" max-vertical-offset="442">
               <folding>
                 <element signature="e#24#66#0" expanded="true" />
               </folding>
@@ -108,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="30" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.6945701" vertical-offset="1223" max-vertical-offset="2220">
+            <state line="102" column="30" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="2220">
               <folding />
             </state>
           </provider>
@@ -656,15 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <element signature="e#24#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="35" selection-start="224" selection-end="224" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="345">
@@ -679,6 +670,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="30" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.0" vertical-offset="1223" max-vertical-offset="2220">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="15" selection-start="802" selection-end="802" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="36" selection-start="455" selection-end="455" vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="1305">
@@ -686,17 +691,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
+    <entry file="file://$PROJECT_DIR$/repo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="15" selection-start="802" selection-end="802" vertical-scroll-proportion="-11.875" vertical-offset="75" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="30" selection-start="3304" selection-end="3304" vertical-scroll-proportion="0.6945701" vertical-offset="1223" max-vertical-offset="2220">
-          <folding />
+        <state line="16" column="64" selection-start="578" selection-end="578" vertical-scroll-proportion="0.54298645" vertical-offset="0" max-vertical-offset="442">
+          <folding>
+            <element signature="e#24#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
