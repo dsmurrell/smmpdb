@@ -29,7 +29,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="36" selection-start="455" selection-end="455" vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="1305">
+            <state line="59" column="47" selection-start="2379" selection-end="2420" vertical-scroll-proportion="-4.5" vertical-offset="660" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="smlogp.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="0.035885166" vertical-offset="0" max-vertical-offset="555">
+            <state line="31" column="48" selection-start="824" selection-end="824" vertical-scroll-proportion="0.784689" vertical-offset="137" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
@@ -678,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="455" selection-end="455" vertical-scroll-proportion="-4.5" vertical-offset="0" max-vertical-offset="1305">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="64" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -694,9 +687,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="47" selection-start="2379" selection-end="2420" vertical-scroll-proportion="-4.5" vertical-offset="660" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="0.035885166" vertical-offset="0" max-vertical-offset="555">
+        <state line="31" column="48" selection-start="824" selection-end="824" vertical-scroll-proportion="0.784689" vertical-offset="137" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
