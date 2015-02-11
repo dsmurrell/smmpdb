@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import render_to_response
 from django.template import RequestContext
+from tasks import predict_logp
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.conf import settings
@@ -44,30 +45,28 @@ def list(request):
     )
 
 def smlogp(request):
-    capture = Capture()
-    # make all print statements go to the text field in the capture object
-    sys.stdout = capture
-    
-    # Handle file upload
     if request.method == 'POST':
         form = MoleculeFileForm(request.POST, request.FILES)
         if form.is_valid():
-            molecule_file = request.FILES['molecule_file']
+            molecule_file = MoleculeFile(molecule_file = request.FILES['molecule_file'])
+            molecule_file.save()
+            molecule_file_path = os.path.join(settings.MEDIA_ROOT, molecule_file.molecule_file.name)
+            email_address = form.cleaned_data['email_address']
 
+            predict_logp.delay(molecule_file_path, email_address)
 
-            print "output: ", molecule_file
+            return render_to_response(
+                'smlogp.html',
+                {'processing': 'blah blah its processing'},
+                context_instance=RequestContext(request)
+                )
     else:
         form = MoleculeFileForm()
-        
-    # reassign the print statements to the terminal 
-    sys.stdout = capture.terminal
-
-    # Render list page with the documents and the form
-    return render_to_response(
-        'smlogp.html',
-        {'form': form, 'output': capture.text},
-        context_instance=RequestContext(request)
-    )
+        return render_to_response(
+            'smlogp.html',
+            {'form': form},
+            context_instance=RequestContext(request)
+                                 )
 
 def test(request):
     capture = Capture()

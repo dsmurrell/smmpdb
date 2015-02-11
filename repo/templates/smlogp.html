@@ -1,11 +1,6 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
-<!--<!DOCTYPE html>
-<html lang="en">
-  Placeholder page for smLogP prediction service. Running on chemistry webserver http://www-smmpdb.ch.cam.ac.uk/smlogp/
-</html>-->
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,22 +8,17 @@
         <title>Upload Pane</title>   
     </head>
     <body>
-      
-        <!--Hello, this service is under development and will soon support upload of individual SMILES strings as well as SMILES or SDF files.-->
-        Let's see if the uploading still works.
-
         {% block heading %}
         Predict LogP
         {% endblock %}
 
         {% block content %}
+            {{ processing }}
             <form action="{% url 'smlogp' %}" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ form.as_p }}
                 <p><input type="submit" value="Upload" /></p>
             </form>
-
-            <textarea rows="400" cols="175" readonly>{{ output }}</textarea>
         {% endblock %}
     </body>
 </html>

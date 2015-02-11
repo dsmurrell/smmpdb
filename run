@@ -1,2 +1,6 @@
 
+rabbitmq-server &
+
+celery -A smmpdb worker -l info &
+
 python manage.py runserver
