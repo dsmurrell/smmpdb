@@ -1,6 +1,11 @@
 # Django settings for smmpdb project.
 
-from settings_local import *
+MEDIA_ROOT = '/var/www/smmpdb/media'
+
+try:
+    from settings_local import *
+except ImportError as e:
+    pass
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
