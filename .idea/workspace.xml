@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabfile.py" afterPath="$PROJECT_DIR$/fabfile.py" />
     </list>
     <ignored path="smmpdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,13 +36,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tasks.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="30" selection-start="433" selection-end="433" vertical-scroll-proportion="0.2880922" vertical-offset="0" max-vertical-offset="781">
+            <state line="15" column="30" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fabfile.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fabfile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="94" selection-start="708" selection-end="708" vertical-scroll-proportion="0.32650447" vertical-offset="0" max-vertical-offset="781">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/repo/forms.py" />
         <option value="$PROJECT_DIR$/repo/views.py" />
         <option value="$PROJECT_DIR$/repo/tasks.py" />
+        <option value="$PROJECT_DIR$/fabfile.py" />
       </list>
     </option>
   </component>
@@ -806,19 +816,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fabfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.53777206" vertical-offset="0" max-vertical-offset="781">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="433" selection-end="433" vertical-scroll-proportion="0.2880922" vertical-offset="0" max-vertical-offset="781">
+        <state line="15" column="30" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="94" selection-start="708" selection-end="708" vertical-scroll-proportion="0.32650447" vertical-offset="0" max-vertical-offset="781">
+          <folding />
         </state>
       </provider>
     </entry>
