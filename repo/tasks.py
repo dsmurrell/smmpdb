@@ -17,3 +17,5 @@ def predict_logp(molecule_file_path, email_address):
     #print conn.eval('PredictLogPtoCSV(csv.file="smlogp_predictions.csv", structures.file="' + molecule_file_path + '")')
 
     print conn.eval('getwd()')
+
+    logger.info('TESTING LOGGING')
