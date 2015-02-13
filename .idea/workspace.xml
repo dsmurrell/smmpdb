@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smmpdb/settings.py" afterPath="$PROJECT_DIR$/smmpdb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/views.py" afterPath="$PROJECT_DIR$/repo/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smmpdb.iws" />
@@ -27,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="48" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.7180021" vertical-offset="315" max-vertical-offset="1800">
+            <state line="67" column="48" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1800">
               <folding>
                 <element signature="e#24#71#0" expanded="true" />
               </folding>
@@ -78,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="1" selection-start="5300" selection-end="5300" vertical-scroll-proportion="-22.961538" vertical-offset="2058" max-vertical-offset="2790">
+            <state line="165" column="6" selection-start="5070" selection-end="5070" vertical-scroll-proportion="0.6631016" vertical-offset="1855" max-vertical-offset="2790">
               <folding />
             </state>
           </provider>
@@ -100,15 +99,6 @@
         <entry file="file://$PROJECT_DIR$/smmpdb/settings_local.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="16" column="56" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="17" selection-start="422" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -154,8 +144,8 @@
         <option value="$PROJECT_DIR$/fabfile.py" />
         <option value="$PROJECT_DIR$/smmpdb/__init__.py" />
         <option value="$PROJECT_DIR$/repo/tasks.py" />
-        <option value="$PROJECT_DIR$/smmpdb/settings.py" />
         <option value="$PROJECT_DIR$/repo/views.py" />
+        <option value="$PROJECT_DIR$/smmpdb/settings.py" />
       </list>
     </option>
   </component>
@@ -529,13 +519,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="45" selection-start="7097" selection-end="7102" vertical-scroll-proportion="0.0" vertical-offset="2489" max-vertical-offset="3435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="17" selection-start="422" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="330">
@@ -854,19 +837,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
+    <entry file="file://$PROJECT_DIR$/repo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="1" selection-start="5300" selection-end="5300" vertical-scroll-proportion="-22.961538" vertical-offset="2058" max-vertical-offset="2790">
+        <state line="67" column="48" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1800">
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smmpdb/logs/repo.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="961">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/views.py">
+    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="48" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.7180021" vertical-offset="315" max-vertical-offset="1800">
-          <folding>
-            <element signature="e#24#71#0" expanded="true" />
-          </folding>
+        <state line="165" column="6" selection-start="5070" selection-end="5070" vertical-scroll-proportion="0.6631016" vertical-offset="1855" max-vertical-offset="2790">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -160,7 +160,7 @@ LOGGING = {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename': 'repo.log',
+            'filename': 'smmpdb/logs/repo.log',
             'formatter': 'verbose'
         },
     },
