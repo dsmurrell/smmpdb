@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smmpdb/settings.py" afterPath="$PROJECT_DIR$/smmpdb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/tasks.py" afterPath="$PROJECT_DIR$/repo/tasks.py" />
     </list>
     <ignored path="smmpdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tasks.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repo/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="30" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="20" column="44" selection-start="560" selection-end="560" vertical-scroll-proportion="0.31217483" vertical-offset="0" max-vertical-offset="961">
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -77,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="165" column="6" selection-start="5070" selection-end="5070" vertical-scroll-proportion="0.6631016" vertical-offset="1855" max-vertical-offset="2790">
+            <state line="152" column="43" selection-start="4760" selection-end="4760" vertical-scroll-proportion="-16.346153" vertical-offset="1855" max-vertical-offset="2790">
               <folding />
             </state>
           </provider>
@@ -143,9 +142,9 @@
         <option value="$PROJECT_DIR$/repo/forms.py" />
         <option value="$PROJECT_DIR$/fabfile.py" />
         <option value="$PROJECT_DIR$/smmpdb/__init__.py" />
-        <option value="$PROJECT_DIR$/repo/tasks.py" />
         <option value="$PROJECT_DIR$/repo/views.py" />
         <option value="$PROJECT_DIR$/smmpdb/settings.py" />
+        <option value="$PROJECT_DIR$/repo/tasks.py" />
       </list>
     </option>
   </component>
@@ -828,15 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="30" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="48" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1800">
@@ -855,8 +845,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="6" selection-start="5070" selection-end="5070" vertical-scroll-proportion="0.6631016" vertical-offset="1855" max-vertical-offset="2790">
+        <state line="152" column="43" selection-start="4760" selection-end="4760" vertical-scroll-proportion="-16.346153" vertical-offset="1855" max-vertical-offset="2790">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="44" selection-start="560" selection-end="560" vertical-scroll-proportion="0.31217483" vertical-offset="0" max-vertical-offset="961">
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
