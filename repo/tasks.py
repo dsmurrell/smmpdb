@@ -18,4 +18,4 @@ def predict_logp(molecule_file_path, email_address):
 
     print conn.eval('getwd()')
 
-    logger.info('TESTING LOGGING FROM CELERY')
+    logger.debug('TESTING LOGGING FROM CELERY')

@@ -28,7 +28,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="48" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1800">
+            <state line="67" column="20" selection-start="2263" selection-end="2268" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1800">
               <folding>
                 <element signature="e#24#71#0" expanded="true" />
               </folding>
@@ -36,10 +36,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="tasks.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repo/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="44" selection-start="560" selection-end="560" vertical-scroll-proportion="0.31217483" vertical-offset="0" max-vertical-offset="961">
+            <state line="20" column="47" selection-start="563" selection-end="563" vertical-scroll-proportion="0.31217483" vertical-offset="0" max-vertical-offset="961">
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -555,7 +564,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330" />
+        <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -595,7 +606,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330" />
+        <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -640,11 +653,6 @@
         <state line="105" column="33" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0" vertical-offset="1379" max-vertical-offset="2190">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/wsgi.py">
@@ -827,15 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="48" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1800">
-          <folding>
-            <element signature="e#24#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/logs/repo.log">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="961">
@@ -850,9 +849,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/repo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="20" selection-start="2263" selection-end="2268" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1800">
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/repo/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="560" selection-end="560" vertical-scroll-proportion="0.31217483" vertical-offset="0" max-vertical-offset="961">
+        <state line="20" column="47" selection-start="563" selection-end="563" vertical-scroll-proportion="0.31217483" vertical-offset="0" max-vertical-offset="961">
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
