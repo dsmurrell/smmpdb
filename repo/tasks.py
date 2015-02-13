@@ -12,6 +12,8 @@ def predict_logp(molecule_file_path, email_address):
     print molecule_file_path
     print email_address
 
+    logger.debug('TESTING LOGGING FROM CELERY')
+
     conn = pyRserve.connect()
     #conn.eval('library(smpredict)')
     #print conn.eval('PredictLogPtoCSV(csv.file="smlogp_predictions.csv", structures.file="' + molecule_file_path + '")')
