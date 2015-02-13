@@ -174,6 +174,10 @@ LOGGING = {
             'handlers': ['file'],
             'level': 'DEBUG',
         },
+        'celery.task.default': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+        }
     }
 }
 

@@ -4,7 +4,7 @@ from django.template import RequestContext
 from tasks import predict_logp
 
 import logging
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('repo')
 
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
