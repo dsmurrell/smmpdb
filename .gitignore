@@ -3,3 +3,4 @@
 wsgi_smmpdb.wsgi
 taillog
 smmpdb/settings_local.py
+smmpdb/logs
