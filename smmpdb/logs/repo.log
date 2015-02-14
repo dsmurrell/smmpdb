@@ -1,180 +1,42 @@
-[13/Feb/2015 16:30:18] DEBUG [django.db.backends:91] (0.075) 
+[14/Feb/2015 17:29:24] DEBUG [django.db.backends:91] (0.199) 
             SELECT c.relname
             FROM pg_catalog.pg_class c
             LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
             WHERE c.relkind IN ('r', 'v', '')
                 AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
                 AND pg_catalog.pg_table_is_visible(c.oid); args=None
-[13/Feb/2015 16:30:18] DEBUG [django.db.backends:91] (0.005) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
-[13/Feb/2015 16:30:56] DEBUG [repo.views:68] this is a debug message!
-[13/Feb/2015 16:31:22] DEBUG [django.db.backends:91] (0.039) INSERT INTO "molecule_file" ("molecule_file") VALUES ('molecule_file/2015/02/13/structures_10_LyAKJTa.sdf') RETURNING "molecule_file"."id"; args=(u'molecule_file/2015/02/13/structures_10_LyAKJTa.sdf',)
-[13/Feb/2015 16:35:19] DEBUG [django.db.backends:91] (0.008) 
-            SELECT c.relname
-            FROM pg_catalog.pg_class c
-            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
-            WHERE c.relkind IN ('r', 'v', '')
-                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
-                AND pg_catalog.pg_table_is_visible(c.oid); args=None
-[13/Feb/2015 16:35:19] DEBUG [django.db.backends:91] (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
-[13/Feb/2015 16:35:42] DEBUG [django.db.backends:91] (0.003) INSERT INTO "molecule_file" ("molecule_file") VALUES ('molecule_file/2015/02/13/structures_10_Fa7cLYb.sdf') RETURNING "molecule_file"."id"; args=(u'molecule_file/2015/02/13/structures_10_Fa7cLYb.sdf',)
-[13/Feb/2015 16:35:45] DEBUG [repo:68] this is a debug message!
-[13/Feb/2015 16:35:52] DEBUG [repo:68] this is a debug message!
-[13/Feb/2015 16:36:02] DEBUG [django.db.backends:91] (0.006) 
-            SELECT c.relname
-            FROM pg_catalog.pg_class c
-            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
-            WHERE c.relkind IN ('r', 'v', '')
-                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
-                AND pg_catalog.pg_table_is_visible(c.oid); args=None
-[13/Feb/2015 16:36:02] DEBUG [django.db.backends:91] (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
-[13/Feb/2015 16:36:08] DEBUG [repo.views:68] this is a debug message!
-[13/Feb/2015 16:36:15] DEBUG [repo.views:68] this is a debug message!
-[13/Feb/2015 16:36:38] DEBUG [repo.views:68] this is a debug message!
-[13/Feb/2015 16:36:42] DEBUG [repo.views:68] this is a debug message!
-[13/Feb/2015 16:36:57] DEBUG [django.db.backends:91] (0.008) 
-            SELECT c.relname
-            FROM pg_catalog.pg_class c
-            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
-            WHERE c.relkind IN ('r', 'v', '')
-                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
-                AND pg_catalog.pg_table_is_visible(c.oid); args=None
-[13/Feb/2015 16:36:57] DEBUG [django.db.backends:91] (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
-[13/Feb/2015 16:37:08] DEBUG [repo:68] this is a debug message!
-[13/Feb/2015 16:37:13] DEBUG [repo:68] this is a debug message!
-[13/Feb/2015 16:37:29] DEBUG [django.db.backends:91] (0.009) 
-            SELECT c.relname
-            FROM pg_catalog.pg_class c
-            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
-            WHERE c.relkind IN ('r', 'v', '')
-                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
-                AND pg_catalog.pg_table_is_visible(c.oid); args=None
-[13/Feb/2015 16:37:29] DEBUG [django.db.backends:91] (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
-[13/Feb/2015 16:37:33] DEBUG [repo:68] this is a debug message!
-[13/Feb/2015 16:37:47] DEBUG [django.db.backends:91] (0.003) INSERT INTO "molecule_file" ("molecule_file") VALUES ('molecule_file/2015/02/13/structures_10_MiGKncP.sdf') RETURNING "molecule_file"."id"; args=(u'molecule_file/2015/02/13/structures_10_MiGKncP.sdf',)
-[13/Feb/2015 16:41:17] DEBUG [django.db.backends:91] (0.006) 
-            SELECT c.relname
-            FROM pg_catalog.pg_class c
-            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
-            WHERE c.relkind IN ('r', 'v', '')
-                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
-                AND pg_catalog.pg_table_is_visible(c.oid); args=None
-[13/Feb/2015 16:41:17] DEBUG [django.db.backends:91] (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
-[13/Feb/2015 16:41:24] DEBUG [repo:68] this is a debug message!
-[13/Feb/2015 16:41:37] DEBUG [django.db.backends:91] (0.004) INSERT INTO "molecule_file" ("molecule_file") VALUES ('molecule_file/2015/02/13/structures_10_H6rzpV0.sdf') RETURNING "molecule_file"."id"; args=(u'molecule_file/2015/02/13/structures_10_H6rzpV0.sdf',)
-[13/Feb/2015 16:42:03] DEBUG [django.db.backends:91] (0.010) 
-            SELECT c.relname
-            FROM pg_catalog.pg_class c
-            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
-            WHERE c.relkind IN ('r', 'v', '')
-                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
-                AND pg_catalog.pg_table_is_visible(c.oid); args=None
-[13/Feb/2015 16:42:03] DEBUG [django.db.backends:91] (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
-[13/Feb/2015 16:42:08] DEBUG [repo:68] this is a debug message!
-[13/Feb/2015 16:42:16] DEBUG [django.db.backends:91] (0.002) INSERT INTO "molecule_file" ("molecule_file") VALUES ('molecule_file/2015/02/13/structures_10_V9X3X6b.sdf') RETURNING "molecule_file"."id"; args=(u'molecule_file/2015/02/13/structures_10_V9X3X6b.sdf',)
-[13/Feb/2015 16:42:16] DEBUG [repo:15] TESTING LOGGING FROM CELERY
-[13/Feb/2015 16:42:16] DEBUG [repo:23] TESTING LOGGING FROM CELERY
-[13/Feb/2015 16:42:51] DEBUG [repo:68] this is a debug message!
-[13/Feb/2015 16:43:02] DEBUG [django.db.backends:91] (0.002) INSERT INTO "molecule_file" ("molecule_file") VALUES ('molecule_file/2015/02/13/structures_10_Iu1qsdU.sdf') RETURNING "molecule_file"."id"; args=(u'molecule_file/2015/02/13/structures_10_Iu1qsdU.sdf',)
-[13/Feb/2015 16:43:02] DEBUG [repo:15] TESTING LOGGING FROM CELERY
-[13/Feb/2015 16:43:03] DEBUG [repo:23] TESTING LOGGING FROM CELERY
-[13/Feb/2015 16:45:55] DEBUG [django.db.backends:91] (0.008) 
-            SELECT c.relname
-            FROM pg_catalog.pg_class c
-            LEFT JOIN pg_catalog.pg_namespace n ON n.oid = c.relnamespace
-            WHERE c.relkind IN ('r', 'v', '')
-                AND n.nspname NOT IN ('pg_catalog', 'pg_toast')
-                AND pg_catalog.pg_table_is_visible(c.oid); args=None
-[13/Feb/2015 16:45:55] DEBUG [django.db.backends:91] (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_migrations" ("id" serial NOT NULL PRIMARY KEY, "app" varchar(255) NOT NULL, "name" varchar(255) NOT NULL, "applied" timestamp with time zone NOT NULL); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_content_type" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(100) NOT NULL, "app_label" varchar(100) NOT NULL, "model" varchar(100) NOT NULL); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_content_type" ADD CONSTRAINT "django_content_type_app_label_45f3b1d93ec8c61c_uniq" UNIQUE ("app_label", "model"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_permission" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(50) NOT NULL, "content_type_id" integer NOT NULL, "codename" varchar(100) NOT NULL, UNIQUE ("content_type_id", "codename")); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_group" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(80) NOT NULL UNIQUE); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_group_permissions" ("id" serial NOT NULL PRIMARY KEY, "group_id" integer NOT NULL, "permission_id" integer NOT NULL, UNIQUE ("group_id", "permission_id")); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user" ("id" serial NOT NULL PRIMARY KEY, "password" varchar(128) NOT NULL, "last_login" timestamp with time zone NOT NULL, "is_superuser" boolean NOT NULL, "username" varchar(30) NOT NULL UNIQUE, "first_name" varchar(30) NOT NULL, "last_name" varchar(30) NOT NULL, "email" varchar(75) NOT NULL, "is_staff" boolean NOT NULL, "is_active" boolean NOT NULL, "date_joined" timestamp with time zone NOT NULL); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user_groups" ("id" serial NOT NULL PRIMARY KEY, "user_id" integer NOT NULL, "group_id" integer NOT NULL, UNIQUE ("user_id", "group_id")); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user_user_permissions" ("id" serial NOT NULL PRIMARY KEY, "user_id" integer NOT NULL, "permission_id" integer NOT NULL, UNIQUE ("user_id", "permission_id")); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_permission_417f1b1c ON "auth_permission" ("content_type_id"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_permission" ADD CONSTRAINT "auth_content_type_id_508cf46651277a81_fk_django_content_type_id" FOREIGN KEY ("content_type_id") REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_group_permissions_0e939a4f ON "auth_group_permissions" ("group_id"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permissio_group_id_689710a9a73b7457_fk_auth_group_id" FOREIGN KEY ("group_id") REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_group_permissions_8373b171 ON "auth_group_permissions" ("permission_id"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permission_id_1f49ccbbdc69d2fc_fk_auth_permission_id" FOREIGN KEY ("permission_id") REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_groups_e8701ad4 ON "auth_user_groups" ("user_id"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_groups" ADD CONSTRAINT "auth_user_groups_user_id_4b5ed4ffdb8fd9b0_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_groups_0e939a4f ON "auth_user_groups" ("group_id"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_groups" ADD CONSTRAINT "auth_user_groups_group_id_33ac548dcf5f8e37_fk_auth_group_id" FOREIGN KEY ("group_id") REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_user_permissions_e8701ad4 ON "auth_user_user_permissions" ("user_id"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_user_permissions" ADD CONSTRAINT "auth_user_user_permiss_user_id_7f0938558328534a_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_user_permissions_8373b171 ON "auth_user_user_permissions" ("permission_id"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_user_permissions" ADD CONSTRAINT "auth_user__permission_id_384b62483d7071f0_fk_auth_permission_id" FOREIGN KEY ("permission_id") REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_admin_log" ("id" serial NOT NULL PRIMARY KEY, "action_time" timestamp with time zone NOT NULL, "object_id" text NULL, "object_repr" varchar(200) NOT NULL, "action_flag" smallint NOT NULL CHECK ("action_flag" >= 0), "change_message" text NOT NULL, "content_type_id" integer NULL, "user_id" integer NOT NULL); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE INDEX django_admin_log_417f1b1c ON "django_admin_log" ("content_type_id"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_admin_log" ADD CONSTRAINT "djan_content_type_id_697914295151027a_fk_django_content_type_id" FOREIGN KEY ("content_type_id") REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE INDEX django_admin_log_e8701ad4 ON "django_admin_log" ("user_id"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_52fdd58701c5f563_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_session" ("session_key" varchar(40) NOT NULL PRIMARY KEY, "session_data" text NOT NULL, "expire_date" timestamp with time zone NOT NULL); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE INDEX django_session_de54fa62 ON "django_session" ("expire_date"); (params [])
-[13/Feb/2015 16:46:18] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_site" ("id" serial NOT NULL PRIMARY KEY, "domain" varchar(100) NOT NULL, "name" varchar(50) NOT NULL); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_migrations" ("id" serial NOT NULL PRIMARY KEY, "app" varchar(255) NOT NULL, "name" varchar(255) NOT NULL, "applied" timestamp with time zone NOT NULL); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_content_type" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(100) NOT NULL, "app_label" varchar(100) NOT NULL, "model" varchar(100) NOT NULL); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_content_type" ADD CONSTRAINT "django_content_type_app_label_45f3b1d93ec8c61c_uniq" UNIQUE ("app_label", "model"); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_permission" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(50) NOT NULL, "content_type_id" integer NOT NULL, "codename" varchar(100) NOT NULL, UNIQUE ("content_type_id", "codename")); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_group" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(80) NOT NULL UNIQUE); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_group_permissions" ("id" serial NOT NULL PRIMARY KEY, "group_id" integer NOT NULL, "permission_id" integer NOT NULL, UNIQUE ("group_id", "permission_id")); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user" ("id" serial NOT NULL PRIMARY KEY, "password" varchar(128) NOT NULL, "last_login" timestamp with time zone NOT NULL, "is_superuser" boolean NOT NULL, "username" varchar(30) NOT NULL UNIQUE, "first_name" varchar(30) NOT NULL, "last_name" varchar(30) NOT NULL, "email" varchar(75) NOT NULL, "is_staff" boolean NOT NULL, "is_active" boolean NOT NULL, "date_joined" timestamp with time zone NOT NULL); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user_groups" ("id" serial NOT NULL PRIMARY KEY, "user_id" integer NOT NULL, "group_id" integer NOT NULL, UNIQUE ("user_id", "group_id")); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user_user_permissions" ("id" serial NOT NULL PRIMARY KEY, "user_id" integer NOT NULL, "permission_id" integer NOT NULL, UNIQUE ("user_id", "permission_id")); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_permission_417f1b1c ON "auth_permission" ("content_type_id"); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_permission" ADD CONSTRAINT "auth_content_type_id_508cf46651277a81_fk_django_content_type_id" FOREIGN KEY ("content_type_id") REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_group_permissions_0e939a4f ON "auth_group_permissions" ("group_id"); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permissio_group_id_689710a9a73b7457_fk_auth_group_id" FOREIGN KEY ("group_id") REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_group_permissions_8373b171 ON "auth_group_permissions" ("permission_id"); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permission_id_1f49ccbbdc69d2fc_fk_auth_permission_id" FOREIGN KEY ("permission_id") REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_groups_e8701ad4 ON "auth_user_groups" ("user_id"); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_groups" ADD CONSTRAINT "auth_user_groups_user_id_4b5ed4ffdb8fd9b0_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_groups_0e939a4f ON "auth_user_groups" ("group_id"); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_groups" ADD CONSTRAINT "auth_user_groups_group_id_33ac548dcf5f8e37_fk_auth_group_id" FOREIGN KEY ("group_id") REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_user_permissions_e8701ad4 ON "auth_user_user_permissions" ("user_id"); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_user_permissions" ADD CONSTRAINT "auth_user_user_permiss_user_id_7f0938558328534a_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_user_permissions_8373b171 ON "auth_user_user_permissions" ("permission_id"); (params [])
-[13/Feb/2015 16:48:08] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_user_permissions" ADD CONSTRAINT "auth_user__permission_id_384b62483d7071f0_fk_auth_permission_id" FOREIGN KEY ("permission_id") REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:09] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_admin_log" ("id" serial NOT NULL PRIMARY KEY, "action_time" timestamp with time zone NOT NULL, "object_id" text NULL, "object_repr" varchar(200) NOT NULL, "action_flag" smallint NOT NULL CHECK ("action_flag" >= 0), "change_message" text NOT NULL, "content_type_id" integer NULL, "user_id" integer NOT NULL); (params [])
-[13/Feb/2015 16:48:09] DEBUG [django.db.backends.schema:94] CREATE INDEX django_admin_log_417f1b1c ON "django_admin_log" ("content_type_id"); (params [])
-[13/Feb/2015 16:48:09] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_admin_log" ADD CONSTRAINT "djan_content_type_id_697914295151027a_fk_django_content_type_id" FOREIGN KEY ("content_type_id") REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:09] DEBUG [django.db.backends.schema:94] CREATE INDEX django_admin_log_e8701ad4 ON "django_admin_log" ("user_id"); (params [])
-[13/Feb/2015 16:48:09] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_52fdd58701c5f563_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:09] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_session" ("session_key" varchar(40) NOT NULL PRIMARY KEY, "session_data" text NOT NULL, "expire_date" timestamp with time zone NOT NULL); (params [])
-[13/Feb/2015 16:48:09] DEBUG [django.db.backends.schema:94] CREATE INDEX django_session_de54fa62 ON "django_session" ("expire_date"); (params [])
-[13/Feb/2015 16:48:09] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_site" ("id" serial NOT NULL PRIMARY KEY, "domain" varchar(100) NOT NULL, "name" varchar(50) NOT NULL); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_migrations" ("id" serial NOT NULL PRIMARY KEY, "app" varchar(255) NOT NULL, "name" varchar(255) NOT NULL, "applied" timestamp with time zone NOT NULL); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_content_type" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(100) NOT NULL, "app_label" varchar(100) NOT NULL, "model" varchar(100) NOT NULL); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_content_type" ADD CONSTRAINT "django_content_type_app_label_45f3b1d93ec8c61c_uniq" UNIQUE ("app_label", "model"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_permission" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(50) NOT NULL, "content_type_id" integer NOT NULL, "codename" varchar(100) NOT NULL, UNIQUE ("content_type_id", "codename")); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_group" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(80) NOT NULL UNIQUE); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_group_permissions" ("id" serial NOT NULL PRIMARY KEY, "group_id" integer NOT NULL, "permission_id" integer NOT NULL, UNIQUE ("group_id", "permission_id")); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user" ("id" serial NOT NULL PRIMARY KEY, "password" varchar(128) NOT NULL, "last_login" timestamp with time zone NOT NULL, "is_superuser" boolean NOT NULL, "username" varchar(30) NOT NULL UNIQUE, "first_name" varchar(30) NOT NULL, "last_name" varchar(30) NOT NULL, "email" varchar(75) NOT NULL, "is_staff" boolean NOT NULL, "is_active" boolean NOT NULL, "date_joined" timestamp with time zone NOT NULL); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user_groups" ("id" serial NOT NULL PRIMARY KEY, "user_id" integer NOT NULL, "group_id" integer NOT NULL, UNIQUE ("user_id", "group_id")); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user_user_permissions" ("id" serial NOT NULL PRIMARY KEY, "user_id" integer NOT NULL, "permission_id" integer NOT NULL, UNIQUE ("user_id", "permission_id")); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_permission_417f1b1c ON "auth_permission" ("content_type_id"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_permission" ADD CONSTRAINT "auth_content_type_id_508cf46651277a81_fk_django_content_type_id" FOREIGN KEY ("content_type_id") REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_group_permissions_0e939a4f ON "auth_group_permissions" ("group_id"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permissio_group_id_689710a9a73b7457_fk_auth_group_id" FOREIGN KEY ("group_id") REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_group_permissions_8373b171 ON "auth_group_permissions" ("permission_id"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permission_id_1f49ccbbdc69d2fc_fk_auth_permission_id" FOREIGN KEY ("permission_id") REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_groups_e8701ad4 ON "auth_user_groups" ("user_id"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_groups" ADD CONSTRAINT "auth_user_groups_user_id_4b5ed4ffdb8fd9b0_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_groups_0e939a4f ON "auth_user_groups" ("group_id"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_groups" ADD CONSTRAINT "auth_user_groups_group_id_33ac548dcf5f8e37_fk_auth_group_id" FOREIGN KEY ("group_id") REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_user_permissions_e8701ad4 ON "auth_user_user_permissions" ("user_id"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_user_permissions" ADD CONSTRAINT "auth_user_user_permiss_user_id_7f0938558328534a_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_user_permissions_8373b171 ON "auth_user_user_permissions" ("permission_id"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_user_permissions" ADD CONSTRAINT "auth_user__permission_id_384b62483d7071f0_fk_auth_permission_id" FOREIGN KEY ("permission_id") REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_admin_log" ("id" serial NOT NULL PRIMARY KEY, "action_time" timestamp with time zone NOT NULL, "object_id" text NULL, "object_repr" varchar(200) NOT NULL, "action_flag" smallint NOT NULL CHECK ("action_flag" >= 0), "change_message" text NOT NULL, "content_type_id" integer NULL, "user_id" integer NOT NULL); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE INDEX django_admin_log_417f1b1c ON "django_admin_log" ("content_type_id"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_admin_log" ADD CONSTRAINT "djan_content_type_id_697914295151027a_fk_django_content_type_id" FOREIGN KEY ("content_type_id") REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE INDEX django_admin_log_e8701ad4 ON "django_admin_log" ("user_id"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_52fdd58701c5f563_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_session" ("session_key" varchar(40) NOT NULL PRIMARY KEY, "session_data" text NOT NULL, "expire_date" timestamp with time zone NOT NULL); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE INDEX django_session_de54fa62 ON "django_session" ("expire_date"); (params [])
-[13/Feb/2015 16:48:42] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_site" ("id" serial NOT NULL PRIMARY KEY, "domain" varchar(100) NOT NULL, "name" varchar(50) NOT NULL); (params [])
+[14/Feb/2015 17:29:24] DEBUG [django.db.backends:91] (0.020) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[14/Feb/2015 17:31:45] DEBUG [repo:68] this is a debug message!
+[14/Feb/2015 17:32:05] DEBUG [django.db.backends:91] (0.032) INSERT INTO "molecule_file" ("molecule_file") VALUES ('molecule_file/2015/02/14/structures_10.sdf') RETURNING "molecule_file"."id"; args=(u'molecule_file/2015/02/14/structures_10.sdf',)
+[14/Feb/2015 17:32:05] DEBUG [repo:15] TESTING LOGGING FROM CELERY
+[14/Feb/2015 17:32:34] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_migrations" ("id" serial NOT NULL PRIMARY KEY, "app" varchar(255) NOT NULL, "name" varchar(255) NOT NULL, "applied" timestamp with time zone NOT NULL); (params [])
+[14/Feb/2015 17:32:36] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_content_type" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(100) NOT NULL, "app_label" varchar(100) NOT NULL, "model" varchar(100) NOT NULL); (params [])
+[14/Feb/2015 17:32:36] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_content_type" ADD CONSTRAINT "django_content_type_app_label_45f3b1d93ec8c61c_uniq" UNIQUE ("app_label", "model"); (params [])
+[14/Feb/2015 17:32:36] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_permission" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(50) NOT NULL, "content_type_id" integer NOT NULL, "codename" varchar(100) NOT NULL, UNIQUE ("content_type_id", "codename")); (params [])
+[14/Feb/2015 17:32:36] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_group" ("id" serial NOT NULL PRIMARY KEY, "name" varchar(80) NOT NULL UNIQUE); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_group_permissions" ("id" serial NOT NULL PRIMARY KEY, "group_id" integer NOT NULL, "permission_id" integer NOT NULL, UNIQUE ("group_id", "permission_id")); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user" ("id" serial NOT NULL PRIMARY KEY, "password" varchar(128) NOT NULL, "last_login" timestamp with time zone NOT NULL, "is_superuser" boolean NOT NULL, "username" varchar(30) NOT NULL UNIQUE, "first_name" varchar(30) NOT NULL, "last_name" varchar(30) NOT NULL, "email" varchar(75) NOT NULL, "is_staff" boolean NOT NULL, "is_active" boolean NOT NULL, "date_joined" timestamp with time zone NOT NULL); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user_groups" ("id" serial NOT NULL PRIMARY KEY, "user_id" integer NOT NULL, "group_id" integer NOT NULL, UNIQUE ("user_id", "group_id")); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE TABLE "auth_user_user_permissions" ("id" serial NOT NULL PRIMARY KEY, "user_id" integer NOT NULL, "permission_id" integer NOT NULL, UNIQUE ("user_id", "permission_id")); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_permission_417f1b1c ON "auth_permission" ("content_type_id"); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_permission" ADD CONSTRAINT "auth_content_type_id_508cf46651277a81_fk_django_content_type_id" FOREIGN KEY ("content_type_id") REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_group_permissions_0e939a4f ON "auth_group_permissions" ("group_id"); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permissio_group_id_689710a9a73b7457_fk_auth_group_id" FOREIGN KEY ("group_id") REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_group_permissions_8373b171 ON "auth_group_permissions" ("permission_id"); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permission_id_1f49ccbbdc69d2fc_fk_auth_permission_id" FOREIGN KEY ("permission_id") REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_groups_e8701ad4 ON "auth_user_groups" ("user_id"); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_groups" ADD CONSTRAINT "auth_user_groups_user_id_4b5ed4ffdb8fd9b0_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_groups_0e939a4f ON "auth_user_groups" ("group_id"); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_groups" ADD CONSTRAINT "auth_user_groups_group_id_33ac548dcf5f8e37_fk_auth_group_id" FOREIGN KEY ("group_id") REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_user_permissions_e8701ad4 ON "auth_user_user_permissions" ("user_id"); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_user_permissions" ADD CONSTRAINT "auth_user_user_permiss_user_id_7f0938558328534a_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE INDEX auth_user_user_permissions_8373b171 ON "auth_user_user_permissions" ("permission_id"); (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] ALTER TABLE "auth_user_user_permissions" ADD CONSTRAINT "auth_user__permission_id_384b62483d7071f0_fk_auth_permission_id" FOREIGN KEY ("permission_id") REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
+[14/Feb/2015 17:32:37] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_admin_log" ("id" serial NOT NULL PRIMARY KEY, "action_time" timestamp with time zone NOT NULL, "object_id" text NULL, "object_repr" varchar(200) NOT NULL, "action_flag" smallint NOT NULL CHECK ("action_flag" >= 0), "change_message" text NOT NULL, "content_type_id" integer NULL, "user_id" integer NOT NULL); (params [])
+[14/Feb/2015 17:32:38] DEBUG [django.db.backends.schema:94] CREATE INDEX django_admin_log_417f1b1c ON "django_admin_log" ("content_type_id"); (params [])
+[14/Feb/2015 17:32:38] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_admin_log" ADD CONSTRAINT "djan_content_type_id_697914295151027a_fk_django_content_type_id" FOREIGN KEY ("content_type_id") REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
+[14/Feb/2015 17:32:38] DEBUG [django.db.backends.schema:94] CREATE INDEX django_admin_log_e8701ad4 ON "django_admin_log" ("user_id"); (params [])
+[14/Feb/2015 17:32:38] DEBUG [django.db.backends.schema:94] ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_52fdd58701c5f563_fk_auth_user_id" FOREIGN KEY ("user_id") REFERENCES "auth_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params [])
+[14/Feb/2015 17:32:38] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_session" ("session_key" varchar(40) NOT NULL PRIMARY KEY, "session_data" text NOT NULL, "expire_date" timestamp with time zone NOT NULL); (params [])
+[14/Feb/2015 17:32:38] DEBUG [django.db.backends.schema:94] CREATE INDEX django_session_de54fa62 ON "django_session" ("expire_date"); (params [])
+[14/Feb/2015 17:32:38] DEBUG [django.db.backends.schema:94] CREATE TABLE "django_site" ("id" serial NOT NULL PRIMARY KEY, "domain" varchar(100) NOT NULL, "name" varchar(50) NOT NULL); (params [])
