@@ -4,6 +4,7 @@ env.hosts = ['smmpdb.ch.private.cam.ac.uk']
 env.user = 'dsm38'
 
 def prepare():
+    local('python manage.py collectstatic --noinput')
     local('python manage.py test repo')
     local('echo "another line" >> fillfile')
     local('git add .')
