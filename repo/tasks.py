@@ -7,7 +7,6 @@ logger = get_task_logger('repo')
 
 import pyRserve
 from django.core.mail import EmailMessage
-from django.conf import settings
 
 @task
 def predict_logp(molecule_file_path, email_address):
@@ -21,6 +20,12 @@ def predict_logp(molecule_file_path, email_address):
     logger.debug(conn.eval('PredictLogPtoCSV(csv.file="smlogp_predictions.csv", structures.file="' + molecule_file_path + '")'))
     logger.debug(conn.eval('getwd()'))
 
-    mail = EmailMessage('Subject here 2', 'Here is the message 2.', 'smpredict', ['dsmurrell@gmail.com'])
+    mail = EmailMessage('Your LogP Predictions', """Dear User
+
+        Thank you for using our service.
+        here are your LogP predictions.
+
+        Kind regards
+        smpredict team""", 'smpredict', [email_address])
     mail.attach_file('' + conn.eval('getwd()') + '/smlogp_predictions.csv')
     mail.send()
