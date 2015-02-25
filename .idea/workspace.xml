@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/tasks.py" afterPath="$PROJECT_DIR$/repo/tasks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabfile.py" afterPath="$PROJECT_DIR$/fabfile.py" />
     </list>
     <ignored path="smmpdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,22 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="repo.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo.log">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="312" column="28" selection-start="41455" selection-end="41455" vertical-scroll-proportion="-11.333333" vertical-offset="4374" max-vertical-offset="5385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fabfile.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="fabfile.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fabfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="50" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="20" column="102" selection-start="963" selection-end="963" vertical-scroll-proportion="0.32223415" vertical-offset="0" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -94,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="56" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.32223415" vertical-offset="660" max-vertical-offset="1800">
+            <state line="68" column="56" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1800">
               <folding />
             </state>
           </provider>
@@ -155,9 +142,9 @@
         <option value="$PROJECT_DIR$/repo.log" />
         <option value="$PROJECT_DIR$/smmpdb/settings.py" />
         <option value="$PROJECT_DIR$/repo/views.py" />
-        <option value="$PROJECT_DIR$/fabfile.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/repo/tasks.py" />
+        <option value="$PROJECT_DIR$/fabfile.py" />
       </list>
     </option>
   </component>
@@ -502,7 +489,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21420048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21420048" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -767,16 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo.log">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="312" column="28" selection-start="41455" selection-end="41455" vertical-scroll-proportion="-11.333333" vertical-offset="4374" max-vertical-offset="5385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/smmpdb/lib/python2.7/site-packages/django/http/request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="6" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0" vertical-offset="2795" max-vertical-offset="8130">
@@ -812,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fabfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="50" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="1" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
@@ -837,7 +807,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="56" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.32223415" vertical-offset="660" max-vertical-offset="1800">
+        <state line="68" column="56" selection-start="2332" selection-end="2332" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fabfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="102" selection-start="963" selection-end="963" vertical-scroll-proportion="0.32223415" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
