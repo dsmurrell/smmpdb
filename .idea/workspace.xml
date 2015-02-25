@@ -57,7 +57,7 @@
       <file leaf-file-name="fabfile.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fabfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="14" selection-start="717" selection-end="717" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="931">
+            <state line="19" column="18" selection-start="725" selection-end="725" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -814,7 +814,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fabfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="717" selection-end="717" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="931">
+        <state line="19" column="18" selection-start="725" selection-end="725" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
