@@ -104,6 +104,13 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 )
 
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'smpredict'
+EMAIL_HOST_PASSWORD = 'smpredictyeeha'
+DEFAULT_FROM_EMAIL = 'smpredict@gmail.com'
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',

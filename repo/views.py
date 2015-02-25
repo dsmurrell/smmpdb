@@ -16,6 +16,10 @@ from repo.forms import *
 
 from utils import *
 
+from django.conf import settings
+from django.core.mail import send_mail
+from django.core.mail import EmailMessage
+
 def list(request):
     capture = Capture()
     # make all print statements go to the text field in the capture object
