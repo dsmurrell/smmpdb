@@ -15,9 +15,7 @@ def deploy():
     with cd('~/smmpdb'):
         run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && git pull https://github.com/dsmurrell/smmpdb.git')
         run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && sudo pip install -r requirements.txt')
-        #run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && rabbitmq-server &')
         run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && python manage.py migrate')
-        #run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && python manage.py test repo')
         run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && sudo /etc/init.d/apache2 restart')
         
 def both():
