@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="" />
+    <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fabfile.py" afterPath="$PROJECT_DIR$/fabfile.py" />
+    </list>
     <ignored path="smmpdb.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +57,7 @@
       <file leaf-file-name="fabfile.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fabfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="102" selection-start="911" selection-end="911" vertical-scroll-proportion="0.32223415" vertical-offset="0" max-vertical-offset="931">
+            <state line="19" column="101" selection-start="808" selection-end="808" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -812,7 +814,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fabfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="102" selection-start="911" selection-end="911" vertical-scroll-proportion="0.32223415" vertical-offset="0" max-vertical-offset="931">
+        <state line="19" column="101" selection-start="808" selection-end="808" vertical-scroll-proportion="0.30612245" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
