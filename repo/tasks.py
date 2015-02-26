@@ -20,12 +20,13 @@ def predict_logp(molecule_file_path, email_address):
     logger.debug(conn.eval('PredictLogPtoCSV(csv.file="smlogp_predictions.csv", structures.file="' + molecule_file_path + '")'))
     logger.debug(conn.eval('getwd()'))
 
-    mail = EmailMessage('Your LogP Predictions', """Dear User
+    mail = EmailMessage('Your LogP Predictions',
+    """Dear User
 
-        Thank you for using our service.
-        here are your LogP predictions.
+    Thank you for using our service.
+    here are your LogP predictions.
 
-        Kind regards
-        smpredict team""", 'smpredict', [email_address])
+    Kind regards
+    smpredict team""", 'smpredict', [email_address])
     mail.attach_file('' + conn.eval('getwd()') + '/smlogp_predictions.csv')
     mail.send()

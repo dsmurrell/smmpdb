@@ -65,7 +65,8 @@ def smlogp(request):
 
             return render_to_response(
                 'smlogp.html',
-                {'processing': 'blah blah its processing'},
+                {'processing': """Prediction in progress...
+                                    the result will be emailed to you""", 'show_form': False},
                 context_instance=RequestContext(request)
                 )
     else:
@@ -73,7 +74,7 @@ def smlogp(request):
         form = MoleculeFileForm()
         return render_to_response(
             'smlogp.html',
-            {'form': form},
+            {'form': form, 'show_form': True},
             context_instance=RequestContext(request)
                                  )
 

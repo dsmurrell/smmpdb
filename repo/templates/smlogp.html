@@ -14,11 +14,13 @@
 
         {% block content %}
             {{ processing }}
+            {% if show_form %}
             <form action="{% url 'smlogp' %}" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ form.as_p }}
                 <p><input type="submit" value="Upload" /></p>
             </form>
+            {% endif %}
         {% endblock %}
     </body>
 </html>
