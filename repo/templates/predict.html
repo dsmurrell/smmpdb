@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% load url from future %}
+{% load i18n %}
+
+{% block body_class %}account{% endblock %}
+
+{% block account-active %}class="active"{% endblock %}
+
+{% block content %}
+<div class="container top-buffer-20">
+    <div class="col-md-3 side-block">
+		<div class="tabbable tabs-left">
+            <ul id="sidenav" class="nav nav-pills">
+                <li {% block settings-active %}{% endblock %}><a href="{% url "smlogp" %}">Account <i class="fa fa-angle-right angle-right"></i></a></li>
+                <li {% block change-password-active %}{% endblock %}><a href="{% url "smlogp" %}">Change Password <i class="fa fa-angle-right angle-right"></i></a></li>
+                <li {% block account-delete-active %}{% endblock %}><a href="{% url "smlogp" %}">Delete Account <i class="fa fa-angle-right angle-right"></i></a></li>
+            </ul>
+        </div>
+	</div>
+
+    <div class="col-md-8 tab-content">
+        {% block settings %}
+        {% endblock %}
+    </div>
+</div>
+{% endblock %}
+

@@ -5,3 +5,5 @@ wsgiref==0.1.2
 psycopg2==2.5.2
 pyRserve==0.8.1
 celery==3.1.17
+django-forms-bootstrap==3.0.1
+pinax-theme-bootstrap==5.1.0

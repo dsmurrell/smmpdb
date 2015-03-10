@@ -1,0 +1,71 @@
+{% load i18n %}
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="top-buffer-20 text-center">
+			&copy; 2014 <b><span id="footer-brand" class="magda-clean-font">Coinduit</span></b>
+            <br/>
+            <button id="id_btn_reviews" type="button" class="btn" data-container="body" 
+            data-toggle="popover" data-trigger="click" data-placement="top" title="5 Star Reviews" 
+            data-content='We have had superb reviews so far on Trustpilot. 
+            	<a href="https://www.trustpilot.co.uk/review/coinduit.io" target="_blank">Check them out</a>
+            '>
+  			<span class="fa fa-star"></span>
+            	<span class="fa fa-star"></span>
+            	<span class="fa fa-star"></span>
+            	<span class="fa fa-star"></span>
+            	<span class="fa fa-star"></span>
+			</button>
+			
+			<br/>
+            <a href="mailto:admin@coinduit.io">contact us</a>
+            
+		</div>		
+	</div>
+	<div class="col-md-3">
+		<h4>About Us</h4>
+		<ul class="list-unstyled">
+			<li><a href="{% url "smlogp" %}">About Us</a></li>
+			<li><a href="{% url "smlogp" %}">Terms</a></li>
+			<li><a href="{% url "smlogp" %}">Rates and Limits</a></li>
+			<li><a href="{% url "smlogp" %}">Price Tracker</a></li>
+			<!--<li><a href="{% url "smlogp"%}">Cookies policy</a></li>-->
+		</ul>
+
+	</div>
+	<div class="col-md-3">
+		<h4>Help</h4>
+		<ul class="list-unstyled">
+			<li><a href="{% url "smlogp" %}">What is Bitcoin</a></li>
+			<li><a href="{% url "smlogp" %}">Buy Bitcoin</a></li>
+			<li><a href="{% url "smlogp" %}">Secure Bitcoin</a></li>
+		</ul>
+
+	</div>
+	<div class="col-md-3">
+		<h4>Follow us</h4>
+		<ul class="list-unstyled">
+			<li><a href="http://blog.coinduit.io/">
+					<i class="fa fa-fw fa-comment"></i> Blog
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/coinduit">
+					<i class="fa fa-fw fa-twitter"></i> Twitter
+				</a>
+			</li>
+			<li>
+				<a href="https://www.facebook.com/coinduit.io">
+					<i class="fa fa-fw fa-facebook"></i> Facebook
+				</a>
+			</li>
+			<li>
+				<a href="https://plus.google.com/b/107749521335488401427/+CoinduitIo/posts">
+					<i class="fa fa-fw fa-google-plus"></i> Google+
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!--<a href="https://plus.google.com/b/107749521335488401427/+CoinduitIo/posts" rel="publisher" class="col-md-2 text-center">Google+</a>-->

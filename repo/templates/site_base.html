@@ -1,0 +1,84 @@
+{% extends "theme_base.html" %}
+
+{% load staticfiles %}
+{% load i18n %}
+
+{% block style_base %}
+	<link rel="shortcut icon" href="{% static "favicon.ico" %}" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    {% block extra_style %}{% endblock %}
+{% endblock %}
+
+
+{% block extra_head_base %}
+    <meta name="wot-verification" content="0aff9eab925b711fc975"/>
+    {% block extra_head %}
+    {% endblock %}
+{% endblock %}
+
+{% block topbar_base %}
+    <div class="navbar navbar-default navbar-inverse {% block navbar_class %}navbar-static-top{% endblock %}">
+    	<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<span class="navbar-brand">
+					<a href="{% url "smlogp" %}"><i class="fa fa-home"></i></a>
+						<span id="btc-price-navbar">
+							<a href="{% url "smlogp" %}">
+								Bitcoin Price: £<span id="one_BTC_price">{{one_BTC_in_Pounds}}</span>
+							</a>
+						</span>
+				</span>
+    	</div>
+        {% block topbar %}
+        	<div class="collapse navbar-collapse" id="navbar-collapse">
+                {% block account_bar %}{% include "_account_bar.html" %}{% endblock %}
+            </div>
+        {% endblock %}
+    </div>
+{% endblock %}
+
+{% block body_base %}
+    <section id="content_body">
+    	<div id="body-content-wrapper">
+	        <div class="logo-block">
+	        	<div class="container-fluid">
+		        	<div class="row">
+			            <div class="col-xs-8 col-md-offset-1 col-md-4">
+		                    <a href="{% url "smlogp" %}"><img alt="Coinduit logo" class="img-rounded img-responsive" src="{% static "graphics/coinduit-logo.png" %}"></a>
+			            </div>
+			            <div class="col-xs-4 col-md-3 col-md-offset-3">
+			                <ul id="topnav" class="nav nav-pills nav-justified">
+			                    <li {% block buy-active %}{% endblock %}><a href="{% url "smlogp" %}">Buy</a></li>
+			                    <!--<li {% block sell-active %}{% endblock %}><a href="{% url "smlogp" %}">Sell</a></li>-->
+			                    <li {% block account-active %}{% endblock %}><a href="{% url "smlogp" %}">Account</a></li>
+			                    <li {% block trades-active %}{% endblock %}><a href="{% url "smlogp" %}">Trades</a></li>
+			                </ul>
+			            </div>
+			        </div>
+			     </div>
+	        </div>
+
+		</div>
+    </section>
+{% endblock %}
+
+
+{% block footer_base %}
+	<footer>
+        <div class="container">
+    	{% include "_footer.html" %}
+    	</div>
+    </footer>
+{% endblock %}
+
+
+{% block extra_body_base %}
+    {% block extra_body %}{% endblock %}
+{% endblock %}

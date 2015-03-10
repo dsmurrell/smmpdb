@@ -15,4 +15,7 @@ urlpatterns = patterns('repo.views',
 
 urlpatterns += patterns('',
   (r'^base/$', TemplateView.as_view(template_name="base.html")),
+  (r'^predict/$', TemplateView.as_view(template_name="predict.html")),
+  (r'^$', TemplateView.as_view(template_name="home.html")),
+  (r'^tmp/$', TemplateView.as_view(template_name="tmp.html")),
 )

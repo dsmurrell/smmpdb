@@ -120,6 +120,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'repo',
     'django.contrib.admin',
+    'django_forms_bootstrap',
+    'pinax_theme_bootstrap',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
