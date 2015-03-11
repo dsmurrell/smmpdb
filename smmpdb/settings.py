@@ -8,6 +8,8 @@ try:
 except ImportError as e:
     pass
 
+TEMPLATE_DEBUG = DEBUG
+
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
