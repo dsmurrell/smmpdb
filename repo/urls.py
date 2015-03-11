@@ -4,18 +4,13 @@ from django.conf.urls import patterns, url
 from django.views.generic import TemplateView
 
 urlpatterns = patterns('repo.views',
-                       url(r'^list/$', 'list', name='list'),
+                       url(r'^submit/$', 'submit', name='submit'),
                        url(r'^test/$', 'test', name='test'),
                        url(r'^smlogp/$', 'smlogp', name='smlogp'),
 )
 
-#urlpatterns += patterns('django.views.generic.simple',
-#  url(r'^base/$', 'direct_to_template', {'template': 'base.html'}, name="base"),
-#)
-
 urlpatterns += patterns('',
-  (r'^base/$', TemplateView.as_view(template_name="base.html")),
-  (r'^predict/$', TemplateView.as_view(template_name="predict.html")),
-  (r'^$', TemplateView.as_view(template_name="home.html")),
-  (r'^tmp/$', TemplateView.as_view(template_name="tmp.html")),
+  url(r'^$', TemplateView.as_view(template_name="home.html"), name='home'),
+  url(r'^about/$', TemplateView.as_view(template_name="about.html"), name='about'),
+  url(r'^contact/$', TemplateView.as_view(template_name="contact.html"), name='contact'),
 )

@@ -1,0 +1,180 @@
+"external_id","original_format","original_format_type","value","units","source","measurement_type","reference","is_open","is_predicted"
+1,"toluene","Name",0.57,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+2,"ethanol","Name",3.69,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+3,"cyclohexane","Name",-0.79,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+4,"2-butanone","Name",2.63,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+5,"nitromethane","Name",2.93,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+6,"pentane","Name",-1.71,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+7,"1,4-dioxane","Name",3.71,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+8,"2-methylpentane","Name",-1.84,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+9,"ethylcyclohexane","Name",-1.09,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+10,"2,3,4-trimethylpentane","Name",-1.86,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+11,"2,4-dimethylpentane","Name",-1.89,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+12,"benzene","Name",0.64,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+13,"methanol","Name",3.73,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+14,"1-propanol","Name",3.52,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+15,"4-nitroaniline","Name",7.49,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+16,"acetone","Name",2.79,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+17,"1-butanol","Name",3.44,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+18,"ethyl acetate","Name",2.26,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+19,"chloroform","Name",0.82,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+20,"dichloromethane","Name",0.88,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+21,"2-hydroxybenzoic acid","Name",5.43,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+22,"carbon tetrachloride","Name",-0.05,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+23,"4-hydroxyacetanilide","Name",9.53,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+24,"1-hexanol","Name",3.16,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+25,"2-propanol","Name",3.48,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+26,"acetonitrile","Name",2.85,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+27,"ethylbenzene","Name",0.49,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+28,"3-nitrobenzoic acid","Name",6.93,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+29,"methylcyclohexane","Name",-1.24,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+30,"1-pentanol","Name",3.27,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+31,"4-aminobenzoic acid","Name",6.35,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+32,"butyl acetate","Name",1.94,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+33,"ibuprofen","Name",3.06,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+34,"propyl acetate","Name",2.05,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+35,"chlorobenzene","Name",0.9,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+36,"diclofenac","Name",8.35,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+37,"methyl acetate","Name",2.33,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+38,"1-hexene","Name",-1.23,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+39,"1-heptanol","Name",3.11,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+40,"aniline","Name",4.08,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+41,"pentyl acetate","Name",1.8,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+42,"methyl propionate","Name",2.15,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+43,"naphthalene","Name",1.75,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+44,"phenol","Name",4.87,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+45,"1,2-dichloroethane","Name",1.32,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+46,"o-cresol","Name",4.31,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+47,"2-pentanone","Name",2.47,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+48,"2-hexanone","Name",2.42,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+49,"haloperidol","Name",10.14,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+50,"o-xylene","Name",0.67,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+51,"propane","Name",-1.46,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+52,"butane","Name",-1.59,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+53,"2-heptanone","Name",2.16,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+54,"m-xylene","Name",0.53,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+55,"tetrahydrofuran","Name",2.54,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+56,"acetic acid","Name",5.39,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+57,"pyridine","Name",3.35,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+58,"1-octene","Name",-1.41,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+59,"2-butanol","Name",3.43,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+60,"cyclopentane","Name",-0.89,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+61,"p-xylene","Name",0.55,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+62,"isobutane","Name",-1.69,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+63,"methane","Name",-1.43,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+64,"propionic acid","Name",4.74,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+65,"ethene","Name",-0.97,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+66,"m-cresol","Name",4.45,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+67,"1-chlorobutane","Name",0.17,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+68,"1-heptene","Name",-1.24,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+69,"acetophenone","Name",3.37,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+70,"benzonitrile","Name",2.67,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+71,"diethylamine","Name",2.98,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+72,"dimethylamine","Name",3.14,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+73,"ethane","Name",-1.31,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+74,"1,1,1-trichloroethane","Name",0.15,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+75,"nitrobenzene","Name",3.01,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+76,"triethylamine","Name",2.22,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+77,"biphenyl","Name",1.9,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+78,"bromobenzene","Name",1,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+79,"diethyl ether","Name",1.3,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+80,"methylamine","Name",3.34,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+81,"methylcyclopentane","Name",-1.17,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+82,"N,N-dimethylformamide","Name",5.52,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+83,"1,4-dichlorobenzene","Name",1.01,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+84,"1-octanol","Name",3,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+85,"fluorobenzene","Name",0.59,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+86,"1-nitropropane","Name",2.45,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+87,"2,2,2-trifluoroethanol","Name",3.15,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+88,"butyraldehyde","Name",2.33,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+89,"iodobenzene","Name",1.29,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+90,"1-pentene","Name",-1.21,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+91,"butylbenzene","Name",0.19,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+92,"dipropyl ether","Name",1.05,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+93,"isopentane","Name",-1.76,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+94,"thiophene","Name",0.92,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+95,"2-methylpyridine","Name",3.39,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+96,"3-methylpyridine","Name",3.5,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+97,"3-pentanone","Name",2.44,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+98,"cycloheptane","Name",-0.58,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+99,"cyclohexene","Name",-0.27,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+100,"dipropylamine","Name",2.68,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+101,"1,4-dibromobenzene","Name",1.44,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+102,"nitroethane","Name",2.71,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+103,"tetrahydropyran","Name",2.29,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+104,"2,2-dimethylbutane","Name",-1.79,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+105,"2,3-dimethylbutane","Name",-1.68,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+106,"2-methyl-2-butene","Name",-0.95,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+107,"3-methylpentane","Name",-1.84,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+108,"bromoform","Name",1.66,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+109,"cyclohexanol","Name",3.94,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+110,"cyclopentanone","Name",3.39,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+111,"cyclopropane","Name",-0.65,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+112,"dimethyl ether","Name",1.27,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+113,"ethyl formate","Name",1.8,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+114,"ethylene glycol","Name",5.61,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+115,"methyl formate","Name",2.04,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+116,"1,1-dichloroethane","Name",0.64,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+117,"1,2-dichlorobenzene","Name",1.11,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+118,"n-propyl chloride","Name",0.27,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+119,"piperidine","Name",3.74,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+120,"propionaldehyde","Name",2.52,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+121,"1-decanol","Name",2.71,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+122,"1-nonanol","Name",2.9,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+123,"2-bromo-2-methylpropane","Name",-0.22,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+124,"2-octanone","Name",2.11,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+125,"2-pentanol","Name",3.22,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+126,"4-heptanone","Name",2.65,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+127,"acetaldehyde","Name",2.56,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+128,"chloromethane","Name",0.44,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+129,"dibromomethane","Name",1.47,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+130,"dibutyl ether","Name",0.61,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+131,"ethyl butanoate","Name",1.79,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+132,"ethyl chloride","Name",0.34,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+133,"ethyl propionate","Name",1.99,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+134,"hexanal","Name",2.06,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+135,"1,1,2-trichloroethane","Name",1.47,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+136,"2,2-dimethylpentane","Name",-2.11,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+137,"2,3-dimethylpentane","Name",-1.85,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+138,"2-chloroethanol","Name",4.51,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+139,"2-methyl-2-butanol","Name",3.25,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+140,"2-methylhexane","Name",-2.15,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+141,"2-nitropropane","Name",2.31,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+142,"2-pentene","Name",-0.99,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+143,"3,3-dimethylpentane","Name",-1.88,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+144,"3-methyl-2-butanone","Name",2.4,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+145,"3-methylhexane","Name",-1.83,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+146,"cyclohexanone","Name",3.43,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+147,"cyclopentene","Name",-0.42,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+148,"dibromochloromethane","Name",1.49,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+149,"formic acid","Name",5.17,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+150,"hexyl acetate","Name",1.7,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+151,"isopentyl acetate","Name",1.62,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+152,"isopropyl acetate","Name",1.94,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+153,"1,2,3-trichlorobenzene","Name",1.29,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+154,"1,2-dichloropropane","Name",0.94,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+155,"1,3,5-trimethylbenzene","Name",0.45,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+156,"1-bromobutane","Name",0.45,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+157,"1-bromopropane","Name",0.52,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+158,"propyl formate","Name",1.75,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+159,"pyrrolidine","Name",4.01,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+160,"trans-1,2-dichloroethene","Name",0.78,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+161,"1-chlorohexane","Name",0,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+162,"1-chlorooctane","Name",-0.19,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+163,"1-chloropentane","Name",0.01,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+164,"2-methyl-1-butanol","Name",3.24,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+165,"3-methyl-2-butanol","Name",3.15,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+166,"3-pentanol","Name",3.09,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+167,"4-methyl-2-pentanol","Name",2.74,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+168,"bromochloromethane","Name",1.22,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+169,"pentachloroethane","Name",1.1,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+170,"o-toluidine","Name",4.04,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+171,"isobutylbenzene","Name",-0.14,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+172,"furan","Name",0.66,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+173,"1,1,2,2-tetrachloroethane","Name",1.82,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+174,"1,2,3-trimethylbenzene","Name",0.75,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+175,"1,2,4-trimethylbenzene","Name",0.6,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+176,"1,2-dibromoethane","Name",1.56,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+177,"1,3-dichloropropane","Name",1.4,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+178,"1,4-dichlorobutane","Name",1.7,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE
+179,"1-bromo-4-chlorobenzene","Name",1.23,"log units","Katritzky2005","logS","katritzky_2005",TRUE,FALSE

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from indigo import *
+from indigo.indigo_inchi import *
+from indigo.indigo_renderer import *
 
 from URLFetchingHelpers import url_fix
 import urllib2

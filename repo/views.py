@@ -20,7 +20,7 @@ from django.conf import settings
 from django.core.mail import send_mail
 from django.core.mail import EmailMessage
 
-def list(request):
+def submit(request):
     capture = Capture()
     # make all print statements go to the text field in the capture object
     sys.stdout = capture
@@ -37,17 +37,17 @@ def list(request):
             
             importFromSourceData(source_data)
 
-            # Redirect to the document list after POST
-            #return HttpResponseRedirect(reverse('repo.views.list'))
+            # Redirect to the document submit after POST
+            #return HttpResponseRedirect(reverse('repo.views.submit'))
     else:
         form = SourceDataForm() # A empty, unbound form
         
     # reassign the print statements to the terminal 
     sys.stdout = capture.terminal
 
-    # Render list page with the documents and the form
+    # Render sumbit page with the documents and the form
     return render_to_response(
-        'list.html',
+        'submit.html',
         {'form': form, 'output': capture.text},
         context_instance=RequestContext(request)
     )
@@ -65,8 +65,8 @@ def smlogp(request):
 
             return render_to_response(
                 'smlogp.html',
-                {'processing': """Prediction in progress...
-                                    the result will be emailed to you""", 'show_form': False},
+                {'processing': """LogP prediction in progress........
+                                    results will be emailed to you.""", 'show_form': False},
                 context_instance=RequestContext(request)
                 )
     else:
@@ -112,7 +112,7 @@ def test(request):
     # reassign the print statements to the terminal 
     sys.stdout = capture.terminal
 
-    # Render list page with the documents and the form
+    # Render test page with the documents and the form
     return render_to_response(
         'test.html',
         {'form': form, 'output': capture.text},

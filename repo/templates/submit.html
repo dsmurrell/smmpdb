@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load bootstrap_tags %}
+
+{% block title %}SMMPDB - Submit Data{% endblock %}
+
+
+{% block jumbo %}
+  <div class="jumbotron">
+      <h2>Data Submission</h2>
+      <p class="lead" style="color:black">Please make sure that your data is in the correct format as stipulated here...</p>
+      <img src="/static/images/upload.png" style="width:128px;height:128px">
+  </div>
+
+  <form action="{% url 'submit' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_table }}
+      <p><input type="submit" value="Upload" /></p>
+  </form>
+
+  <textarea rows="10" cols="105" readonly>{{ output }}</textarea>
+{% endblock %}

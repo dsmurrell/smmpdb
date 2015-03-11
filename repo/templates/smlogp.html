@@ -1,26 +1,35 @@
 {% extends "base.html" %}
 {% load staticfiles %}
+{% load bootstrap_tags %}
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Upload Pane</title>   
-    </head>
-    <body>
-        {% block heading %}
-        Predict LogP
-        {% endblock %}
+{% block title %}SMMPDB - Predict LogP{% endblock %}
 
-        {% block content %}
-            {{ processing }}
-            {% if show_form %}
-            <form action="{% url 'smlogp' %}" method="post" enctype="multipart/form-data">
-                {% csrf_token %}
-                {{ form.as_p }}
-                <p><input type="submit" value="Upload" /></p>
-            </form>
-            {% endif %}
-        {% endblock %}
-    </body>
-</html>
+
+{% block jumbo %}
+  <div class="jumbotron">
+      <h2>LogP Prediction</h2>
+      <!--<p class="lead" style="color:black">A collection of measuered physico-chemical property datasets collected from literature together with physico-chemical prediction tools.</p>-->
+      <img src="/static/images/cogs.png" style="width:340px;height:140px">
+
+      <form action="PageObjects" method="get">
+           <select >
+            <option selected="selected" disabled>Objects on page:</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+           </select>
+           <input type="submit" value="Select">
+      </form>
+  </div>
+
+  <h3>{{ processing }}</h3>
+  {% if show_form %}
+  <form action="{% url 'smlogp' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <p><input type="submit" value="Upload" /></p>
+  </form>
+  {% endif %}
+{% endblock %}
