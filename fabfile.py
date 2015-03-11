@@ -16,6 +16,7 @@ def deploy():
         run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && git pull https://github.com/dsmurrell/smmpdb.git')
         run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && sudo pip install -r requirements.txt')
         run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && python manage.py migrate')
+        run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && python manage.py collectstatic')
         #run('sudo pkill celery') this doesn't work... have to restart celery manually :(
         #run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && celery -A smmpdb worker -l info &')
         run('source /home/dsm38/.virtualenvs/smmpdb/bin/activate && sudo /etc/init.d/apache2 restart')
