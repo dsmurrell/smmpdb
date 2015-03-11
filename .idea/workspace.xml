@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/smlogp.html" afterPath="$PROJECT_DIR$/repo/templates/smlogp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/submit.html" afterPath="$PROJECT_DIR$/repo/templates/submit.html" />
     </list>
     <ignored path="smmpdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,22 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="34" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="submit.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/templates/submit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="390">
+            <state line="10" column="28" selection-start="332" selection-end="332" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="390">
               <folding>
                 <element signature="e#201#220#0" expanded="true" />
-                <element signature="e#347#379#0" expanded="true" />
+                <element signature="e#352#384#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,6 +42,15 @@
         <entry file="file://$PROJECT_DIR$/smmpdb/settings_local.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="0" selection-start="504" selection-end="814" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.5212766" vertical-offset="332" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -105,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="1" selection-start="72" selection-end="72" vertical-scroll-proportion="0.09667025" vertical-offset="0" max-vertical-offset="931">
+            <state line="7" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -165,14 +165,14 @@
         <option value="$PROJECT_DIR$/repo/urls.py" />
         <option value="$PROJECT_DIR$/myindigo/MyIndigo.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/repo/templates/smlogp.html" />
         <option value="$PROJECT_DIR$/unused/unused.py" />
-        <option value="$PROJECT_DIR$/repo/templates/submit.html" />
         <option value="$PROJECT_DIR$/repo/templates/base.html" />
         <option value="$PROJECT_DIR$/repo/templates/home.html" />
         <option value="$PROJECT_DIR$/smmpdb/settings_local.py" />
         <option value="$PROJECT_DIR$/smmpdb/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/repo/templates/submit.html" />
+        <option value="$PROJECT_DIR$/repo/templates/smlogp.html" />
       </list>
     </option>
   </component>
@@ -567,6 +567,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25964546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21360382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -577,7 +578,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25985843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -854,13 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="0.016538037" vertical-offset="0" max-vertical-offset="907">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unused/unused.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="30" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
@@ -868,33 +861,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/submit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="390">
-          <folding>
-            <element signature="e#201#220#0" expanded="true" />
-            <element signature="e#347#379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="4" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="723" selection-end="723" vertical-scroll-proportion="0.19977298" vertical-offset="109" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="581" selection-end="581" vertical-scroll-proportion="0.30646992" vertical-offset="0" max-vertical-offset="881">
           <folding />
         </state>
       </provider>
@@ -915,7 +884,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="72" selection-end="72" vertical-scroll-proportion="0.09667025" vertical-offset="0" max-vertical-offset="931">
+        <state line="7" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/submit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="332" selection-end="332" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="390">
+          <folding>
+            <element signature="e#201#220#0" expanded="true" />
+            <element signature="e#352#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="397" selection-end="397" vertical-scroll-proportion="0.25075987" vertical-offset="0" max-vertical-offset="658">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="436" selection-end="436" vertical-scroll-proportion="0.25075987" vertical-offset="0" max-vertical-offset="658">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.5212766" vertical-offset="332" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
