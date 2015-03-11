@@ -108,7 +108,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="62" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.016111707" vertical-offset="150" max-vertical-offset="3120">
+            <state line="116" column="27" selection-start="3634" selection-end="3634" vertical-scroll-proportion="0.773362" vertical-offset="1020" max-vertical-offset="3000">
               <folding />
             </state>
           </provider>
@@ -913,7 +913,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="62" selection-start="368" selection-end="368" vertical-scroll-proportion="-0.016111707" vertical-offset="150" max-vertical-offset="3120">
+        <state line="116" column="27" selection-start="3634" selection-end="3634" vertical-scroll-proportion="0.773362" vertical-offset="1020" max-vertical-offset="3000">
           <folding />
         </state>
       </provider>
