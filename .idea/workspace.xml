@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smmpdb/settings.py" afterPath="$PROJECT_DIR$/smmpdb/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -109,7 +108,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="4" selection-start="3766" selection-end="3766" vertical-scroll-proportion="0.6680988" vertical-offset="1208" max-vertical-offset="3015">
+            <state line="122" column="30" selection-start="3792" selection-end="3792" vertical-scroll-proportion="0.6680988" vertical-offset="1208" max-vertical-offset="3015">
               <folding />
             </state>
           </provider>
@@ -935,7 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="4" selection-start="3766" selection-end="3766" vertical-scroll-proportion="0.6680988" vertical-offset="1208" max-vertical-offset="3015">
+        <state line="122" column="30" selection-start="3792" selection-end="3792" vertical-scroll-proportion="0.6680988" vertical-offset="1208" max-vertical-offset="3015">
           <folding />
         </state>
       </provider>
