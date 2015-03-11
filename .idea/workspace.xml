@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smmpdb/settings.py" afterPath="$PROJECT_DIR$/smmpdb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smmpdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,7 +107,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="211" selection-end="211" vertical-scroll-proportion="0.21994135" vertical-offset="0" max-vertical-offset="2985">
+            <state line="13" column="10" selection-start="236" selection-end="236" vertical-scroll-proportion="0.28592375" vertical-offset="0" max-vertical-offset="3000">
               <folding />
             </state>
           </provider>
@@ -570,7 +569,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25964546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21360382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21360382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -919,7 +918,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="211" selection-end="211" vertical-scroll-proportion="0.21994135" vertical-offset="0" max-vertical-offset="2985">
+        <state line="13" column="10" selection-start="236" selection-end="236" vertical-scroll-proportion="0.28592375" vertical-offset="0" max-vertical-offset="3000">
           <folding />
         </state>
       </provider>

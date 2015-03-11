@@ -8,6 +8,7 @@ try:
 except ImportError as e:
     pass
 
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
