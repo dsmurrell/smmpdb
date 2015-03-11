@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smmpdb/settings.py" afterPath="$PROJECT_DIR$/smmpdb/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/smlogp.html" afterPath="$PROJECT_DIR$/repo/templates/smlogp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unused/unused.py" afterPath="$PROJECT_DIR$/unused/unused.py" />
     </list>
     <ignored path="smmpdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,6 +43,15 @@
                 <element signature="e#227#246#0" expanded="true" />
                 <element signature="e#373#405#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unused.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unused/unused.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="22" selection-start="1615" selection-end="1629" vertical-scroll-proportion="0.75725025" vertical-offset="0" max-vertical-offset="931">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,15 +114,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="30" selection-start="3792" selection-end="3792" vertical-scroll-proportion="0.6680988" vertical-offset="1208" max-vertical-offset="3015">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="jumbotron-narrow.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/static/css/jumbotron-narrow.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,7 +141,6 @@
         <option value="$PROJECT_DIR$/smmpdb/urls.py" />
         <option value="$PROJECT_DIR$/repo/templates/test.html" />
         <option value="$PROJECT_DIR$/repo/templates/list.html" />
-        <option value="$PROJECT_DIR$/unused/unused.py" />
         <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/repo/models.py" />
         <option value="$PROJECT_DIR$/repo/templates/smlogp_calc.html" />
@@ -165,13 +164,14 @@
         <option value="$PROJECT_DIR$/repo/templates/base.html" />
         <option value="$PROJECT_DIR$/repo/forms.py" />
         <option value="$PROJECT_DIR$/repo/static/css/jumbotron-narrow.css" />
-        <option value="$PROJECT_DIR$/repo/templates/smlogp.html" />
         <option value="$PROJECT_DIR$/repo/views.py" />
         <option value="$PROJECT_DIR$/repo/urls.py" />
         <option value="$PROJECT_DIR$/repo/templates/submit.html" />
         <option value="$PROJECT_DIR$/myindigo/MyIndigo.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/smmpdb/settings.py" />
+        <option value="$PROJECT_DIR$/repo/templates/smlogp.html" />
+        <option value="$PROJECT_DIR$/unused/unused.py" />
       </list>
     </option>
   </component>
@@ -221,6 +221,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unused" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -694,11 +708,6 @@
         <state line="38" column="44" selection-start="1128" selection-end="1128" vertical-scroll-proportion="0.13178295" vertical-offset="335" max-vertical-offset="3225" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unused/unused.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="352" selection-end="352" vertical-scroll-proportion="0.27906978" vertical-offset="0" max-vertical-offset="765" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../libraries/python/General/General.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645" />
@@ -860,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1187" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="34" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
@@ -935,6 +937,20 @@
     <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="122" column="30" selection-start="3792" selection-end="3792" vertical-scroll-proportion="0.6680988" vertical-offset="1208" max-vertical-offset="3015">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="0.016538037" vertical-offset="0" max-vertical-offset="907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unused/unused.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="22" selection-start="1615" selection-end="1629" vertical-scroll-proportion="0.75725025" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>

@@ -43,3 +43,6 @@ def smlogp_file_upload(request):
         {'form': form, 'output': capture.text},
         context_instance=RequestContext(request)
     )
+
+# comes from smlogp.html
+{% load bootstrap_tags %}
