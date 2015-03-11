@@ -1,7 +1,7 @@
 # Django settings for smmpdb project.
 
 MEDIA_ROOT = '/var/www/smmpdb/media'
-STATIC_ROOT = "/var/www/smmpdb/static/"
+STATIC_ROOT = '/var/www/smmpdb/static'
 
 try:
     from settings_local import *
