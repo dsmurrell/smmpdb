@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/templates/_account_bar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/templates/_footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/templates/base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/templates/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/templates/site_base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/repo/templates/theme_base.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myindigo/MyIndigo.py" afterPath="$PROJECT_DIR$/myindigo/MyIndigo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/forms.py" afterPath="$PROJECT_DIR$/repo/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/home.html" afterPath="$PROJECT_DIR$/repo/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/static/css/jumbotron-narrow.css" afterPath="$PROJECT_DIR$/repo/static/css/jumbotron-narrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/smlogp.html" afterPath="$PROJECT_DIR$/repo/templates/smlogp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/urls.py" afterPath="$PROJECT_DIR$/repo/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/views.py" afterPath="$PROJECT_DIR$/repo/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smmpdb/settings.py" afterPath="$PROJECT_DIR$/smmpdb/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smmpdb.iws" />
@@ -59,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyIndigo.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyIndigo.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myindigo/MyIndigo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="217" selection-end="217" vertical-scroll-proportion="0.16111708" vertical-offset="0" max-vertical-offset="5910">
+            <state line="10" column="4" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5910">
               <folding>
                 <element signature="e#25#58#0" expanded="true" />
               </folding>
@@ -108,19 +96,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/templates/about.html">
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/templates/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="3" column="0" selection-start="50" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/templates/contact.html">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="50" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
+            <state line="123" column="5" selection-start="3798" selection-end="3798" vertical-scroll-proportion="0.68421054" vertical-offset="1208" max-vertical-offset="3015">
               <folding />
             </state>
           </provider>
@@ -169,8 +157,6 @@
         <option value="$PROJECT_DIR$/repo/templates/_account_bar.html" />
         <option value="$PROJECT_DIR$/repo/templates/site_base.html" />
         <option value="$PROJECT_DIR$/repo/templates/_footer.html" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/smmpdb/settings.py" />
         <option value="$PROJECT_DIR$/repo/static/static/css/jumbotron-narrow.css" />
         <option value="$PROJECT_DIR$/repo/templates/tmp.html" />
         <option value="$PROJECT_DIR$/repo/templates/about.html" />
@@ -184,6 +170,8 @@
         <option value="$PROJECT_DIR$/repo/urls.py" />
         <option value="$PROJECT_DIR$/repo/templates/submit.html" />
         <option value="$PROJECT_DIR$/myindigo/MyIndigo.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/smmpdb/settings.py" />
       </list>
     </option>
   </component>
@@ -680,9 +668,7 @@
     <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="26" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="540">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -818,11 +804,6 @@
         <state line="20" column="21" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="127" selection-end="127" vertical-scroll-proportion="0.109261185" vertical-offset="0" max-vertical-offset="961" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/predict.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="38" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="525">
@@ -865,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="11" selection-start="4786" selection-end="4786" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="3015">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/static/css/jumbotron-narrow.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="20" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="569" max-vertical-offset="1665">
@@ -889,9 +863,7 @@
     <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="1187" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -946,10 +918,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myindigo/MyIndigo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="217" selection-end="217" vertical-scroll-proportion="0.16111708" vertical-offset="0" max-vertical-offset="5910">
+        <state line="10" column="4" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5910">
           <folding>
             <element signature="e#25#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="161" selection-end="161" vertical-scroll-proportion="0.12889366" vertical-offset="0" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="5" selection-start="3798" selection-end="3798" vertical-scroll-proportion="0.68421054" vertical-offset="1208" max-vertical-offset="3015">
+          <folding />
         </state>
       </provider>
     </entry>
