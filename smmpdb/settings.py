@@ -1,6 +1,7 @@
 # Django settings for smmpdb project.
 
 MEDIA_ROOT = '/var/www/smmpdb/media'
+STATIC_ROOT = "/var/www/smmpdb/static/"
 
 try:
     from settings_local import *
@@ -62,8 +63,6 @@ MEDIA_URL = '/media/'
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
 STATIC_URL = '/static/'
-
-STATIC_ROOT = "/Users/daniel/Dropbox/projects/smmpdb/static"
 
 # List of finder classes that know how to find static files in
 # various locations.
