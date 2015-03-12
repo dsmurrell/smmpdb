@@ -6,6 +6,12 @@ body {
   color: #000000;
 }
 
+.basic
+{
+  width: 100px;
+  height: 100px;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,

@@ -1,29 +1,27 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
-{% load url from future %}
-{% load i18n %}
+{% block title %}SMMPDB - Predict{% endblock %}
 
-{% block body_class %}account{% endblock %}
+{% block predict-active %}class="active"{% endblock %}
 
-{% block account-active %}class="active"{% endblock %}
+{% block jumbo %}
+  <div class="jumbotron">
+      <h2>Physico-chemical Property Prediction</h2>
+      <!--<p class="lead" style="color:black">A collection of measuered physico-chemical property datasets collected from literature together with physico-chemical prediction tools.</p>-->
+      <img src="/static/repo/images/molecule_2.png" style="width:180px;height:180px">
+      <img src="/static/repo/images/right_arrow.png" style="width:80px;height:80px">
+      <img src="/static/repo/images/real_number.png" style="width:100px;height:100px">
+  </div>
+{% endblock %}
 
 {% block content %}
-<div class="container top-buffer-20">
-    <div class="col-md-3 side-block">
-		<div class="tabbable tabs-left">
-            <ul id="sidenav" class="nav nav-pills">
-                <li {% block settings-active %}{% endblock %}><a href="{% url "smlogp" %}">Account <i class="fa fa-angle-right angle-right"></i></a></li>
-                <li {% block change-password-active %}{% endblock %}><a href="{% url "smlogp" %}">Change Password <i class="fa fa-angle-right angle-right"></i></a></li>
-                <li {% block account-delete-active %}{% endblock %}><a href="{% url "smlogp" %}">Delete Account <i class="fa fa-angle-right angle-right"></i></a></li>
-            </ul>
-        </div>
-	</div>
-
-    <div class="col-md-8 tab-content">
-        {% block settings %}
-        {% endblock %}
-    </div>
-</div>
+  <div class="row marketing">
+    <a href="{% url 'smlogp' %}"><img src="/static/repo/images/logp_button.png" style="width:133px;height:68px"></a>
+    <a href="{% url 'smlogp' %}"><img src="/static/repo/images/logp_button.png" style="width:133px;height:68px"></a>
+    <a href="{% url 'smlogp' %}"><img src="/static/repo/images/logp_button.png" style="width:133px;height:68px"></a>
+    <a href="{% url 'smlogp' %}"><img src="/static/repo/images/logp_button.png" style="width:133px;height:68px"></a>
+    <a href="{% url 'smlogp' %}"><img src="/static/repo/images/logp_button.png" style="width:133px;height:68px"></a>
+  </div>
 {% endblock %}
 
