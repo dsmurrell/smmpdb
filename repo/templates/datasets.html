@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}SMMPDB - Datasets{% endblock %}
+
+{% block datasets-active %}class="active"{% endblock %}
+
+{% block jumbo %}
+  <div class="jumbotron">
+      <h2>Measured Property Datasets</h2>
+      <!--<p class="lead" style="color:black">A collection of measuered physico-chemical property datasets collected from literature together with physico-chemical prediction tools.</p>-->
+      <img src="/static/repo/images/draws.png" style="width:300px;height:150px">
+  </div>
+{% endblock %}
+
+{% block content %}
+  <div class="row marketing">
+    <table class="table table-bordered table-striped table-hover">
+			<tbody>
+        <tr>
+            <th class="text-center">T1</th>
+            <th class="text-center">T2</th>
+            <th class="text-center">T3</th>
+            <th class="text-center">T4</th>
+        </tr>
+        {% for source in sources %}
+           <tr>
+              <td class="text-center">{{source.name}}</td>
+              <td class="text-center"></td>
+              <td class="text-center"></td>
+              <td class="text-center"></td>
+            </tr>
+        {% endfor %}
+      </tbody>
+		</table>
+  </div>
+{% endblock %}
+

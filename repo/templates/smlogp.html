@@ -4,6 +4,8 @@
 {% block title %}SMMPDB - Predict LogP{% endblock %}
 
 
+{% block predict-active %}class="active"{% endblock %}
+
 {% block jumbo %}
   <div class="jumbotron">
       <h2>LogP Prediction</h2>
@@ -25,12 +27,12 @@
       -->
   </div>
 
-  <h3>{{ processing }}</h3>
+  {{ processing }}
   {% if show_form %}
   <form action="{% url 'smlogp' %}" method="post" enctype="multipart/form-data">
       {% csrf_token %}
       {{ form.as_p }}
-      <p><input src="/static/repo/images/upload_button.png" type="image" value="Upload" /></p>
+      <p><input src="/static/repo/images/upload_button.png" style="width:95px;height:35px" type="image" value="Upload" /></p>
   </form>
   {% endif %}
 {% endblock %}

@@ -11,11 +11,14 @@
       <img src="/static/repo/images/upload.png" style="width:128px;height:128px">
   </div>
 
-  <form action="{% url 'submit' %}" method="post" enctype="multipart/form-data">
-      {% csrf_token %}
-      {{ form.as_table }}
-      <p><input type="submit" value="Upload" /></p>
-  </form>
+  {{ processing }}
+  {% if show_form %}
+    <form action="{% url 'submit' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_table }}
+        <p><input type="submit" value="Upload" /></p>
+    </form>
+  {% endif %}
 
-  <textarea rows="10" cols="105" readonly>{{ output }}</textarea>
+  <!--<textarea rows="10" cols="105" readonly>{{ output }}</textarea>-->
 {% endblock %}

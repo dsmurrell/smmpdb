@@ -7,6 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 
     <title>{% block title %}{% endblock %}</title>
 
@@ -34,7 +36,7 @@
         <nav>
           <ul class="nav nav-pills pull-right green">
             <li {% block home-active %}{% endblock %}><a href="{% url 'home' %}">Home</a></li>
-            <li {% block datasets-active %}{% endblock %}><a href="{% url 'predict' %}">Datasets</a></li>
+            <li {% block datasets-active %}{% endblock %}><a href="{% url 'datasets' %}">Datasets</a></li>
             <li {% block predict-active %}{% endblock %}><a href="{% url 'predict' %}">Predict</a></li>
             <li {% block about-active %}{% endblock %}><a href="{% url 'about' %}">About</a></li>
             <li {% block contact-active %}{% endblock %}><a href="{% url 'contact' %}">Contact</a></li>

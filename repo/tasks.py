@@ -3,6 +3,9 @@ from __future__ import absolute_import
 from celery import shared_task, app, task
 from celery.utils.log import get_task_logger
 
+from utils import importFromSourceData, Capture
+import sys
+
 logger = get_task_logger('repo')
 
 import pyRserve
@@ -23,10 +26,20 @@ def predict_logp(molecule_file_path, email_address):
     mail = EmailMessage('Your LogP Predictions',
     """Dear User
 
-    Thank you for using our service.
-    here are your LogP predictions.
+Thank you for using our service.
+here are your LogP predictions.
 
-    Kind regards
-    smpredict team""", 'smpredict', [email_address])
+Kind regards
+smpredict team""", 'smpredict', [email_address])
     mail.attach_file('' + conn.eval('getwd()') + '/smlogp_predictions.csv')
     mail.send()
+
+@task
+def import_task(source_data):
+    capture = Capture()
+    sys.stdout = capture
+    importFromSourceData(source_data)
+    mail = EmailMessage('Data submission report',
+    capture.text, 'smpredict', ['daniel.murrell@cantab.net'])
+    mail.send()
+

@@ -17,13 +17,13 @@
 {% block content %}
     <div class="row marketing">
       <div class="col-lg-6">
-        <h4>Measured Property Datasets</h4>
-        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+        <a href="{% url 'datasets' %}" style="color: #000000;text-decoration: none; outline: 0"><h4><i class="fa fa-bars"></i>  Measured Property Datasets</h4></a>
+        <p>Measured property data collected from the literature.</p>
       </div>
 
       <div class="col-lg-6">
-        <h4>Property Prediction</h4>
-        <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+        <a href="{% url 'predict' %}" style="color: #000000;text-decoration: none; outline: 0"><h4><i class="fa fa-cogs"></i>  Property Prediction</h4></a>
+        <p>Make predictions for physchem-properties. Get back perdicted value and an estimation of the error of the prediction.</p>
       </div>
     </div>
  {% endblock %}

@@ -1,54 +1,25 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from tasks import predict_logp
+from tasks import predict_logp, import_task
 
 import logging
 logger = logging.getLogger('repo')
 
-from django.http import HttpResponseRedirect
-from django.core.urlresolvers import reverse
-from django.conf import settings
-import subprocess
-
-from repo.models import SourceData, MoleculeFile
+from repo.models import SourceData
 from repo.forms import *
 
 from utils import *
 
 from django.conf import settings
-from django.core.mail import send_mail
-from django.core.mail import EmailMessage
 
-def submit(request):
-    capture = Capture()
-    # make all print statements go to the text field in the capture object
-    sys.stdout = capture
-    
-    # Handle file upload
-    if request.method == 'POST':
-        form = SourceDataForm(request.POST, request.FILES)
-        if form.is_valid():
-            source_data = SourceData(smiles_file = request.FILES['smiles_file'], meta_file = request.FILES['meta_file'])
-            source_data.save()
-            
-            print source_data.smiles_file
-            print source_data.meta_file
-            
-            importFromSourceData(source_data)
-
-            # Redirect to the document submit after POST
-            #return HttpResponseRedirect(reverse('repo.views.submit'))
-    else:
-        form = SourceDataForm() # A empty, unbound form
-        
-    # reassign the print statements to the terminal 
-    sys.stdout = capture.terminal
-
-    # Render sumbit page with the documents and the form
+def datasets(request):
+    sources = Source.objects.all()
+    for source in sources:
+        print source.name
     return render_to_response(
-        'submit.html',
-        {'form': form, 'output': capture.text},
+        'datasets.html',
+        {'sources': sources},
         context_instance=RequestContext(request)
     )
 
@@ -70,13 +41,37 @@ def smlogp(request):
                 context_instance=RequestContext(request)
                 )
     else:
-        logger.debug("this is a debug message!")
         form = MoleculeFileForm()
         return render_to_response(
             'smlogp.html',
             {'form': form, 'show_form': True},
             context_instance=RequestContext(request)
-                                 )
+        )
+
+def submit(request):
+    if request.method == 'POST':
+        form = SourceDataForm(request.POST, request.FILES)
+        if form.is_valid():
+            source_data = SourceData(smiles_file = request.FILES['smiles_file'], meta_file = request.FILES['meta_file'])
+            source_data.save()
+
+            print source_data.smiles_file
+            print source_data.meta_file
+
+            import_task.delay(source_data)
+
+            return render_to_response(
+                'submit.html',
+                {'processing': 'Thank you for your submission... if anything unexpected happened you will be contacted.', 'show_form': False},
+                context_instance=RequestContext(request)
+            )
+    else:
+        form = SourceDataForm()
+        return render_to_response(
+            'submit.html',
+            {'form': form, 'show_form': True},
+            context_instance=RequestContext(request)
+        )
 
 def test(request):
     capture = Capture()
