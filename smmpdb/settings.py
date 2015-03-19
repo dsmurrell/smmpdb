@@ -28,6 +28,18 @@ DATABASES = {
     }
 }
 
+# to export to mysql so that a nice diagram can be drawn
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'NAME': 'smmpdb',
+#        'USER': 'root',
+#        'PASSWORD': 'leaves',
+#        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+#        'PORT': '3306',
+#    }
+#}
+
 # Hosts/domain names that are valid for this site; required if DEBUG is False
 # See https://docs.djangoproject.com/en/1.5/ref/settings/#allowed-hosts
 ALLOWED_HOSTS = []

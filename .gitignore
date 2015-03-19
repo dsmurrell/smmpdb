@@ -5,3 +5,4 @@ taillog
 smmpdb/settings_local.py
 repo.log
 /static/
+/media/

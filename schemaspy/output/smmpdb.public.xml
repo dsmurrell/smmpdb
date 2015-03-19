@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database name="smmpdb" schema="public" type="PostgreSQL - 9.4.0">
+   <tables>
+      <table name="auth_group" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('auth_group_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="group_id" foreignKey="auth_group_permissio_group_id_689710a9a73b7457_fk_auth_group_id" implied="false" onDeleteCascade="false" table="auth_group_permissions"/>
+            <child column="group_id" foreignKey="auth_user_groups_group_id_33ac548dcf5f8e37_fk_auth_group_id" implied="false" onDeleteCascade="false" table="auth_user_groups"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="name" nullable="false" remarks="" size="80" type="varchar"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="auth_group_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="auth_group_name_key" unique="true">
+            <column ascending="true" name="name"/>
+         </index>
+      </table>
+      <table name="auth_group_permissions" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('auth_group_permissions_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
+         <column autoUpdated="false" digits="0" id="1" name="group_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="auth_group_permissio_group_id_689710a9a73b7457_fk_auth_group_id" implied="false" onDeleteCascade="false" table="auth_group"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="permission_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="auth_group_permission_id_1f49ccbbdc69d2fc_fk_auth_permission_id" implied="false" onDeleteCascade="false" table="auth_permission"/>
+         </column>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="auth_group_permissions_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="auth_group_permissions_0e939a4f" unique="false">
+            <column ascending="true" name="group_id"/>
+         </index>
+         <index name="auth_group_permissions_8373b171" unique="false">
+            <column ascending="true" name="permission_id"/>
+         </index>
+         <index name="auth_group_permissions_group_id_permission_id_key" unique="true">
+            <column ascending="true" name="group_id"/>
+            <column ascending="true" name="permission_id"/>
+         </index>
+      </table>
+      <table name="auth_permission" numRows="54" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('auth_permission_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="permission_id" foreignKey="auth_group_permission_id_1f49ccbbdc69d2fc_fk_auth_permission_id" implied="false" onDeleteCascade="false" table="auth_group_permissions"/>
+            <child column="permission_id" foreignKey="auth_user__permission_id_384b62483d7071f0_fk_auth_permission_id" implied="false" onDeleteCascade="false" table="auth_user_user_permissions"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="name" nullable="false" remarks="" size="50" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="content_type_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="auth_content_type_id_508cf46651277a81_fk_django_content_type_id" implied="false" onDeleteCascade="false" table="django_content_type"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="3" name="codename" nullable="false" remarks="" size="100" type="varchar"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="auth_permission_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="auth_permission_417f1b1c" unique="false">
+            <column ascending="true" name="content_type_id"/>
+         </index>
+         <index name="auth_permission_content_type_id_codename_key" unique="true">
+            <column ascending="true" name="content_type_id"/>
+            <column ascending="true" name="codename"/>
+         </index>
+      </table>
+      <table name="auth_user" numRows="1" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('auth_user_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="user_id" foreignKey="auth_user_groups_user_id_4b5ed4ffdb8fd9b0_fk_auth_user_id" implied="false" onDeleteCascade="false" table="auth_user_groups"/>
+            <child column="user_id" foreignKey="auth_user_user_permiss_user_id_7f0938558328534a_fk_auth_user_id" implied="false" onDeleteCascade="false" table="auth_user_user_permissions"/>
+            <child column="user_id" foreignKey="django_admin_log_user_id_52fdd58701c5f563_fk_auth_user_id" implied="false" onDeleteCascade="false" table="django_admin_log"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="password" nullable="false" remarks="" size="128" type="varchar"/>
+         <column autoUpdated="false" digits="6" id="2" name="last_login" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="3" name="is_superuser" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="false" digits="0" id="4" name="username" nullable="false" remarks="" size="30" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="5" name="first_name" nullable="false" remarks="" size="30" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="6" name="last_name" nullable="false" remarks="" size="30" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="7" name="email" nullable="false" remarks="" size="75" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="8" name="is_staff" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="false" digits="0" id="9" name="is_active" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="false" digits="6" id="10" name="date_joined" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="auth_user_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="auth_user_username_key" unique="true">
+            <column ascending="true" name="username"/>
+         </index>
+      </table>
+      <table name="auth_user_groups" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('auth_user_groups_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
+         <column autoUpdated="false" digits="0" id="1" name="user_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="auth_user_groups_user_id_4b5ed4ffdb8fd9b0_fk_auth_user_id" implied="false" onDeleteCascade="false" table="auth_user"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="group_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="auth_user_groups_group_id_33ac548dcf5f8e37_fk_auth_group_id" implied="false" onDeleteCascade="false" table="auth_group"/>
+         </column>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="auth_user_groups_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="auth_user_groups_0e939a4f" unique="false">
+            <column ascending="true" name="group_id"/>
+         </index>
+         <index name="auth_user_groups_e8701ad4" unique="false">
+            <column ascending="true" name="user_id"/>
+         </index>
+         <index name="auth_user_groups_user_id_group_id_key" unique="true">
+            <column ascending="true" name="user_id"/>
+            <column ascending="true" name="group_id"/>
+         </index>
+      </table>
+      <table name="auth_user_user_permissions" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('auth_user_user_permissions_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
+         <column autoUpdated="false" digits="0" id="1" name="user_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="auth_user_user_permiss_user_id_7f0938558328534a_fk_auth_user_id" implied="false" onDeleteCascade="false" table="auth_user"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="permission_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="auth_user__permission_id_384b62483d7071f0_fk_auth_permission_id" implied="false" onDeleteCascade="false" table="auth_permission"/>
+         </column>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="auth_user_user_permissions_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="auth_user_user_permissions_8373b171" unique="false">
+            <column ascending="true" name="permission_id"/>
+         </index>
+         <index name="auth_user_user_permissions_e8701ad4" unique="false">
+            <column ascending="true" name="user_id"/>
+         </index>
+         <index name="auth_user_user_permissions_user_id_permission_id_key" unique="true">
+            <column ascending="true" name="user_id"/>
+            <column ascending="true" name="permission_id"/>
+         </index>
+      </table>
+      <table name="compound" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('compound_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="compound_id" foreignKey="measurement_set_compound_id_fkey" implied="false" onDeleteCascade="false" table="measurement_set"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="SMILES" nullable="false" remarks="" size="600" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="InChI" nullable="false" remarks="" size="600" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="InChI_key" nullable="false" remarks="" size="81" type="varchar"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="compound_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="compound_SMILES" unique="false">
+            <column ascending="true" name="SMILES"/>
+         </index>
+         <index name="compound_SMILES_like" unique="false">
+            <column ascending="true" name="SMILES"/>
+         </index>
+      </table>
+      <table name="condition" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('condition_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="condition_id" foreignKey="condition_has_measurement_set_condition_id_fkey" implied="false" onDeleteCascade="false" table="condition_has_measurement_set"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="description" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="6" id="2" name="value" nullable="true" remarks="" size="14" type="numeric"/>
+         <column autoUpdated="false" digits="0" id="3" name="condition_type_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="condition_condition_type_id_fkey" implied="false" onDeleteCascade="false" table="condition_type"/>
+         </column>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="condition_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="condition_condition_type_id" unique="false">
+            <column ascending="true" name="condition_type_id"/>
+         </index>
+      </table>
+      <table name="condition_has_measurement_set" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('condition_has_measurement_set_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
+         <column autoUpdated="false" digits="0" id="1" name="condition_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="condition_has_measurement_set_condition_id_fkey" implied="false" onDeleteCascade="false" table="condition"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="2" name="measurement_set_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="condition_has_measurement_set_measurement_set_id_fkey" implied="false" onDeleteCascade="false" table="measurement_set"/>
+         </column>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="condition_has_measurement_set_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="condition_has_measurement_set_condition_id" unique="false">
+            <column ascending="true" name="condition_id"/>
+         </index>
+         <index name="condition_has_measurement_set_measurement_set_id" unique="false">
+            <column ascending="true" name="measurement_set_id"/>
+         </index>
+      </table>
+      <table name="condition_type" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('condition_type_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="condition_type_id" foreignKey="condition_condition_type_id_fkey" implied="false" onDeleteCascade="false" table="condition"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="type" nullable="false" remarks="" size="135" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="description" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="condition_type_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="django_admin_log" numRows="1424" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('django_admin_log_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
+         <column autoUpdated="false" digits="6" id="1" name="action_time" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <column autoUpdated="false" digits="0" id="2" name="object_id" nullable="true" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="3" name="object_repr" nullable="false" remarks="" size="200" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="action_flag" nullable="false" remarks="" size="5" type="int2"/>
+         <column autoUpdated="false" digits="0" id="5" name="change_message" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="6" name="content_type_id" nullable="true" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="djan_content_type_id_697914295151027a_fk_django_content_type_id" implied="false" onDeleteCascade="false" table="django_content_type"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="7" name="user_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="django_admin_log_user_id_52fdd58701c5f563_fk_auth_user_id" implied="false" onDeleteCascade="false" table="auth_user"/>
+         </column>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="django_admin_log_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="django_admin_log_417f1b1c" unique="false">
+            <column ascending="true" name="content_type_id"/>
+         </index>
+         <index name="django_admin_log_e8701ad4" unique="false">
+            <column ascending="true" name="user_id"/>
+         </index>
+      </table>
+      <table name="django_content_type" numRows="18" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('django_content_type_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="content_type_id" foreignKey="auth_content_type_id_508cf46651277a81_fk_django_content_type_id" implied="false" onDeleteCascade="false" table="auth_permission"/>
+            <child column="content_type_id" foreignKey="djan_content_type_id_697914295151027a_fk_django_content_type_id" implied="false" onDeleteCascade="false" table="django_admin_log"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="name" nullable="false" remarks="" size="100" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="app_label" nullable="false" remarks="" size="100" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="model" nullable="false" remarks="" size="100" type="varchar"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="django_content_type_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="django_content_type_app_label_45f3b1d93ec8c61c_uniq" unique="true">
+            <column ascending="true" name="app_label"/>
+            <column ascending="true" name="model"/>
+         </index>
+      </table>
+      <table name="django_migrations" numRows="5" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('django_migrations_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
+         <column autoUpdated="false" digits="0" id="1" name="app" nullable="false" remarks="" size="255" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="name" nullable="false" remarks="" size="255" type="varchar"/>
+         <column autoUpdated="false" digits="6" id="3" name="applied" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="django_migrations_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="django_session" numRows="3" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="false" digits="0" id="0" name="session_key" nullable="false" remarks="" size="40" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="1" name="session_data" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="6" id="2" name="expire_date" nullable="false" remarks="" size="35" type="timestamptz"/>
+         <primaryKey column="session_key" sequenceNumberInPK="1"/>
+         <index name="django_session_pkey" unique="true">
+            <column ascending="true" name="session_key"/>
+         </index>
+         <index name="django_session_de54fa62" unique="false">
+            <column ascending="true" name="expire_date"/>
+         </index>
+      </table>
+      <table name="django_site" numRows="1" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('django_site_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
+         <column autoUpdated="false" digits="0" id="1" name="domain" nullable="false" remarks="" size="100" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="name" nullable="false" remarks="" size="50" type="varchar"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="django_site_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="measurement" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('measurement_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
+         <column autoUpdated="false" digits="6" id="1" name="value" nullable="true" remarks="" size="14" type="numeric"/>
+         <column autoUpdated="false" digits="0" id="2" name="measurement_set_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="measurement_measurement_set_id_fkey" implied="false" onDeleteCascade="false" table="measurement_set"/>
+         </column>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="measurement_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="measurement_measurement_set_id" unique="false">
+            <column ascending="true" name="measurement_set_id"/>
+         </index>
+      </table>
+      <table name="measurement_set" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('measurement_set_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="measurement_set_id" foreignKey="condition_has_measurement_set_measurement_set_id_fkey" implied="false" onDeleteCascade="false" table="condition_has_measurement_set"/>
+            <child column="measurement_set_id" foreignKey="measurement_measurement_set_id_fkey" implied="false" onDeleteCascade="false" table="measurement"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="trials" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="6" id="2" name="mean" nullable="true" remarks="" size="14" type="numeric"/>
+         <column autoUpdated="false" digits="6" id="3" name="sd" nullable="true" remarks="" size="14" type="numeric"/>
+         <column autoUpdated="false" digits="0" id="4" name="open" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="false" digits="0" id="5" name="predicted" nullable="false" remarks="" size="1" type="bool"/>
+         <column autoUpdated="false" digits="0" id="6" name="compound_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="measurement_set_compound_id_fkey" implied="false" onDeleteCascade="false" table="compound"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="7" name="measurement_type_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="measurement_set_measurement_type_id_fkey" implied="false" onDeleteCascade="false" table="measurement_type"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="8" name="units" nullable="false" remarks="" size="135" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="9" name="original_format" nullable="false" remarks="" size="600" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="10" name="original_format_type" nullable="false" remarks="" size="45" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="11" name="external_id" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="12" name="source_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="measurement_set_source_id_fkey" implied="false" onDeleteCascade="false" table="source"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="13" name="reference_id" nullable="true" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="measurement_set_reference_id_fkey" implied="false" onDeleteCascade="false" table="reference"/>
+         </column>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="measurement_set_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="measurement_set_compound_id" unique="false">
+            <column ascending="true" name="compound_id"/>
+         </index>
+         <index name="measurement_set_measurement_type_id" unique="false">
+            <column ascending="true" name="measurement_type_id"/>
+         </index>
+         <index name="measurement_set_reference_id" unique="false">
+            <column ascending="true" name="reference_id"/>
+         </index>
+         <index name="measurement_set_source_id" unique="false">
+            <column ascending="true" name="source_id"/>
+         </index>
+      </table>
+      <table name="measurement_type" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('measurement_type_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="measurement_type_id" foreignKey="measurement_set_measurement_type_id_fkey" implied="false" onDeleteCascade="false" table="measurement_set"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="type" nullable="false" remarks="" size="135" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="description" nullable="false" remarks="" size="2147483647" type="text"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="measurement_type_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="molecule_file" numRows="71" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('molecule_file_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
+         <column autoUpdated="false" digits="0" id="1" name="molecule_file" nullable="false" remarks="" size="100" type="varchar"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="molecule_file_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="reference" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('reference_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="reference_id" foreignKey="measurement_set_reference_id_fkey" implied="false" onDeleteCascade="false" table="measurement_set"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="name" nullable="false" remarks="" size="135" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="DOI" nullable="false" remarks="" size="135" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="title" nullable="false" remarks="" size="300" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="abstract" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="5" name="year" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="6" name="author_list" nullable="false" remarks="" size="135" type="varchar"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="reference_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+      <table name="source" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('source_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="source_id" foreignKey="measurement_set_source_id_fkey" implied="false" onDeleteCascade="false" table="measurement_set"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="name" nullable="false" remarks="" size="300" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="display_name" nullable="false" remarks="" size="300" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="URL" nullable="false" remarks="" size="300" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="4" name="type" nullable="false" remarks="" size="300" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="5" name="description" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="6" name="source_data_id" nullable="false" remarks="" size="10" type="int4">
+            <parent column="id" foreignKey="source_source_data_id_fkey" implied="false" onDeleteCascade="false" table="source_data"/>
+         </column>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="source_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+         <index name="source_source_data_id" unique="false">
+            <column ascending="true" name="source_data_id"/>
+         </index>
+      </table>
+      <table name="source_data" numRows="0" remarks="" schema="public" type="TABLE">
+         <column autoUpdated="true" defaultValue="nextval('source_data_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
+            <child column="source_data_id" foreignKey="source_source_data_id_fkey" implied="false" onDeleteCascade="false" table="source"/>
+         </column>
+         <column autoUpdated="false" digits="0" id="1" name="smiles_file" nullable="false" remarks="" size="100" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="meta_file" nullable="false" remarks="" size="100" type="varchar"/>
+         <primaryKey column="id" sequenceNumberInPK="1"/>
+         <index name="source_data_pkey" unique="true">
+            <column ascending="true" name="id"/>
+         </index>
+      </table>
+   </tables>
+</database>

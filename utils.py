@@ -16,7 +16,7 @@ class Capture(object):
             #self.terminal.write(message) 
             self.text += message
 
-def findHooks(source_name, measurement_type_type, reference_name) :
+def findHooks(source_name, measurement_type_type, reference_name):
     qs = Source.objects.filter(name=source_name)
     if qs.count() == 0:
         print "Source \'" + source_name + "\' does not exist in database."
