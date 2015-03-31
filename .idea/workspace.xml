@@ -2,90 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_permission.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_permission.2degrees.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.1degree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.2degrees.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_groups.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_groups.2degrees.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_user_permissions.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_user_permissions.2degrees.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.1degree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.2degrees.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.1degree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.2degrees.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/django_session.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/django_session.1degree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/static/repo/images/draws.png" afterPath="$PROJECT_DIR$/repo/static/repo/images/draws.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.1degree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.2degrees.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/molecule_file.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/molecule_file.1degree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.1degree.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.2degrees.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.compact.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.compact.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.large.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.large.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/about.html" afterPath="$PROJECT_DIR$/repo/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/admin.py" afterPath="$PROJECT_DIR$/repo/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_group.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_group.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_group_permissions.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_group_permissions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_permission.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_permission.2degrees.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_permission.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_permission.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.1degree.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.2degrees.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_user.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_groups.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_groups.2degrees.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_user_groups.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_user_groups.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_user_permissions.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_user_permissions.2degrees.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_user_user_permissions.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_user_user_permissions.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/base.html" afterPath="$PROJECT_DIR$/repo/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byAuto.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byAuto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byColumn.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byColumn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byDefault.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byDefault.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byNulls.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byNulls.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.bySize.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.bySize.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byTable.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byTable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byType.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byType.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/compound.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/compound.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/condition.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/condition.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/condition_has_measurement_set.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/condition_has_measurement_set.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/condition_type.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/condition_type.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/contact.html" afterPath="$PROJECT_DIR$/repo/templates/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/datasets.html" afterPath="$PROJECT_DIR$/repo/templates/datasets.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.1degree.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.2degrees.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/django_admin_log.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/django_admin_log.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.1degree.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.2degrees.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/django_content_type.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/django_content_type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/django_migrations.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/django_migrations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/django_session.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/django_session.1degree.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/django_session.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/django_session.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/django_site.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/django_site.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/home.html" afterPath="$PROJECT_DIR$/repo/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/index.html" afterPath="$PROJECT_DIR$/schemaspy/output/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css" afterPath="$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/measurement.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/measurement.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.1degree.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.2degrees.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/measurement_set.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/measurement_set.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/measurement_type.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/measurement_type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/models.py" afterPath="$PROJECT_DIR$/repo/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/molecule_file.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/molecule_file.1degree.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/molecule_file.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/molecule_file.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/predict.html" afterPath="$PROJECT_DIR$/repo/templates/predict.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.1degree.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.2degrees.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/reference.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/reference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/relationships.html" afterPath="$PROJECT_DIR$/schemaspy/output/relationships.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.compact.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.compact.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.large.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.large.dot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/smlogp.html" afterPath="$PROJECT_DIR$/repo/templates/smlogp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/smmpdb.public.xml" afterPath="$PROJECT_DIR$/schemaspy/output/smmpdb.public.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/source.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/source.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/source_data.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/source_data.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/submit.html" afterPath="$PROJECT_DIR$/repo/templates/submit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/test.html" afterPath="$PROJECT_DIR$/repo/templates/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/urls.py" afterPath="$PROJECT_DIR$/repo/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/utilities.html" afterPath="$PROJECT_DIR$/schemaspy/output/utilities.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/views.py" afterPath="$PROJECT_DIR$/repo/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smmpdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,12 +40,13 @@
       <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="223" selection-start="929" selection-end="929" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="555">
+            <state line="24" column="8" selection-start="1072" selection-end="1072" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="555">
               <folding>
                 <element signature="e#272#335#0" expanded="true" />
                 <element signature="e#543#599#0" expanded="true" />
-                <element signature="e#752#808#0" expanded="true" />
-                <element signature="e#988#1044#0" expanded="true" />
+                <element signature="e#761#817#0" expanded="true" />
+                <element signature="e#997#1053#0" expanded="true" />
+                <element signature="e#1196#1252#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,11 +70,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="905" selection-end="905" vertical-scroll-proportion="0.33076075" vertical-offset="0" max-vertical-offset="907">
-              <folding />
+            <state line="19" column="241" selection-start="1213" selection-end="1213" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="450">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,15 +86,6 @@
         <entry file="file://$PROJECT_DIR$/repo/templates/datasets.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="25" column="65" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="32" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1950">
               <folding />
             </state>
           </provider>
@@ -197,12 +112,17 @@
       <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/templates/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="14" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
-              <folding>
-                <marker date="1427321577000" expanded="true" signature="274:343" placeholder="..." />
-                <marker date="1427321577000" expanded="true" signature="351:473" placeholder="..." />
-                <marker date="1427321577000" expanded="true" signature="491:531" placeholder="..." />
-              </folding>
+            <state line="22" column="8" selection-start="530" selection-end="530" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="14" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.59137344" vertical-offset="124" max-vertical-offset="1110">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -245,7 +165,6 @@
         <option value="$PROJECT_DIR$/unused/unused.py" />
         <option value="$PROJECT_DIR$/smmpdb/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/repo/templates/base.html" />
         <option value="$PROJECT_DIR$/repo/templates/smlogp.html" />
         <option value="$PROJECT_DIR$/repo/templates/submit.html" />
         <option value="$PROJECT_DIR$/repo/templates/test.html" />
@@ -259,9 +178,10 @@
         <option value="$PROJECT_DIR$/repo/urls.py" />
         <option value="$PROJECT_DIR$/repo/templates/predict.html" />
         <option value="$PROJECT_DIR$/repo/templates/datasets.html" />
-        <option value="$PROJECT_DIR$/repo/templates/contact.html" />
-        <option value="$PROJECT_DIR$/repo/templates/about.html" />
         <option value="$PROJECT_DIR$/repo/templates/home.html" />
+        <option value="$PROJECT_DIR$/repo/templates/about.html" />
+        <option value="$PROJECT_DIR$/repo/templates/contact.html" />
+        <option value="$PROJECT_DIR$/repo/templates/base.html" />
       </list>
     </option>
   </component>
@@ -867,11 +787,6 @@
         <state line="8" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="27" selection-start="2222" selection-end="2241" vertical-scroll-proportion="-18.75" vertical-offset="345" max-vertical-offset="1110" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myindigo/MyIndigo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="311" column="50" selection-start="11706" selection-end="11706" vertical-scroll-proportion="0.0" vertical-offset="4258" max-vertical-offset="5910" />
@@ -963,17 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
-          <folding>
-            <marker date="1427321577000" expanded="true" signature="274:343" placeholder="..." />
-            <marker date="1427321577000" expanded="true" signature="351:473" placeholder="..." />
-            <marker date="1427321577000" expanded="true" signature="491:531" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="30" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
@@ -988,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/predict.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="81" selection-start="223" selection-end="302" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="77" column="27" selection-start="1302" selection-end="1309" vertical-scroll-proportion="0.0" vertical-offset="854" max-vertical-offset="1815">
@@ -1002,21 +899,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/about.html">
+    <entry file="file://$PROJECT_DIR$/repo/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="223" selection-start="929" selection-end="929" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="555">
+        <state line="19" column="241" selection-start="1213" selection-end="1213" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="450">
           <folding>
-            <element signature="e#272#335#0" expanded="true" />
-            <element signature="e#543#599#0" expanded="true" />
-            <element signature="e#752#808#0" expanded="true" />
-            <element signature="e#988#1044#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/repo/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="905" selection-end="905" vertical-scroll-proportion="0.33076075" vertical-offset="0" max-vertical-offset="907">
+        <state line="24" column="8" selection-start="1072" selection-end="1072" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="555">
+          <folding>
+            <element signature="e#272#335#0" expanded="true" />
+            <element signature="e#543#599#0" expanded="true" />
+            <element signature="e#761#817#0" expanded="true" />
+            <element signature="e#997#1053#0" expanded="true" />
+            <element signature="e#1196#1252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="8" selection-start="530" selection-end="530" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/predict.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="81" selection-start="223" selection-end="302" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="14" selection-start="1952" selection-end="1952" vertical-scroll-proportion="0.59137344" vertical-offset="124" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>

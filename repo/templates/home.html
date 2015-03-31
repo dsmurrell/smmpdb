@@ -10,13 +10,13 @@
 {% endblock %}
 
 {% block content %}
-  <div class="col-lg-6">
+  <div class="col-lg-6" style="text-align: center">
     <a href="{% url 'datasets' %}" style="color: #000000;text-decoration: none; outline: 0"><h4><i class="fa fa-bars"></i>  Measured Property Datasets</h4></a>
-    <p>Curated measured physico-chemical property data collected from the literature.</p>
+    <p>Publicly available measured physico-chemical property data sets collected from the literature and submitted by your peers. The data is quality checked to make sure that the measured property values are in line with expectations.</p>
   </div>
 
-  <div class="col-lg-6">
+  <div class="col-lg-6" style="text-align: center">
     <a href="{% url 'predict' %}" style="color: #000000;text-decoration: none; outline: 0"><h4><i class="fa fa-cogs"></i>  Property Prediction</h4></a>
-    <p>Make predictions for physchem-properties. Get back predicted values and an estimation of the error of the prediction.</p>
+    <p>Get predictions for physico-chemical properties together with an estimation of the error of the individual predictions. Models are trained on any submitted public data as well as available in house data that cannot be made public.</p>
   </div>
  {% endblock %}
