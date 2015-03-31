@@ -101,7 +101,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </tr>
 </thead>
 <tbody valign='top'>
-<tr class='odd'>
+<tr class='even'>
  <td class='primaryKey' title='Primary Key'>id</td>
  <td class='detail'>serial</td>
  <td class='detail' align='right'>10</td>
@@ -110,19 +110,19 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail' align='right'>nextval('auth_user_id_seq'::regclass)</td>
  <td class='detail'>
   <table border='0' width='100%' cellspacing='0' cellpadding='0'>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="auth_user_groups.user_id refs auth_user.id via auth_user_groups_user_id_4b5ed4ffdb8fd9b0_fk_auth_user_id"><a href='auth_user_groups.html'>auth_user_groups</a><span class='relatedKey'>.user_id</span>
     </td>
     <td class='constraint detail'>auth_user_groups_user_id_4b5ed4ffdb8fd9b0_fk_auth_user_id<span title='Restrict delete:
  Parent cannot be deleted if children exist'>&nbsp;R</span></td>
    </tr>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="auth_user_user_permissions.user_id refs auth_user.id via auth_user_user_permiss_user_id_7f0938558328534a_fk_auth_user_id"><a href='auth_user_user_permissions.html'>auth_user_user_permissions</a><span class='relatedKey'>.user_id</span>
     </td>
     <td class='constraint detail'>auth_user_user_permiss_user_id_7f0938558328534a_fk_auth_user_id<span title='Restrict delete:
  Parent cannot be deleted if children exist'>&nbsp;R</span></td>
    </tr>
-   <tr class='relative odd' valign='top'>
+   <tr class='relative even' valign='top'>
     <td class='relatedTable detail' title="django_admin_log.user_id refs auth_user.id via django_admin_log_user_id_52fdd58701c5f563_fk_auth_user_id"><a href='django_admin_log.html'>django_admin_log</a><span class='relatedKey'>.user_id</span>
     </td>
     <td class='constraint detail'>django_admin_log_user_id_52fdd58701c5f563_fk_auth_user_id<span title='Restrict delete:
@@ -133,7 +133,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>password</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>128</td>
@@ -144,7 +144,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>last_login</td>
  <td class='detail'>timestamptz</td>
  <td class='detail' align='right'>35,6</td>
@@ -155,7 +155,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>is_superuser</td>
  <td class='detail'>bool</td>
  <td class='detail' align='right'>1</td>
@@ -166,7 +166,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='indexedColumn' title='Indexed'>username</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>30</td>
@@ -177,7 +177,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>first_name</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>30</td>
@@ -188,7 +188,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>last_name</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>30</td>
@@ -199,7 +199,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>email</td>
  <td class='detail'>varchar</td>
  <td class='detail' align='right'>75</td>
@@ -210,7 +210,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>is_staff</td>
  <td class='detail'>bool</td>
  <td class='detail' align='right'>1</td>
@@ -221,7 +221,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='even'>
+<tr class='odd'>
  <td class='detail'>is_active</td>
  <td class='detail'>bool</td>
  <td class='detail' align='right'>1</td>
@@ -232,7 +232,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='detail'> </td>
  <td class='comment detail'></td>
 </tr>
-<tr class='odd'>
+<tr class='even'>
  <td class='detail'>date_joined</td>
  <td class='detail'>timestamptz</td>
  <td class='detail' align='right'>35,6</td>
@@ -244,7 +244,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
  <td class='comment detail'></td>
 </tr>
 </table>
-<p title='11 columns'>Table contained 1 rows at Wed Mar 18 22:00 GMT 2015<p/>
+<p title='11 columns'>Table contained 1 rows at Tue Mar 24 19:43 GMT 2015<p/>
 </td></tr></table>
 <div class='indent'>
 <b>Indexes:</b>
@@ -279,7 +279,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <area shape="rect" id="node1" href="auth_user_groups.html" title="auth_user_groups" alt="" coords="322,5,481,131">
 <area shape="rect" id="node2" href="auth_user.html" title="auth_user" alt="" coords="6,169,247,481">
 <area shape="rect" id="node3" href="auth_user_user_permissions.html" title="auth_user_user_permissions" alt="" coords="292,148,511,273">
-<area shape="rect" id="node4" href="django_admin_log.html" title="django_admin_log" alt="" coords="308,291,495,530">
+<area shape="rect" id="node4" href="django_admin_log.html" title="django_admin_log" alt="" coords="322,291,481,530">
 </map>
   <a name='diagram'><img id='oneDegreeImg' src='../diagrams/auth_user.1degree.png' usemap='#oneDegreeRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>
 <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
@@ -289,7 +289,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 <area shape="rect" id="node4" href="auth_group.html" title="auth_group" alt="" coords="285,515,414,595">
 <area shape="rect" id="node5" href="auth_user.html" title="auth_user" alt="" coords="229,185,470,497">
 <area shape="rect" id="node6" href="auth_user_user_permissions.html" title="auth_user_user_permissions" alt="" coords="515,520,733,645">
-<area shape="rect" id="node7" href="django_admin_log.html" title="django_admin_log" alt="" coords="531,5,717,243">
+<area shape="rect" id="node7" href="django_admin_log.html" title="django_admin_log" alt="" coords="545,5,703,243">
 </map>
 
   <a name='diagram'><img id='twoDegreesImg' src='../diagrams/auth_user.2degrees.png' usemap='#twoDegreesRelationshipsDiagram' class='diagram' border='0' alt='' align='left'></a>

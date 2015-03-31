@@ -23,6 +23,16 @@ def datasets(request):
         context_instance=RequestContext(request)
     )
 
+def predict(request):
+    models = Model.objects.all()
+    for model in models:
+        print model.type
+    return render_to_response(
+        'predict.html',
+        {'models': models},
+        context_instance=RequestContext(request)
+    )
+
 def smlogp(request):
     if request.method == 'POST':
         form = MoleculeFileForm(request.POST, request.FILES)

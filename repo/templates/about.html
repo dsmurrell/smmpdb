@@ -5,6 +5,26 @@
 
 {% block about-active %}class="active"{% endblock %}
 
+{% block jumbo %}
+  <h2>About</h2>
+{% endblock %}
+
 {% block content %}
-    fill in about information
+    <img src="/static/repo/images/molecule_4.png" style="width:300px;height:265px;float: left;margin-right: 30px">
+
+    <p>
+      <b>SMMPDB</b> (Small Molecule Measured Property Database) is a collection of publicly available measured property data.
+    </p>
+
+    <p>
+      The data can be <a href="{% url 'datasets' %}" style="color: #6DAC1D;text-decoration: none; outline: 0">accessed</a> on a per submission basis or can be accessed as a whole database download.
+    </p>
+
+    <p>
+      Anyone can <a href="{% url 'submit' %}" style="color: #6DAC1D;text-decoration: none; outline: 0">submit</a> a collection of measured property data by uploading a SMILES file along with a meta information file, the format of which can be found <a href="{% url 'submitinfo' %}" style="color: #6DAC1D;text-decoration: none; outline: 0">submit</a>.
+    </p>
+
+    <p>
+      Prediction models have been carefully constructed and are also made available
+    </p>
 {% endblock %}

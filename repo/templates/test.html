@@ -1,22 +1,18 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Testing Pane</title>   
-    </head>
-    <body>
-        
-        <!-- Upload form. Note enctype attribute! -->
-        <form action="{% url 'test' %}" method="post" enctype="multipart/form-data">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <p><input type="submit" name="print_input" value="print_input" />
-                <input type="submit" name="delete_source" value="delete_source" />
-                <input type="submit" name="print_compound_duplicates" value="print_compound_duplicates" />
-                <input type="submit" name="print_compound_hanging" value="print_compound_hanging" /></p>
-                <input type="submit" name="dump_multiple_sources" value="dump_multiple_sources" /></p>
-        </form>
-        
-        <textarea rows="40" cols="175" readonly>{{ output }}</textarea> 
-    </body>
-</html>
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}SMMPDB - Random Manipulations{% endblock %}
+
+{% block content %}
+  <form action="{% url 'test' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <p><input type="submit" name="print_input" value="print_input" />
+      <input type="submit" name="delete_source" value="delete_source" />
+      <input type="submit" name="print_compound_duplicates" value="print_compound_duplicates" />
+      <input type="submit" name="print_compound_hanging" value="print_compound_hanging" /></p>
+      <input type="submit" name="dump_multiple_sources" value="dump_multiple_sources" /></p>
+  </form>
+
+  <textarea rows="40" cols="175" readonly>{{ output }}</textarea>
+{% endblock %}

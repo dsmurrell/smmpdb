@@ -5,12 +5,13 @@
 
 
 {% block jumbo %}
-  <div class="jumbotron">
-      <h2>Data Submission</h2>
-      <p class="lead" style="color:black">Please make sure that your data is in the correct format as stipulated here...</p>
-      <img src="/static/repo/images/upload.png" style="width:128px;height:128px">
-  </div>
+  <h2>Data Submission</h2>
+  <p class="lead" style="color:black">Please make sure that your submission is formatted correctly.</p>
+  <a href="{% url 'submitinfo' %}" style="color: #000000;text-decoration: none; outline: 0"><h4><i class="fa fa-info-circle"></i>  Submission information</h4></a>
+  <img src="/static/repo/images/upload.png" style="width:128px;height:128px">
+{% endblock %}
 
+{% block content %}
   {{ processing }}
   {% if show_form %}
     <form action="{% url 'submit' %}" method="post" enctype="multipart/form-data">
@@ -19,6 +20,4 @@
         <p><input type="submit" value="Upload" /></p>
     </form>
   {% endif %}
-
-  <!--<textarea rows="10" cols="105" readonly>{{ output }}</textarea>-->
 {% endblock %}

@@ -195,7 +195,7 @@
             <column ascending="true" name="id"/>
          </index>
       </table>
-      <table name="django_admin_log" numRows="1424" remarks="" schema="public" type="TABLE">
+      <table name="django_admin_log" numRows="0" remarks="" schema="public" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('django_admin_log_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="6" id="1" name="action_time" nullable="false" remarks="" size="35" type="timestamptz"/>
          <column autoUpdated="false" digits="0" id="2" name="object_id" nullable="true" remarks="" size="2147483647" type="text"/>
@@ -246,7 +246,7 @@
             <column ascending="true" name="id"/>
          </index>
       </table>
-      <table name="django_session" numRows="3" remarks="" schema="public" type="TABLE">
+      <table name="django_session" numRows="1" remarks="" schema="public" type="TABLE">
          <column autoUpdated="false" digits="0" id="0" name="session_key" nullable="false" remarks="" size="40" type="varchar"/>
          <column autoUpdated="false" digits="0" id="1" name="session_data" nullable="false" remarks="" size="2147483647" type="text"/>
          <column autoUpdated="false" digits="6" id="2" name="expire_date" nullable="false" remarks="" size="35" type="timestamptz"/>
@@ -335,7 +335,7 @@
             <column ascending="true" name="id"/>
          </index>
       </table>
-      <table name="molecule_file" numRows="71" remarks="" schema="public" type="TABLE">
+      <table name="molecule_file" numRows="0" remarks="" schema="public" type="TABLE">
          <column autoUpdated="true" defaultValue="nextval('molecule_file_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial"/>
          <column autoUpdated="false" digits="0" id="1" name="molecule_file" nullable="false" remarks="" size="100" type="varchar"/>
          <primaryKey column="id" sequenceNumberInPK="1"/>
@@ -347,12 +347,11 @@
          <column autoUpdated="true" defaultValue="nextval('reference_id_seq'::regclass)" digits="0" id="0" name="id" nullable="false" remarks="" size="10" type="serial">
             <child column="reference_id" foreignKey="measurement_set_reference_id_fkey" implied="false" onDeleteCascade="false" table="measurement_set"/>
          </column>
-         <column autoUpdated="false" digits="0" id="1" name="name" nullable="false" remarks="" size="135" type="varchar"/>
-         <column autoUpdated="false" digits="0" id="2" name="DOI" nullable="false" remarks="" size="135" type="varchar"/>
-         <column autoUpdated="false" digits="0" id="3" name="title" nullable="false" remarks="" size="300" type="varchar"/>
-         <column autoUpdated="false" digits="0" id="4" name="abstract" nullable="false" remarks="" size="2147483647" type="text"/>
-         <column autoUpdated="false" digits="0" id="5" name="year" nullable="true" remarks="" size="10" type="int4"/>
-         <column autoUpdated="false" digits="0" id="6" name="author_list" nullable="false" remarks="" size="135" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="1" name="DOI" nullable="false" remarks="" size="135" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="2" name="title" nullable="false" remarks="" size="300" type="varchar"/>
+         <column autoUpdated="false" digits="0" id="3" name="abstract" nullable="false" remarks="" size="2147483647" type="text"/>
+         <column autoUpdated="false" digits="0" id="4" name="year" nullable="true" remarks="" size="10" type="int4"/>
+         <column autoUpdated="false" digits="0" id="5" name="author_list" nullable="false" remarks="" size="135" type="varchar"/>
          <primaryKey column="id" sequenceNumberInPK="1"/>
          <index name="reference_pkey" unique="true">
             <column ascending="true" name="id"/>

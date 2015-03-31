@@ -11,6 +11,14 @@
 from django.db import models
 import os
 
+class Model(models.Model):
+    type = models.CharField(max_length=300, blank=True)
+    description = models.TextField(blank=True)
+    class Meta:
+        db_table = u'model'
+    def __unicode__(self):
+        return u'%s: %s' % (self.type, self.description)
+
 class SourceData(models.Model):
     smiles_file = models.FileField(upload_to='source_data/%Y/%m/%d')
     meta_file = models.FileField(upload_to='source_data/%Y/%m/%d') 
@@ -29,7 +37,7 @@ class MoleculeFile(models.Model):
 class Source(models.Model):
     name = models.CharField(max_length=300, blank=True)
     display_name = models.CharField(max_length=300, blank=True)
-    url = models.CharField(max_length=300, db_column='URL', blank=True) # Field name made lowercase.
+    url = models.CharField(max_length=300, db_column='URL', blank=True)
     type = models.CharField(max_length=300, blank=True)
     description = models.TextField(blank=True)
     source_data = models.ForeignKey(SourceData)
@@ -39,8 +47,7 @@ class Source(models.Model):
         return u'%s' % (self.name)
 
 class Reference(models.Model):
-    name = models.CharField(max_length=135, db_column='name', blank=True)
-    doi = models.CharField(max_length=135, db_column='DOI', blank=True) # Field name made lowercase.
+    doi = models.CharField(max_length=135, db_column='DOI', blank=True)
     title = models.CharField(max_length=300, blank=True)
     abstract = models.TextField(blank=True)
     year = models.IntegerField(null=True, blank=True)
@@ -52,9 +59,9 @@ class Reference(models.Model):
         return u'%s' % (self.name)
         
 class Compound(models.Model):
-    smiles = models.CharField(max_length=600, db_column='SMILES', blank=True, db_index=True) # Field name made lowercase.
-    inchi = models.CharField(max_length=600, db_column='InChI', blank=True) # Field name made lowercase.
-    inchi_key = models.CharField(max_length=81, db_column='InChI_key', blank=True) # Field name made lowercase.
+    smiles = models.CharField(max_length=600, db_column='SMILES', blank=True, db_index=True)
+    inchi = models.CharField(max_length=600, db_column='InChI', blank=True)
+    inchi_key = models.CharField(max_length=81, db_column='InChI_key', blank=True)
     class Meta:
         db_table = u'compound'
     def __unicode__(self):

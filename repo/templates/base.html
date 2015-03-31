@@ -45,11 +45,15 @@
         <h3 class="text-muted"><a href="{% url 'home' %}" style="color: #000000;text-decoration: none; outline: 0">SMMPDB</a></h3>
       </div>
 
-      {% block jumbo %}
-      {% endblock %}
+      <div class="jumbotron">
+        {% block jumbo %}
+        {% endblock %}
+      </div>
 
-      {% block content %}
-      {% endblock %}
+      <div class="row marketing">
+        {% block content %}
+        {% endblock %}
+      </div>
 
       <footer class="footer">
         <p>&copy; SMMPDB 2015</p>

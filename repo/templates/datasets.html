@@ -6,33 +6,33 @@
 {% block datasets-active %}class="active"{% endblock %}
 
 {% block jumbo %}
-  <div class="jumbotron">
-      <h2>Measured Property Datasets</h2>
-      <!--<p class="lead" style="color:black">A collection of measuered physico-chemical property datasets collected from literature together with physico-chemical prediction tools.</p>-->
-      <img src="/static/repo/images/draws.png" style="width:300px;height:150px">
-  </div>
+  <h2>Measured Property Datasets</h2>
+  <img src="/static/repo/images/draws.png" style="width:150px;height:150px;margin-top: 20px">
 {% endblock %}
 
 {% block content %}
-  <div class="row marketing">
-    <table class="table table-bordered table-striped table-hover">
-			<tbody>
-        <tr>
-            <th class="text-center">T1</th>
-            <th class="text-center">T2</th>
-            <th class="text-center">T3</th>
-            <th class="text-center">T4</th>
-        </tr>
-        {% for source in sources %}
-           <tr>
-              <td class="text-center">{{source.name}}</td>
-              <td class="text-center"></td>
-              <td class="text-center"></td>
-              <td class="text-center"></td>
-            </tr>
-        {% endfor %}
-      </tbody>
+  <table class="table table-bordered table-striped table-hover">
+    <tbody>
+      <tr>
+          <th class="text-center">Source</th>
+          <th class="text-center">Type</th>
+          <th class="text-center">Description</th>
+          <th class="text-center">External Link</th>
+          <th class="text-center">Submitted Data</th>
+      </tr>
+      {% for source in sources %}
+         <tr>
+            <td class="text-center">{{ source.display_name }}</td>
+            <td class="text-center" style="vertical-align:middle">{{ source.type }}</td>
+            <td class="text-center">{{ source.description }}</td>
+            <td class="text-center" style="vertical-align:middle"><a href="{{ source.url }}"><i class="fa fa-external-link"></i></a></td>
+            <td class="text-center" style="vertical-align:middle"><a href="{{ MEDIA_URL }}/{{ source.source_data.meta_file }}">META</a>  </br>
+              <a href="{{ MEDIA_URL }}/{{ source.source_data.smiles_file }}">SMILES</a>
+            </td>
+
+          </tr>
+      {% endfor %}
+    </tbody>
 		</table>
-  </div>
 {% endblock %}
 

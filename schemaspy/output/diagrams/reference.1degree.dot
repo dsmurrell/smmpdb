@@ -48,7 +48,6 @@ digraph "oneDegreeRelationshipsDiagram" {
     <TABLE BORDER="2" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
       <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">reference</TD></TR>
       <TR><TD PORT="id" COLSPAN="2" BGCOLOR="#bed1b8" ALIGN="LEFT">id</TD><TD PORT="id.type" ALIGN="LEFT">serial[10]</TD></TR>
-      <TR><TD PORT="name" COLSPAN="2" ALIGN="LEFT">name</TD><TD PORT="name.type" ALIGN="LEFT">varchar[135]</TD></TR>
       <TR><TD PORT="DOI" COLSPAN="2" ALIGN="LEFT">DOI</TD><TD PORT="DOI.type" ALIGN="LEFT">varchar[135]</TD></TR>
       <TR><TD PORT="title" COLSPAN="2" ALIGN="LEFT">title</TD><TD PORT="title.type" ALIGN="LEFT">varchar[300]</TD></TR>
       <TR><TD PORT="abstract" COLSPAN="2" ALIGN="LEFT">abstract</TD><TD PORT="abstract.type" ALIGN="LEFT">text[2147483647]</TD></TR>

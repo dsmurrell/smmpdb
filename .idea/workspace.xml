@@ -2,10 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_permission.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_permission.2degrees.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.1degree.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.2degrees.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_groups.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_groups.2degrees.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_user_permissions.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_user_permissions.2degrees.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.1degree.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.2degrees.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.1degree.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.2degrees.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/django_session.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/django_session.1degree.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/static/repo/images/draws.png" afterPath="$PROJECT_DIR$/repo/static/repo/images/draws.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.1degree.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.2degrees.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/molecule_file.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/molecule_file.1degree.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.1degree.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.1degree.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.2degrees.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.2degrees.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.compact.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.compact.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.large.png" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.large.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/about.html" afterPath="$PROJECT_DIR$/repo/templates/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/admin.py" afterPath="$PROJECT_DIR$/repo/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_group.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_group.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_group_permissions.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_group_permissions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_permission.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_permission.2degrees.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_permission.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_permission.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.1degree.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user.2degrees.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_user.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_groups.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_groups.2degrees.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_user_groups.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_user_groups.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_user_permissions.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/auth_user_user_permissions.2degrees.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/auth_user_user_permissions.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/auth_user_user_permissions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/base.html" afterPath="$PROJECT_DIR$/repo/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byAuto.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byAuto.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byColumn.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byColumn.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byDefault.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byDefault.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byNulls.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byNulls.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.bySize.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.bySize.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byTable.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byTable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/columns.byType.html" afterPath="$PROJECT_DIR$/schemaspy/output/columns.byType.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/compound.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/compound.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/condition.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/condition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/condition_has_measurement_set.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/condition_has_measurement_set.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/condition_type.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/condition_type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/contact.html" afterPath="$PROJECT_DIR$/repo/templates/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/datasets.html" afterPath="$PROJECT_DIR$/repo/templates/datasets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.1degree.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_admin_log.2degrees.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/django_admin_log.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/django_admin_log.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.1degree.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/django_content_type.2degrees.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/django_content_type.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/django_content_type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/django_migrations.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/django_migrations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/django_session.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/django_session.1degree.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/django_session.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/django_session.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/django_site.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/django_site.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/home.html" afterPath="$PROJECT_DIR$/repo/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smmpdb/settings.py" afterPath="$PROJECT_DIR$/smmpdb/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/index.html" afterPath="$PROJECT_DIR$/schemaspy/output/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css" afterPath="$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/measurement.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/measurement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.1degree.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/measurement_set.2degrees.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/measurement_set.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/measurement_set.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/measurement_type.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/measurement_type.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/models.py" afterPath="$PROJECT_DIR$/repo/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/molecule_file.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/molecule_file.1degree.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/molecule_file.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/molecule_file.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/predict.html" afterPath="$PROJECT_DIR$/repo/templates/predict.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.1degree.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.1degree.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.2degrees.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/reference.2degrees.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/reference.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/reference.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/relationships.html" afterPath="$PROJECT_DIR$/schemaspy/output/relationships.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.compact.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.compact.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.large.dot" afterPath="$PROJECT_DIR$/schemaspy/output/diagrams/summary/relationships.real.large.dot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/smlogp.html" afterPath="$PROJECT_DIR$/repo/templates/smlogp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/smmpdb.public.xml" afterPath="$PROJECT_DIR$/schemaspy/output/smmpdb.public.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/source.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/source.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/tables/source_data.html" afterPath="$PROJECT_DIR$/schemaspy/output/tables/source_data.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/submit.html" afterPath="$PROJECT_DIR$/repo/templates/submit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/test.html" afterPath="$PROJECT_DIR$/repo/templates/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/urls.py" afterPath="$PROJECT_DIR$/repo/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schemaspy/output/utilities.html" afterPath="$PROJECT_DIR$/schemaspy/output/utilities.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/views.py" afterPath="$PROJECT_DIR$/repo/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smmpdb.iws" />
@@ -29,10 +108,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/urls.py">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="3" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="390">
+            <state line="48" column="30" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/templates/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="223" selection-start="929" selection-end="929" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="555">
+              <folding>
+                <element signature="e#272#335#0" expanded="true" />
+                <element signature="e#543#599#0" expanded="true" />
+                <element signature="e#752#808#0" expanded="true" />
+                <element signature="e#988#1044#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="196" column="37" selection-start="7695" selection-end="7695" vertical-scroll-proportion="0.0" vertical-offset="2429" max-vertical-offset="3360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="predict.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/templates/predict.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="81" selection-start="223" selection-end="302" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="720">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/repo/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="8" selection-start="905" selection-end="905" vertical-scroll-proportion="0.33076075" vertical-offset="0" max-vertical-offset="907">
               <folding />
             </state>
           </provider>
@@ -41,25 +161,7 @@
       <file leaf-file-name="datasets.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/templates/datasets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="43" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="55" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.12889366" vertical-offset="0" max-vertical-offset="931">
+            <state line="25" column="65" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -68,60 +170,39 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="65" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1800">
+            <state line="36" column="32" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1950">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smlogp.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="42" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="660">
+            <state line="18" column="98" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="390">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
+      <file leaf-file-name="jumbotron-narrow.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="74" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="3435">
+            <state line="77" column="27" selection-start="1302" selection-end="1309" vertical-scroll-proportion="0.0" vertical-offset="854" max-vertical-offset="1815">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/tasks.py">
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/templates/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="42" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="765">
+            <state line="22" column="14" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
               <folding>
-                <marker date="1426635166000" expanded="true" signature="1001:1216" placeholder="..." />
+                <marker date="1427321577000" expanded="true" signature="274:343" placeholder="..." />
+                <marker date="1427321577000" expanded="true" signature="351:473" placeholder="..." />
+                <marker date="1427321577000" expanded="true" signature="491:531" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="submit.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/templates/submit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
-              <folding>
-                <marker date="1426635609000" expanded="true" signature="146:393" placeholder="..." />
-                <marker date="1426635609000" expanded="false" signature="208:219" placeholder="..." />
-                <marker date="1426635609000" expanded="false" signature="359:383" placeholder="..." />
-                <marker date="1426635609000" expanded="true" signature="517:636" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="predict.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/templates/predict.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="99" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="525">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -142,9 +223,7 @@
         <option value="$PROJECT_DIR$/repo/tests.py" />
         <option value="$PROJECT_DIR$/smmpdb/wsgi.py" />
         <option value="$PROJECT_DIR$/smmpdb/urls.py" />
-        <option value="$PROJECT_DIR$/repo/templates/test.html" />
         <option value="$PROJECT_DIR$/repo/templates/list.html" />
-        <option value="$PROJECT_DIR$/repo/models.py" />
         <option value="$PROJECT_DIR$/repo/templates/smlogp_calc.html" />
         <option value="$PROJECT_DIR$/smmpdb/celery.py" />
         <option value="$PROJECT_DIR$/smmpdb/__init__.py" />
@@ -156,28 +235,33 @@
         <option value="$PROJECT_DIR$/repo/templates/_footer.html" />
         <option value="$PROJECT_DIR$/repo/static/static/css/jumbotron-narrow.css" />
         <option value="$PROJECT_DIR$/repo/templates/tmp.html" />
-        <option value="$PROJECT_DIR$/repo/templates/about.html" />
-        <option value="$PROJECT_DIR$/repo/templates/contact.html" />
         <option value="$PROJECT_DIR$/repo/forms.py" />
         <option value="$PROJECT_DIR$/repo/static/css/jumbotron-narrow.css" />
         <option value="$PROJECT_DIR$/myindigo/MyIndigo.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/smmpdb/settings_local.py" />
         <option value="$PROJECT_DIR$/fabfile.py" />
-        <option value="$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css" />
-        <option value="$PROJECT_DIR$/repo/templates/base.html" />
         <option value="$PROJECT_DIR$/repo/tasks.py" />
-        <option value="$PROJECT_DIR$/repo/templates/submit.html" />
         <option value="$PROJECT_DIR$/unused/unused.py" />
-        <option value="$PROJECT_DIR$/repo/urls.py" />
-        <option value="$PROJECT_DIR$/repo/views.py" />
-        <option value="$PROJECT_DIR$/repo/templates/datasets.html" />
-        <option value="$PROJECT_DIR$/repo/templates/predict.html" />
-        <option value="$PROJECT_DIR$/repo/templates/smlogp.html" />
-        <option value="$PROJECT_DIR$/repo/templates/home.html" />
-        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/smmpdb/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/repo/templates/base.html" />
+        <option value="$PROJECT_DIR$/repo/templates/smlogp.html" />
+        <option value="$PROJECT_DIR$/repo/templates/submit.html" />
+        <option value="$PROJECT_DIR$/repo/templates/test.html" />
+        <option value="$PROJECT_DIR$/repo/templates/submitinfo.html" />
+        <option value="$PROJECT_DIR$/../name_to_canonical_smiles/get_canonical_smiles.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/repo/models.py" />
+        <option value="$PROJECT_DIR$/repo/admin.py" />
+        <option value="$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css" />
+        <option value="$PROJECT_DIR$/repo/views.py" />
+        <option value="$PROJECT_DIR$/repo/urls.py" />
+        <option value="$PROJECT_DIR$/repo/templates/predict.html" />
+        <option value="$PROJECT_DIR$/repo/templates/datasets.html" />
+        <option value="$PROJECT_DIR$/repo/templates/contact.html" />
+        <option value="$PROJECT_DIR$/repo/templates/about.html" />
+        <option value="$PROJECT_DIR$/repo/templates/home.html" />
       </list>
     </option>
   </component>
@@ -270,6 +354,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smmpdb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,27 +533,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="smmpdb" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -429,7 +559,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="smmpdb" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -538,18 +688,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18675418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39939332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3077874" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25964546" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -577,43 +727,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/repo/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1185" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="33" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0" vertical-offset="1379" max-vertical-offset="2190" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="30" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2085" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="33" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.0" vertical-offset="1379" max-vertical-offset="2190" />
@@ -704,19 +817,9 @@
         <state line="20" column="21" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="225" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="56" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="126" selection-end="126" vertical-scroll-proportion="0.099228226" vertical-offset="0" max-vertical-offset="907" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/indigo/__init__.py">
@@ -729,11 +832,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="931" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myindigo/MyIndigo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5910" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="22" selection-start="154" selection-end="154" vertical-scroll-proportion="0.12889366" vertical-offset="0" max-vertical-offset="931" />
@@ -742,16 +840,6 @@
     <entry file="file://$PROJECT_DIR$/smmpdb/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="4" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="83" selection-start="1581" selection-end="1581" vertical-scroll-proportion="0.4707828" vertical-offset="143" max-vertical-offset="1050" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="16" selection-start="1273" selection-end="1280" vertical-scroll-proportion="0.33942" vertical-offset="824" max-vertical-offset="1755" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/settings_local.py">
@@ -764,101 +852,171 @@
         <state line="21" column="42" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.33834586" vertical-offset="0" max-vertical-offset="931" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="221" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/tasks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="42" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <folding>
-            <marker date="1426635166000" expanded="true" signature="1001:1216" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/submit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="435">
-          <folding>
-            <marker date="1426635609000" expanded="true" signature="146:393" placeholder="..." />
-            <marker date="1426635609000" expanded="false" signature="208:219" placeholder="..." />
-            <marker date="1426635609000" expanded="false" signature="359:383" placeholder="..." />
-            <marker date="1426635609000" expanded="true" signature="517:636" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unused/unused.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="22" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.3277849" vertical-offset="359" max-vertical-offset="1260" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/urls.py">
+    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="3" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="24" column="29" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="3180" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="27" selection-start="2222" selection-end="2241" vertical-scroll-proportion="-18.75" vertical-offset="345" max-vertical-offset="1110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myindigo/MyIndigo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="311" column="50" selection-start="11706" selection-end="11706" vertical-scroll-proportion="0.0" vertical-offset="4258" max-vertical-offset="5910" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../property_data/logS/Katritzky2005/1F_fetch_structures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="15" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="750" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../name_to_canonical_smiles/get_canonical_smiles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="44" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="78" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="16" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schemaspy/output/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4425" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="647" selection-end="647" vertical-scroll-proportion="0.3472988" vertical-offset="0" max-vertical-offset="907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/submit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="104" selection-end="508" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bitcoin/adoption/this-is-me/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.049614113" vertical-offset="45" max-vertical-offset="2115" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/submitinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bitcoin/adoption/this-is-me/this-is-me.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="32" selection-start="2233" selection-end="2234" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="65" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1800">
+        <state line="36" column="32" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
+    <entry file="file://$PROJECT_DIR$/repo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="660">
+        <state line="18" column="98" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="1202" selection-end="1202" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/datasets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="43" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="660">
+        <state line="25" column="65" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="14" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
+          <folding>
+            <marker date="1427321577000" expanded="true" signature="274:343" placeholder="..." />
+            <marker date="1427321577000" expanded="true" signature="351:473" placeholder="..." />
+            <marker date="1427321577000" expanded="true" signature="491:531" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="30" selection-start="1876" selection-end="1876" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1905">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="74" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="3435">
+        <state line="196" column="37" selection-start="7695" selection-end="7695" vertical-scroll-proportion="0.0" vertical-offset="2429" max-vertical-offset="3360">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/predict.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="99" selection-end="153" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="525">
+        <state line="9" column="81" selection-start="223" selection-end="302" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smmpdb/settings.py">
+    <entry file="file://$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="3180">
+        <state line="77" column="27" selection-start="1302" selection-end="1309" vertical-scroll-proportion="0.0" vertical-offset="854" max-vertical-offset="1815">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/models.py">
+    <entry file="file://$PROJECT_DIR$/repo/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="55" selection-start="2806" selection-end="2806" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1800">
-          <folding />
+        <state line="23" column="223" selection-start="929" selection-end="929" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="555">
+          <folding>
+            <element signature="e#272#335#0" expanded="true" />
+            <element signature="e#543#599#0" expanded="true" />
+            <element signature="e#752#808#0" expanded="true" />
+            <element signature="e#988#1044#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/repo/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.12889366" vertical-offset="0" max-vertical-offset="931">
+        <state line="20" column="8" selection-start="905" selection-end="905" vertical-scroll-proportion="0.33076075" vertical-offset="0" max-vertical-offset="907">
           <folding />
         </state>
       </provider>

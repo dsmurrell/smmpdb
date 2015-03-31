@@ -16,7 +16,7 @@ class Capture(object):
             #self.terminal.write(message) 
             self.text += message
 
-def findHooks(source_name, measurement_type_type, reference_name):
+def findHooks(source_name, measurement_type_type, reference_doi):
     qs = Source.objects.filter(name=source_name)
     if qs.count() == 0:
         print "Source \'" + source_name + "\' does not exist in database."
@@ -29,9 +29,9 @@ def findHooks(source_name, measurement_type_type, reference_name):
         sys.exit()
     measurement_type = qs[0]
         
-    qs = Reference.objects.filter(name=reference_name)
+    qs = Reference.objects.filter(name=reference_doi)
     if qs.count() == 0:
-        print "Reference \'" + reference_name + "\' does not exist in database."
+        print "Reference \'" + reference_doi + "\' does not exist in database."
         sys.exit()
     reference = qs[0]
         
@@ -199,16 +199,16 @@ def importFromSourceData(source_data):
         units = row[4]
         source_name = row[5]
         measurement_type_type = row[6]
-        reference_name = row[7]
+        reference_doi = row[7]
         is_open = row[8]
         is_predicted = row[9]
         
         source, created = Source.objects.get_or_create(name=source_name, source_data = source_data)
-        #source.source_data = source_data
+        source.source_data = source_data # this line was removed for some reason
         source.save()
         measurement_type, created = MeasurementType.objects.get_or_create(type=measurement_type_type)
-        reference, created = Reference.objects.get_or_create(name=reference_name)
-        
+        reference, created = Reference.objects.get_or_create(doi=reference_doi)
+
         molecule.aromatize()
         canonical_smiles = molecule.canonicalSmiles()
         addSingleMeasurement(external_id = external_id,

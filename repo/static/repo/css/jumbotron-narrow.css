@@ -109,3 +109,7 @@ body {
     border-bottom: 0;
   }
 }
+
+#content{background-color:#fafafa;height:300px;overflow:hidden;position:relative;width:600px;}
+#pagecontainer{position:relative;width:9999px;}
+.section{float:left;height:275px;margin-right:50px;padding:0 10px 25px;position:relative;width:568px;}

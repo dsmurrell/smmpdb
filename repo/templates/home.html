@@ -5,25 +5,18 @@
 {% block home-active %}class="active"{% endblock %}
 
 {% block jumbo %}
-  <div class="jumbotron">
-      <h2>Small Molecule Measured Property Database</h2>
-      <!--<p class="lead" style="color:black">A collection of measuered physico-chemical property datasets collected from literature together with physico-chemical prediction tools.</p>-->
-      <img src="/static/repo/images/molecule.png" style="width:400px;height:240px">
-  </div>
+  <h2>Small Molecule Measured Property Database</h2>
+  <img src="/static/repo/images/molecule.png" style="width:400px;height:240px">
 {% endblock %}
 
-
-
 {% block content %}
-    <div class="row marketing">
-      <div class="col-lg-6">
-        <a href="{% url 'datasets' %}" style="color: #000000;text-decoration: none; outline: 0"><h4><i class="fa fa-bars"></i>  Measured Property Datasets</h4></a>
-        <p>Curated measured physico-chemical property data collected from the literature.</p>
-      </div>
+  <div class="col-lg-6">
+    <a href="{% url 'datasets' %}" style="color: #000000;text-decoration: none; outline: 0"><h4><i class="fa fa-bars"></i>  Measured Property Datasets</h4></a>
+    <p>Curated measured physico-chemical property data collected from the literature.</p>
+  </div>
 
-      <div class="col-lg-6">
-        <a href="{% url 'predict' %}" style="color: #000000;text-decoration: none; outline: 0"><h4><i class="fa fa-cogs"></i>  Property Prediction</h4></a>
-        <p>Make predictions for physchem-properties. Get back perdicted value and an estimation of the error of the prediction.</p>
-      </div>
-    </div>
+  <div class="col-lg-6">
+    <a href="{% url 'predict' %}" style="color: #000000;text-decoration: none; outline: 0"><h4><i class="fa fa-cogs"></i>  Property Prediction</h4></a>
+    <p>Make predictions for physchem-properties. Get back predicted values and an estimation of the error of the prediction.</p>
+  </div>
  {% endblock %}
