@@ -15,4 +15,4 @@ class TestForm(forms.Form):
     
 class MoleculeFileForm(forms.Form):
     email_address = forms.EmailField(label='Please enter your email address', required=True)
-    molecule_file = forms.FileField(label='Please upload SDF or SMILES file', required=True)
+    molecule_file = forms.FileField(label='Please select your SDF or SMILES file', required=True)

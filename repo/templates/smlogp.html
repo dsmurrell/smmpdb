@@ -8,7 +8,7 @@
 
 {% block jumbo %}
       <h2>LogP Prediction</h2>
-      <img src="/static/repo/images/cogs_black.png" style="width:340px;height:140px">
+      <img src="/static/repo/images/blackbox.png" style="width:512px;height:143px;margin-top: 20px; margin-bottom: -10px">
 {% endblock %}
 
 {% block content %}
@@ -17,7 +17,7 @@
   <form action="{% url 'smlogp' %}" method="post" enctype="multipart/form-data">
       {% csrf_token %}
       {{ form.as_p }}
-      <p><input src="/static/repo/images/upload_button.png" style="width:95px;height:35px" type="image" value="Upload" /></p>
+      <p><input src="/static/repo/images/upload_button2.png" style="width:102px;height:124px; margin-bottom: -60px" type="image" value="Upload" /></p>
   </form>
   {% endif %}
 {% endblock %}
