@@ -56,7 +56,7 @@ class Reference(models.Model):
         db_table = u'reference'
     def __unicode__(self):
         #return u'%s (%s) (%s)' % (self.title, self.author_list, self.year)
-        return u'%s' % (self.name)
+        return u'%s' % (self.doi)
         
 class Compound(models.Model):
     smiles = models.CharField(max_length=600, db_column='SMILES', blank=True, db_index=True)
