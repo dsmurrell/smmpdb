@@ -18,14 +18,6 @@ class Model(models.Model):
         db_table = u'model'
     def __unicode__(self):
         return u'%s: %s' % (self.type, self.description)
-
-class SourceData(models.Model):
-    smiles_file = models.FileField(upload_to='source_data/%Y/%m/%d')
-    meta_file = models.FileField(upload_to='source_data/%Y/%m/%d') 
-    class Meta:
-        db_table = u'source_data'  
-    def __unicode__(self):
-        return u'%s' % (os.path.basename(self.meta_file.name))
     
 class MoleculeFile(models.Model):
     molecule_file = models.FileField(upload_to='molecule_file/%Y/%m/%d')
@@ -41,7 +33,8 @@ class Source(models.Model):
     url = models.CharField(max_length=300, db_column='URL', blank=True)
     type = models.CharField(max_length=300, blank=True)
     description = models.TextField(blank=True)
-    source_data = models.ForeignKey(SourceData)
+    smiles_file = models.FileField(upload_to='source/%Y/%m/%d')
+    meta_file = models.FileField(upload_to='source/%Y/%m/%d')
     class Meta:
         db_table = u'source'   
     def __unicode__(self):

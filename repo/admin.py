@@ -1,4 +1,4 @@
-from repo.models import Condition, ConditionType, Measurement, MeasurementSet, MeasurementType, Compound, Source, Reference, SourceData, Model
+from repo.models import Condition, ConditionType, Measurement, MeasurementSet, MeasurementType, Compound, Source, Reference, Model
 from django.contrib import admin
 
 admin.site.register(Model)
@@ -10,4 +10,3 @@ admin.site.register(MeasurementType)
 admin.site.register(Compound)
 admin.site.register(Source)
 admin.site.register(Reference)
-admin.site.register(SourceData)

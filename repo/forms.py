@@ -6,7 +6,7 @@ YES_OR_NO = (
     (False, 'No')
 )
 
-class SourceDataForm(forms.Form):
+class SourceForm(forms.Form):
     email_address = forms.EmailField(label='Submitter''s email address', required=True)
     display_name = forms.CharField(label='Display Name', required=True)
     url = forms.CharField(label='URL', required=True)

@@ -3,7 +3,7 @@ from __future__ import absolute_import
 from celery import shared_task, app, task
 from celery.utils.log import get_task_logger
 
-from utils import importFromSourceData, Capture
+from utils import importFromSource, Capture
 import sys
 
 logger = get_task_logger('repo')
@@ -35,10 +35,10 @@ smpredict team""", 'smpredict', [email_address])
     mail.send()
 
 @task
-def import_task(source_data, email_address):
+def import_task(source):
     capture = Capture()
     sys.stdout = capture
-    importFromSourceData(source_data, email_address)
+    importFromSource(source)
     mail = EmailMessage('Data submission report',
     capture.text, 'smpredict', ['daniel.murrell@cantab.net'])
     mail.send()

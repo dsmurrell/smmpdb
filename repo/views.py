@@ -6,7 +6,7 @@ from tasks import predict_logp, import_task
 import logging
 logger = logging.getLogger('repo')
 
-from repo.models import SourceData
+from repo.models import Source
 from repo.forms import *
 
 from utils import *
@@ -61,19 +61,17 @@ def smlogp(request):
 def submit(request):
     if request.method == 'POST':
         print "YO MOFO"
-        form = SourceDataForm(request.POST, request.FILES)
+        form = SourceForm(request.POST, request.FILES)
         if form.is_valid():
-            source_data = SourceData(smiles_file = request.FILES['smiles_file'], meta_file = request.FILES['meta_file'])
-            source_data.save()
+            source = Source(email_address = form.cleaned_data['email_address'],
+                                 display_name = form.cleaned_data['email_address'],
+                                 url = form.cleaned_data['url'],
+                                 description = form.cleaned_data['description'],
+                                 smiles_file = request.FILES['smiles_file'],
+                                 meta_file = request.FILES['meta_file'])
+            source.save()
 
-            email_address = form.cleaned_data['email_address']
-            display_name = form.cleaned_data['email_address']
-            url = form.cleaned_data['url']
-            description = form.cleaned_data['description']
-
-            source = Source(email_address = email_address, display_name = display_name, url = url, description = description, source_data = source_data)
-
-            import_task.delay(source_data, email_address)
+            import_task.delay(source)
 
             return render_to_response(
                 'submit.html',
@@ -87,7 +85,7 @@ def submit(request):
                 context_instance=RequestContext(request)
             )
     else:
-        form = SourceDataForm()
+        form = SourceForm()
         return render_to_response(
             'submit.html',
             {'form': form, 'show_form': True},
