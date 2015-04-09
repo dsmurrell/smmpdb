@@ -56,7 +56,6 @@ class Reference(models.Model):
     class Meta:
         db_table = u'reference'
     def __unicode__(self):
-        #return u'%s (%s) (%s)' % (self.title, self.author_list, self.year)
         return u'%s' % (self.doi)
         
 class Compound(models.Model):

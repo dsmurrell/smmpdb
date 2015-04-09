@@ -60,18 +60,30 @@ def smlogp(request):
 
 def submit(request):
     if request.method == 'POST':
+        print "YO MOFO"
         form = SourceDataForm(request.POST, request.FILES)
         if form.is_valid():
             source_data = SourceData(smiles_file = request.FILES['smiles_file'], meta_file = request.FILES['meta_file'])
             source_data.save()
 
-            form.cleaned_data('')
+            email_address = form.cleaned_data['email_address']
+            display_name = form.cleaned_data['email_address']
+            url = form.cleaned_data['url']
+            description = form.cleaned_data['description']
 
-            import_task.delay(source_data)
+            source = Source(email_address = email_address, display_name = display_name, url = url, description = description, source_data = source_data)
+
+            import_task.delay(source_data, email_address)
 
             return render_to_response(
                 'submit.html',
                 {'processing': 'Thank you for your submission... if anything unexpected happened you will be contacted.', 'show_form': False},
+                context_instance=RequestContext(request)
+            )
+        else:
+            return render_to_response(
+                'submit.html',
+                {'form': form, 'show_form': True},
                 context_instance=RequestContext(request)
             )
     else:

@@ -175,7 +175,7 @@ def addSingleMeasurement(external_id,
     measurement.save()
     
 # import data from entry template
-def importFromSourceData(source_data):
+def importFromSourceData(source_data, email_address):
     smiles_file = os.path.join(settings.MEDIA_ROOT, source_data.smiles_file.name)
     meta_file = os.path.join(settings.MEDIA_ROOT, source_data.meta_file.name)
     
@@ -204,7 +204,7 @@ def importFromSourceData(source_data):
         is_predicted = row[9]
         
         source, created = Source.objects.get_or_create(name=source_name, source_data = source_data)
-        source.source_data = source_data # this line was removed for some reason
+        source.email_address = email_address
         source.save()
         measurement_type, created = MeasurementType.objects.get_or_create(type=measurement_type_type)
         reference, created = Reference.objects.get_or_create(doi=reference_doi)

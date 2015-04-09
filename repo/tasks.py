@@ -35,10 +35,10 @@ smpredict team""", 'smpredict', [email_address])
     mail.send()
 
 @task
-def import_task(source_data):
+def import_task(source_data, email_address):
     capture = Capture()
     sys.stdout = capture
-    importFromSourceData(source_data)
+    importFromSourceData(source_data, email_address)
     mail = EmailMessage('Data submission report',
     capture.text, 'smpredict', ['daniel.murrell@cantab.net'])
     mail.send()
