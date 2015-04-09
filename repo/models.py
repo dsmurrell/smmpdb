@@ -35,6 +35,7 @@ class MoleculeFile(models.Model):
         return u'%s' % (os.path.basename(self.molecule_file.name))
 
 class Source(models.Model):
+    email_address = models.EmailField(blank=False)
     name = models.CharField(max_length=300, blank=True)
     display_name = models.CharField(max_length=300, blank=True)
     url = models.CharField(max_length=300, db_column='URL', blank=True)

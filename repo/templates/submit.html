@@ -16,7 +16,7 @@
   {% if show_form %}
     <form action="{% url 'submit' %}" method="post" enctype="multipart/form-data">
         {% csrf_token %}
-        {{ form.as_table }}
+        {{ form.as_table | linebreaks }}
         <p><input type="submit" value="Upload" /></p>
     </form>
   {% endif %}

@@ -65,8 +65,7 @@ def submit(request):
             source_data = SourceData(smiles_file = request.FILES['smiles_file'], meta_file = request.FILES['meta_file'])
             source_data.save()
 
-            print source_data.smiles_file
-            print source_data.meta_file
+            form.cleaned_data('')
 
             import_task.delay(source_data)
 
