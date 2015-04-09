@@ -29,7 +29,6 @@ class MoleculeFile(models.Model):
 class Source(models.Model):
     email_address = models.EmailField(blank=False)
     name = models.CharField(max_length=300, blank=True)
-    display_name = models.CharField(max_length=300, blank=True)
     url = models.CharField(max_length=300, db_column='URL', blank=True)
     type = models.CharField(max_length=300, blank=True)
     description = models.TextField(blank=True)

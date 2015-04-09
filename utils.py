@@ -197,11 +197,10 @@ def importFromSource(source):
         original_format_type = row[2]
         value = row[3]
         units = row[4]
-        source_name = row[5]
-        measurement_type_type = row[6]
-        reference_doi = row[7]
-        is_open = row[8]
-        is_predicted = row[9]
+        measurement_type_type = row[5]
+        reference_doi = row[6]
+        is_open = row[7]
+        is_predicted = row[8]
 
         measurement_type, created = MeasurementType.objects.get_or_create(type=measurement_type_type)
         reference, created = Reference.objects.get_or_create(doi=reference_doi)

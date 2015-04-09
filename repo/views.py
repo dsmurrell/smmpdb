@@ -64,7 +64,7 @@ def submit(request):
         form = SourceForm(request.POST, request.FILES)
         if form.is_valid():
             source = Source(email_address = form.cleaned_data['email_address'],
-                                 display_name = form.cleaned_data['email_address'],
+                                 name = form.cleaned_data['name'],
                                  url = form.cleaned_data['url'],
                                  description = form.cleaned_data['description'],
                                  smiles_file = request.FILES['smiles_file'],
