@@ -6,7 +6,6 @@ from tasks import predict_logp, import_task
 import logging
 logger = logging.getLogger('repo')
 
-from repo.models import Source
 from repo.forms import *
 
 from utils import *

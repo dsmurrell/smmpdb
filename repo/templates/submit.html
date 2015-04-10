@@ -19,5 +19,17 @@
         {{ form.as_table | linebreaks }}
         <p><input type="submit" value="Upload" /></p>
     </form>
+  {% else %}
+    </p>
+    <button id="try_again_button" class="float-left submit-button" >Submit Another Dataset</button>
   {% endif %}
 {% endblock %}
+
+{% block js %}
+  <script type="text/javascript">
+    document.getElementById("try_again_button").onclick = function () {
+        location.href = "/submit/";
+    };
+  </script>
+{% endblock %}
+

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/datasets.html" afterPath="$PROJECT_DIR$/repo/templates/datasets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/base.html" afterPath="$PROJECT_DIR$/repo/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/forms.py" afterPath="$PROJECT_DIR$/repo/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/models.py" afterPath="$PROJECT_DIR$/repo/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/submit.html" afterPath="$PROJECT_DIR$/repo/templates/submit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/views.py" afterPath="$PROJECT_DIR$/repo/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,16 +32,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="36" selection-start="2622" selection-end="2622" vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1785">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smlogp.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/repo/templates/smlogp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="13" selection-start="709" selection-end="709" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="435">
+            <state line="49" column="26" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
@@ -51,7 +41,7 @@
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="47" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="21" column="42" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
@@ -60,8 +50,10 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="63" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="2025">
-              <folding />
+            <state line="20" column="22" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2070">
+              <folding>
+                <element signature="e#24#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="38" selection-start="7761" selection-end="7761" vertical-scroll-proportion="0.47484276" vertical-offset="2608" max-vertical-offset="3300">
+            <state line="182" column="42" selection-start="7276" selection-end="7276" vertical-scroll-proportion="0.0" vertical-offset="2383" max-vertical-offset="3300">
               <folding />
             </state>
           </provider>
@@ -111,18 +103,29 @@
       <file leaf-file-name="submitinfo.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/templates/submitinfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="302" selection-end="302" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
+            <state line="6" column="33" selection-start="165" selection-end="165" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="255">
               <folding>
-                <marker date="1426782417000" expanded="false" signature="261:285" placeholder="..." />
+                <element signature="e#254#286#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submit.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="18" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-11.125" vertical-offset="693" max-vertical-offset="1155">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submit.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repo/templates/submit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="27" selection-start="705" selection-end="705" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="420">
+            <state line="21" column="12" selection-start="797" selection-end="797" vertical-scroll-proportion="0.5779221" vertical-offset="48" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -165,31 +168,31 @@
         <option value="$PROJECT_DIR$/smmpdb/settings.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/repo/templates/test.html" />
-        <option value="$PROJECT_DIR$/repo/templates/submitinfo.html" />
         <option value="$PROJECT_DIR$/../name_to_canonical_smiles/get_canonical_smiles.py" />
         <option value="$PROJECT_DIR$/repo/static/repo/css/jumbotron-narrow.css" />
         <option value="$PROJECT_DIR$/repo/urls.py" />
         <option value="$PROJECT_DIR$/repo/templates/predict.html" />
         <option value="$PROJECT_DIR$/repo/templates/home.html" />
         <option value="$PROJECT_DIR$/repo/templates/contact.html" />
-        <option value="$PROJECT_DIR$/repo/templates/base.html" />
         <option value="$PROJECT_DIR$/repo/templates/about.html" />
         <option value="$PROJECT_DIR$/repo/templates/smlogp.html" />
-        <option value="$PROJECT_DIR$/repo/templates/submit.html" />
         <option value="$PROJECT_DIR$/repo/admin.py" />
         <option value="$PROJECT_DIR$/repo/tasks.py" />
         <option value="$PROJECT_DIR$/repo/models.py" />
-        <option value="$PROJECT_DIR$/repo/views.py" />
         <option value="$PROJECT_DIR$/repo/templates/datasets.html" />
-        <option value="$PROJECT_DIR$/repo/forms.py" />
         <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/repo/views.py" />
+        <option value="$PROJECT_DIR$/repo/forms.py" />
+        <option value="$PROJECT_DIR$/repo/templates/base.html" />
+        <option value="$PROJECT_DIR$/repo/templates/submitinfo.html" />
+        <option value="$PROJECT_DIR$/repo/templates/submit.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1676" />
-    <option name="height" value="1028" />
+    <option name="width" value="1436" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -600,16 +603,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1676" height="1028" extended-state="6" />
+    <frame x="0" y="22" width="1436" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3076121" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36464772" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16288783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19011141" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -843,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="48" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="525">
@@ -864,25 +860,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/submitinfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="302" selection-end="302" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
-          <folding>
-            <marker date="1426782417000" expanded="false" signature="261:285" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/smmpdb/lib/python2.7/site-packages/django/forms/fields.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="210" column="8" selection-start="8046" selection-end="8046" vertical-scroll-proportion="0.3329753" vertical-offset="2450" max-vertical-offset="17775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/templates/submit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="705" selection-end="705" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
@@ -903,26 +883,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="36" selection-start="2622" selection-end="2622" vertical-scroll-proportion="0.0" vertical-offset="671" max-vertical-offset="1785">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/datasets.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="45" selection-start="664" selection-end="664" vertical-scroll-proportion="-8.0" vertical-offset="78" max-vertical-offset="690">
           <folding>
             <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/repo/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="47" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,16 +901,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/views.py">
+    <entry file="file://$PROJECT_DIR$/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="63" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.0" vertical-offset="718" max-vertical-offset="2025">
+        <state line="182" column="42" selection-start="7276" selection-end="7276" vertical-scroll-proportion="0.0" vertical-offset="2383" max-vertical-offset="3300">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
+    <entry file="file://$PROJECT_DIR$/repo/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="38" selection-start="7761" selection-end="7761" vertical-scroll-proportion="0.47484276" vertical-offset="2608" max-vertical-offset="3300">
+        <state line="49" column="26" selection-start="1994" selection-end="1994" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="22" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2070">
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="42" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="18" selection-start="2422" selection-end="2422" vertical-scroll-proportion="-11.125" vertical-offset="693" max-vertical-offset="1155">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/submitinfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="33" selection-start="165" selection-end="165" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="255">
+          <folding>
+            <element signature="e#254#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/templates/submit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="12" selection-start="797" selection-end="797" vertical-scroll-proportion="0.5779221" vertical-offset="48" max-vertical-offset="615">
           <folding />
         </state>
       </provider>
