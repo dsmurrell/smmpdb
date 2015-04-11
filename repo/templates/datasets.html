@@ -24,7 +24,7 @@
       </tr>
       {% for source in sources %}
          <tr>
-            <td class="text-center" style="vertical-align:middle">{{ source.name }}</td>
+            <td class="text-center">{{ source.name }}</td>
             <td class="text-center" style="vertical-align:middle">
             {% for type in source.measurement_types.all %}
               {{ type }}

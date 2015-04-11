@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/admin.py" afterPath="$PROJECT_DIR$/repo/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/datasets.html" afterPath="$PROJECT_DIR$/repo/templates/datasets.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/forms.py" afterPath="$PROJECT_DIR$/repo/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/models.py" afterPath="$PROJECT_DIR$/repo/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/views.py" afterPath="$PROJECT_DIR$/repo/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smmpdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,11 +79,11 @@
       <file leaf-file-name="datasets.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repo/templates/datasets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="59" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.663144" vertical-offset="8" max-vertical-offset="765">
+            <state line="26" column="35" selection-start="976" selection-end="976" vertical-scroll-proportion="0.50462353" vertical-offset="8" max-vertical-offset="765">
               <folding>
-                <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -958,11 +952,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/datasets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="59" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.663144" vertical-offset="8" max-vertical-offset="765">
+        <state line="26" column="35" selection-start="976" selection-end="976" vertical-scroll-proportion="0.50462353" vertical-offset="8" max-vertical-offset="765">
           <folding>
-            <element signature="n#style#0;n#td#0;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
           </folding>
         </state>
