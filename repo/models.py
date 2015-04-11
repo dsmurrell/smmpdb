@@ -30,7 +30,7 @@ class Source(models.Model):
     email_address = models.EmailField(blank=False)
     name = models.CharField(max_length=300, blank=True)
     url = models.CharField(max_length=300, db_column='URL', blank=True)
-    type = models.CharField(max_length=300, blank=True)
+    measurement_types = models.ManyToManyField('MeasurementType', blank=True)
     description = models.TextField(blank=True)
     smiles_file = models.FileField(upload_to='source/%Y/%m/%d')
     meta_file = models.FileField(upload_to='source/%Y/%m/%d')
@@ -75,6 +75,7 @@ class Condition(models.Model):
 class MeasurementType(models.Model):
     type = models.CharField(max_length=135, blank=True)
     description = models.TextField(blank=True)
+    sources = models.ManyToManyField(Source, through=Source.measurement_types.through, blank=True)
     class Meta:
         db_table = u'measurement_type'
     def __unicode__(self):

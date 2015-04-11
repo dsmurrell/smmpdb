@@ -59,13 +59,12 @@ def smlogp(request):
 
 def submit(request):
     if request.method == 'POST':
-        print "YO MOFO"
         form = SourceForm(request.POST, request.FILES)
         if form.is_valid():
             source = Source(email_address = form.cleaned_data['email_address'],
-                                 name = form.cleaned_data['name'],
-                                 url = form.cleaned_data['url'],
-                                 description = form.cleaned_data['description'],
+                                 name = unicode(form.cleaned_data['name']).encode('utf8'),
+                                 url = unicode(form.cleaned_data['url']).encode('utf8'),
+                                 description = unicode(form.cleaned_data['description']).encode('utf8'),
                                  smiles_file = request.FILES['smiles_file'],
                                  meta_file = request.FILES['meta_file'])
             source.save()

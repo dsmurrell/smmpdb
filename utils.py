@@ -203,6 +203,7 @@ def importFromSource(source):
         is_predicted = row[8]
 
         measurement_type, created = MeasurementType.objects.get_or_create(type=measurement_type_type)
+        source.measurement_types.add()
         reference, created = Reference.objects.get_or_create(doi=reference_doi)
 
         molecule.aromatize()

@@ -17,16 +17,21 @@
     <tbody>
       <tr>
           <th class="text-center">Source</th>
-          <th class="text-center">Type</th>
+          <th class="text-center">Measurement Type/s</th>
           <th class="text-center">Description</th>
           <th class="text-center">External Link</th>
           <th class="text-center">Submitted Data</th>
       </tr>
       {% for source in sources %}
          <tr>
-            <td class="text-center">{{ source.name }}</td>
-            <td class="text-center" style="vertical-align:middle">{{ source.type }}</td>
-            <td class="text-center">{{ source.description }}</td>
+            <td class="text-center" style="vertical-align:middle">{{ source.name }}</td>
+            <td class="text-center" style="vertical-align:middle">
+            {% for type in source.measurement_types.all %}
+              {{ type }}
+              </br>
+            {% endfor %}
+            </td>
+            <td class="text-center" style="vertical-align:middle">{{ source.description }}</td>
             <td class="text-center" style="vertical-align:middle"><a href="{{ source.url }}"><i class="fa fa-external-link"></i></a></td>
             <td class="text-center" style="vertical-align:middle"><a href="{{ MEDIA_URL }}/{{ source.meta_file }}">META</a>  </br>
               <a href="{{ MEDIA_URL }}/{{ source.smiles_file }}">SMILES</a>

@@ -8,9 +8,9 @@ YES_OR_NO = (
 
 class SourceForm(forms.Form):
     email_address = forms.EmailField(label='Submitter''s email address', required=True)
-    name = forms.CharField(label='Datasource Name', required=True)
-    url = forms.CharField(label='External Link (URL)', required=True)
-    description = forms.CharField(label='Short Description', required=True)
+    name = forms.CharField(label='Datasource name', required=True)
+    url = forms.CharField(label='External link (URL)', required=True)
+    description = forms.CharField(label='Short description', required=True)
     meta_file = forms.FileField(label='Select a META file for import', required=True)
     smiles_file = forms.FileField(label='Select a SMILES file for import', required=True)
     
