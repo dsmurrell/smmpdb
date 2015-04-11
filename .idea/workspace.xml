@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/templates/datasets.html" afterPath="$PROJECT_DIR$/repo/templates/datasets.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smmpdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +80,7 @@
       <file leaf-file-name="datasets.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repo/templates/datasets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="35" selection-start="976" selection-end="976" vertical-scroll-proportion="0.50462353" vertical-offset="8" max-vertical-offset="765">
+            <state line="19" column="34" selection-start="699" selection-end="699" vertical-scroll-proportion="0.3659181" vertical-offset="8" max-vertical-offset="765">
               <folding>
                 <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
@@ -952,7 +953,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/templates/datasets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="35" selection-start="976" selection-end="976" vertical-scroll-proportion="0.50462353" vertical-offset="8" max-vertical-offset="765">
+        <state line="19" column="34" selection-start="699" selection-end="699" vertical-scroll-proportion="0.3659181" vertical-offset="8" max-vertical-offset="765">
           <folding>
             <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#2;n#tr#1;n#tbody#0;n#table#0;n#!!top" expanded="true" />
