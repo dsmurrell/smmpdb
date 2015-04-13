@@ -20,7 +20,7 @@ def predict_logp(molecule_file_path, email_address):
 
     conn = pyRserve.connect()
     conn.eval('library(smpredict)')
-    logger.debug(conn.eval('PredictLogPtoCSV(csv.file="smlogp_predictions.csv", structures.file="' + molecule_file_path + '")'))
+    logger.debug(conn.eval('PredictLogPtoCSV(csv.file="smlogp_predictions.csv", structures.file="' + molecule_file_path + '", error.variance=TRUE)'))
     logger.debug(conn.eval('getwd()'))
 
     mail = EmailMessage('Your LogP Predictions',

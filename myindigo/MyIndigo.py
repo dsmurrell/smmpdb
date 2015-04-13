@@ -364,7 +364,9 @@ class MyIndigo:
             else:
                 return nameSMILES
         else:
-            if nameSMILES == SLNSMILES:
+            if nameSMILES == SLNSMILES and nameSMILES == "":
+                return "Err: no SMILES for name or SLN"
+            elif nameSMILES == SLNSMILES:
                 return nameSMILES
             else:
                 if "." in SLNSMILES:
