@@ -7,6 +7,7 @@ urlpatterns = patterns('repo.views',
                        url(r'^submit/$', 'submit', name='submit'),
                        url(r'^test/$', 'test', name='test'),
                        url(r'^(?i)smlogp/$', 'smlogp', name='smlogp'),
+                       url(r'^(?i)smlogs/$', 'smlogs', name='smlogs'),
                        url(r'^datasets/$', 'datasets', name='datasets'),
                        url(r'^predict/$', 'predict', name='predict'),
 

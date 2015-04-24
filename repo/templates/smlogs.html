@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}SMMPDB - Predict LogS{% endblock %}
+
+
+{% block predict-active %}class="active"{% endblock %}
+
+{% block jumbo %}
+      <h2>LogP Prediction</h2>
+      <img src="/static/repo/images/blackbox.png" style="width:512px;height:143px;margin-top: 20px; margin-bottom: -10px">
+{% endblock %}
+
+{% block content %}
+  {{ processing }}
+  {% if show_form %}
+  <form action="{% url 'smlogs' %}" method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <p><input src="/static/repo/images/upload_button2.png" style="width:102px;height:124px; margin-bottom: -60px" type="image" value="Upload" /></p>
+  </form>
+  {% endif %}
+{% endblock %}

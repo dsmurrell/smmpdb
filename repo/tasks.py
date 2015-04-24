@@ -20,7 +20,7 @@ def predict_logp(molecule_file_path, email_address):
 
     conn = pyRserve.connect()
     conn.eval('library(smpredict)')
-    logger.debug(conn.eval('PredictLogPtoCSV(csv.file="smlogp_predictions.csv", structures.file="' + molecule_file_path + '", error.variance=TRUE)'))
+    logger.debug(conn.eval('PredictPropertytoCSV("LogP", csv.file="smlogp_predictions.csv", structures.file="' + molecule_file_path + '", error.variance=TRUE)'))
     logger.debug(conn.eval('getwd()'))
 
     mail = EmailMessage('Your LogP Predictions',
@@ -32,6 +32,29 @@ here are your LogP predictions.
 Kind regards
 smpredict team""", 'smpredict', [email_address])
     mail.attach_file('' + conn.eval('getwd()') + '/smlogp_predictions.csv')
+    mail.send()
+
+@task
+def predict_logs(molecule_file_path, email_address):
+    print molecule_file_path
+    print email_address
+
+    logger.debug('TESTING LOGGING FROM CELERY')
+
+    conn = pyRserve.connect()
+    conn.eval('library(smpredict)')
+    logger.debug(conn.eval('PredictPropertytoCSV("LogS", csv.file="predictions.csv", structures.file="' + molecule_file_path + '", error.variance=TRUE)'))
+    logger.debug(conn.eval('getwd()'))
+
+    mail = EmailMessage('Your LogS Predictions',
+    """Dear User
+
+Thank you for using our service.
+here are your LogS predictions.
+
+Kind regards
+smpredict team""", 'smpredict', [email_address])
+    mail.attach_file('' + conn.eval('getwd()') + '/predictions.csv')
     mail.send()
 
 @task

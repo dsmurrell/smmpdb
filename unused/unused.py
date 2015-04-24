@@ -15,22 +15,8 @@ def smlogp_file_upload(request):
             #os.chdir('/home/dsm38/smmpdb')
             print os.getcwd()
             proc = subprocess.Popen(["Rscript predictSMILES.R " + input], stdout=subprocess.PIPE, shell=True)
-
-            #proc = subprocess.Popen(["pwd"], stdout=subprocess.PIPE, shell=True)
             (out, err) = proc.communicate()
             print "output: ", out
-            #print "LogP Prediction:", out.split('\n')[-2].split(" ")[-1]
-
-            #os.system("pwd")
-            #molecule_file = MoleculeFile(molecule_file = request.FILES['molecule_file'])
-            #molecule_file.save()
-
-            #print molecule_file.molecule_file
-
-            #importFromSourceData(source_data) DO SOMETHING HERE
-
-            # Redirect to the document list after POST
-            #return HttpResponseRedirect(reverse('repo.views.list'))
     else:
         form = MoleculeFileForm() # A empty, unbound form
 
