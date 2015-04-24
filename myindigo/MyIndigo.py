@@ -340,7 +340,8 @@ class MyIndigo:
         print "Fetching SMILES by SLN: " + SLN
         myfix = SLN.replace('_', ' ')
         myfix = SLN.replace('#', '%23')
-        response = urllib2.urlopen('http://cactus.nci.nih.gov/chemical/structure/' + URLFetchingHelpers.url_fix(myfix) + '/smiles')
+        print 'http://cactus.nci.nih.gov/chemical/structure/' + url_fix(myfix) + '/smiles'
+        response = urllib2.urlopen('http://cactus.nci.nih.gov/chemical/structure/' + url_fix(myfix) + '/smiles')
         text = response.read()
         print "smiles: " + text
         m = self.indigo.loadMolecule(text)
@@ -378,8 +379,8 @@ class MyIndigo:
     def fetchMiLogP(self, SMILES):
         print "Fetching MiLogP by SMILES: " + SMILES
         myfix = SMILES.replace('#', '%23')
-        print URLFetchingHelpers.url_fix(myfix)
-        response = urllib2.urlopen('http://www.molinspiration.com/cgi-bin/properties?smiles=' + URLFetchingHelpers.url_fix(myfix) + '&out=text')
+        print url_fix(myfix)
+        response = urllib2.urlopen('http://www.molinspiration.com/cgi-bin/properties?smiles=' + url_fix(myfix) + '&out=text')
         text = response.read()
         return text.splitlines(True)[4].split()[1]
         
