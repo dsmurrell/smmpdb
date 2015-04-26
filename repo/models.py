@@ -92,7 +92,8 @@ class MeasurementSet(models.Model):
     units = models.CharField(max_length=135, blank=True)
     original_format = models.CharField(max_length=600, blank=True)
     original_format_type = models.CharField(max_length=45, blank=True)
-    external_id = models.IntegerField(null=True, blank=True)
+    #external_id = models.IntegerField(null=True, blank=True)
+    external_id = models.CharField(max_length=30)
     source = models.ForeignKey(Source)
     reference = models.ForeignKey(Reference, null=True)
     class Meta:

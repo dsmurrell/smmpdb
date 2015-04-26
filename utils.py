@@ -182,8 +182,10 @@ def importFromSource(source):
     mi = MyIndigo.MyIndigo(indigo)
     molecules = mi.readSmiles(smiles_file)
     d = {}
-    with open(meta_file, 'rb') as csvfile:
-         r = csv.reader(csvfile, delimiter=',', quotechar='"')
+    with open(meta_file, 'rU') as csvfile:
+         r = csv.reader(csvfile, delimiter=',', quotechar='"', dialect=csv.excel_tab)
+         #r = csv.reader(csvfile, delimiter=',', quotechar='"', dialect=csv.excel_tab)
+         #reader = csv.reader(open(self.file, 'rU'), dialect=csv.excel_tab)
          header = r.next()
          print header
          for row in r:
