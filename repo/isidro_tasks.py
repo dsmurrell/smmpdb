@@ -17,7 +17,7 @@ def predict_NCI60(molecule_file_path, email_address):
 #################################################################################################   
    # 1. Load molecules
 #################################################################################################   
-   import bioalerts
+   import repo.bioalerts
    import os
    import numpy as np
    import sklearn

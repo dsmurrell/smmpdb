@@ -9,4 +9,5 @@ pinax-theme-bootstrap==5.1.0
 numpy
 scipy
 scikit-learn
+joblib
 django-forms-bootstrap
