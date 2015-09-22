@@ -6,4 +6,7 @@ psycopg2==2.5.2
 pyRserve==0.8.1
 celery==3.1.17
 pinax-theme-bootstrap==5.1.0
+numpy
+scipy
+scikit-learn
 django-forms-bootstrap

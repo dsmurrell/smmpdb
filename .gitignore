@@ -8,3 +8,6 @@ repo.log
 /static/
 /media/
 /db_dump/
+/server_errors/
+/repo/isidro/
+
