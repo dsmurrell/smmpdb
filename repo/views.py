@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.shortcuts import render_to_response
 from django.template import RequestContext
-from tasks import predict_logp, predict_logs, import_task
+from tasks import predict_logp, predict_logs, import_task, predict_NCI60
 
 import logging
 logger = logging.getLogger('repo')
@@ -78,6 +78,31 @@ def smlogs(request):
         form = MoleculeFileForm()
         return render_to_response(
             'smlogs.html',
+            {'form': form, 'show_form': True},
+            context_instance=RequestContext(request)
+        )
+
+def smNCI60(request):
+    if request.method == 'POST':
+        form = MoleculeFileForm(request.POST, request.FILES)
+        if form.is_valid():
+            molecule_file = MoleculeFile(molecule_file = request.FILES['molecule_file'])
+            molecule_file.save()
+            molecule_file_path = os.path.join(settings.MEDIA_ROOT, molecule_file.molecule_file.name)
+            email_address = form.cleaned_data['email_address']
+
+            predict_NCI60.delay(molecule_file_path, email_address)
+
+            return render_to_response(
+                'smNCI60.html',
+                {'processing': """NCI60 prediction in progress........
+                                    results will be emailed to you.""", 'show_form': False},
+                context_instance=RequestContext(request)
+                )
+    else:
+        form = MoleculeFileForm()
+        return render_to_response(
+            'smNCI60.html',
             {'form': form, 'show_form': True},
             context_instance=RequestContext(request)
         )

@@ -8,9 +8,9 @@ urlpatterns = patterns('repo.views',
                        url(r'^test/$', 'test', name='test'),
                        url(r'^(?i)smlogp/$', 'smlogp', name='smlogp'),
                        url(r'^(?i)smlogs/$', 'smlogs', name='smlogs'),
+                       url(r'^(?i)smNCI60/$', 'smNCI60', name='smNCI60'),
                        url(r'^datasets/$', 'datasets', name='datasets'),
                        url(r'^predict/$', 'predict', name='predict'),
-
 )
 
 urlpatterns += patterns('',

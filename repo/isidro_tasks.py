@@ -17,7 +17,7 @@ def predict_NCI60(molecule_file_path, email_address):
 #################################################################################################   
    # 1. Load molecules
 #################################################################################################   
-   import repo.bioalerts
+   import repo.bioalerts as bioalerts
    import os
    import numpy as np
    import sklearn
@@ -169,11 +169,10 @@ def predict_NCI60(molecule_file_path, email_address):
 #################################################################################################   
 @task
 def predict_GDSC(molecule_file_path, email_address):
-
 #################################################################################################   
    # 1. Load molecules
 #################################################################################################   
-   import bioalerts
+   import repo.bioalerts as bioalerts
    import numpy as np
    import sklearn
    from sklearn.ensemble import RandomForestRegressor
@@ -200,7 +199,7 @@ def predict_GDSC(molecule_file_path, email_address):
    if (os.path.getsize(molecule_file_path) >> 20) > 1:
       mail = EmailMessage('GDSC Sensitivity Predictions',
       """Dear User,
-    
+
       The requested cell line sensitivity predictions on the GDSC panel could
       not be calculated because the size of the file was higher than 1Mb (maximum input file size supported).
       
