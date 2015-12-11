@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80fa968-c3f3-4592-a27c-e09eefdb5a90" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/erl_crash.dump" afterPath="$PROJECT_DIR$/erl_crash.dump" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/isidro_tasks.py" afterPath="$PROJECT_DIR$/repo/isidro_tasks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/tasks.py" afterPath="$PROJECT_DIR$/repo/tasks.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/urls.py" afterPath="$PROJECT_DIR$/repo/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/views.py" afterPath="$PROJECT_DIR$/repo/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="smmpdb.iws" />
@@ -39,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tasks.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/repo/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="23" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.54331553" vertical-offset="677" max-vertical-offset="5910">
+            <state line="88" column="38" selection-start="2668" selection-end="2677" vertical-scroll-proportion="0.0" vertical-offset="994" max-vertical-offset="5910">
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -68,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bioalerts.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="bioalerts.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repo/bioalerts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="51" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="3825">
+            <state line="1" column="257" selection-start="123" selection-end="380" vertical-scroll-proportion="0.03208556" vertical-offset="0" max-vertical-offset="3840">
               <folding />
             </state>
           </provider>
@@ -184,7 +179,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,6 +241,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,7 +496,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1916" height="1058" extended-state="6" />
+    <frame x="0" y="22" width="1916" height="1058" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -509,7 +504,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16336116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12212943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -517,11 +512,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40102172" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40102172" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -783,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/repo/bioalerts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smmpdb/settings_local.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="64" selection-start="829" selection-end="894" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
@@ -813,10 +801,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="23" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.54331553" vertical-offset="677" max-vertical-offset="5910">
+        <state line="88" column="38" selection-start="2668" selection-end="2677" vertical-scroll-proportion="0.0" vertical-offset="994" max-vertical-offset="5910">
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/repo/bioalerts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="257" selection-start="123" selection-end="380" vertical-scroll-proportion="0.03208556" vertical-offset="0" max-vertical-offset="3840">
+          <folding />
         </state>
       </provider>
     </entry>
